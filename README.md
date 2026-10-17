@@ -38,6 +38,10 @@ All client data is generated. Nothing here touches real people or real accounts.
 
 Half the calls, nearly four times the value, because it prioritises clients where the revenue at stake justifies the cost of the call.
 
+<img src="reports/lift_by_decile.png" alt="Churn rate by risk decile" width="600">
+
+<img src="reports/shap_importance.png" alt="Main churn drivers by mean absolute SHAP" width="600">
+
 **Drift (July to September 2026, simulated market downturn)**
 
 - Monitoring flagged cash share (PSI 1.02) and under-prediction: observed churn 16.4% vs 10.7% predicted.
@@ -45,12 +49,18 @@ Half the calls, nearly four times the value, because it prioritises clients wher
 - Tenure also showed high PSI but is marked as expected drift, so it does not trigger a retrain on its own.
 - Challenger v2 trained on a rolling 12 months beat the champion on the held-out September month (PR-AUC 0.518 vs 0.488, Brier 0.108 vs 0.115) and was promoted.
 
+<img src="reports/observed_vs_predicted.png" alt="Observed vs predicted monthly churn before and after the downturn" width="700">
+
+<img src="reports/drift_psi.png" alt="Feature drift by PSI, July to September 2026" width="600">
+
 **Client service bot (1,200 inbox requests)**
 
 - 82% handled with no human touch; intent model accuracy 97.3%
 - 2.7 FTE of capacity released (about 376 team hours a month at 2,500 requests)
 - Error rate on automated items 0.4% measured, against 2.5% assumed for manual handling
 - Every exception reaches a person with a reason attached: missing account number, sender does not own the account, redemption over balance, low classifier confidence
+
+<img src="reports/automation/outcomes.png" alt="Bot outcomes by request type" width="700">
 
 ## Run it
 
