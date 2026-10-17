@@ -94,3 +94,34 @@ def test_registry_promotion_keeps_audit_trail(small, tmp_path):
     assert [h["to"] for h in idx["history"]] == ["v1", "v2"]
     _, meta = reg.load()
     assert meta["stage"] == "production"
+
+
+def test_recency_weights_halve_every_half_life():
+    from clientpulse.model import recency_weights
+
+    w = recency_weights(pd.Series(["2026-07", "2026-04", "2026-01"]), half_life_months=3)
+    assert w == pytest.approx([1.0, 0.5, 0.25])
+
+
+def test_recalibration_fixes_level_after_base_rate_jump(small):
+    from clientpulse.model import RecalibratedModel
+
+    _, s, model = small
+    drift = s["drift"]
+    cal, hold = drift[drift.snapshot_month == "2026-08"], drift[drift.snapshot_month == "2026-09"]
+    rec = RecalibratedModel(model, build_features(cal), cal[TARGET])
+    before = model.predict_proba(build_features(hold))[:, 1].mean()
+    after = rec.predict_proba(build_features(hold))[:, 1].mean()
+    observed = hold[TARGET].mean()
+    assert abs(after - observed) < abs(before - observed)
+    assert len(reason_codes(rec, build_features(hold.head(5)))) == 5  # explanations still work
+
+
+def test_fairness_report_covers_every_group(small):
+    from clientpulse.fairness import group_report
+
+    _, s, model = small
+    te = s["test"]
+    rep = group_report(te, model.predict_proba(build_features(te))[:, 1], TARGET)
+    assert set(rep.dimension) == {"segment", "region", "channel", "age band"}
+    assert rep.loc[rep.dimension == "segment", "rows"].sum() == len(te)

@@ -4,28 +4,30 @@
     {
       "version": "v1",
       "stage": "archived",
-      "registered_at": "2026-10-17T07:15:44+00:00",
+      "registered_at": "2026-10-17T10:08:26+00:00",
+      "mlflow_version": "1",
       "promotion_reason": "Initial release: beats logistic baseline on test PR-AUC"
     },
     {
       "version": "v2",
       "stage": "production",
-      "registered_at": "2026-10-17T07:15:51+00:00",
-      "promotion_reason": "Challenger PR-AUC 0.518 vs champion 0.488 on 2026-09 (+0.030); Brier 0.1082 vs 0.1145"
+      "registered_at": "2026-10-17T10:08:44+00:00",
+      "mlflow_version": "2",
+      "promotion_reason": "Challenger PR-AUC 0.524 vs champion 0.488 on 2026-09 (+0.036); Brier 0.1050 vs 0.1145"
     }
   ],
   "history": [
     {
-      "at": "2026-10-17T07:15:44+00:00",
+      "at": "2026-10-17T10:08:31+00:00",
       "from": null,
       "to": "v1",
       "reason": "Initial release: beats logistic baseline on test PR-AUC"
     },
     {
-      "at": "2026-10-17T07:15:51+00:00",
+      "at": "2026-10-17T10:08:47+00:00",
       "from": "v1",
       "to": "v2",
-      "reason": "Challenger PR-AUC 0.518 vs champion 0.488 on 2026-09 (+0.030); Brier 0.1082 vs 0.1145"
+      "reason": "Challenger PR-AUC 0.524 vs champion 0.488 on 2026-09 (+0.036); Brier 0.1050 vs 0.1145"
     }
   ]
 }

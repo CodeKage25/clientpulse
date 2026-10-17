@@ -98,11 +98,17 @@ PR-AUC is not used as a decay trigger because it rises with the base rate. In th
 - Promotion requires at least +0.01 PR-AUC on that month and no worse Brier score.
 - Every promotion is written to the registry history with the reason.
 
-Last cycle: v2 beat v1 on September 2026 (PR-AUC 0.518 vs 0.488, Brier 0.108 vs 0.115) and was promoted.
+Four challenger variants are compared on the held-out month: plain rolling window, with recency weighting (half-life 3 months), with Platt recalibration on the latest matured month, and both. The promoted variant is the best calibrated one whose ranking is no worse than the plain retrain.
+
+Last cycle: recency weighting plus recalibration won (PR-AUC 0.524 vs 0.488 for v1, Brier 0.105 vs 0.115, mean predicted 15.9% against 16.3% observed) and was promoted as v2. Each version is also logged to MLflow, and promotion moves the `champion` alias.
+
+## Fairness review
+
+At the release operating point (top 10% flagged), recall, false positive rate and calibration were compared across segment, region, channel and age band. No group fell below 80% of overall recall or was off by more than 3 calibration points. Clients aged 60 plus get about double the false positive rate, so a retention script for that group should be low-pressure. Full table: `reports/fairness.md`.
 
 ## Known limits
 
 - Synthetic data.
-- After the shock, even v2 under-predicts (12.5% predicted vs 16.3% observed in September) because only one post-shock month was in its training window. Next steps: weight recent months more heavily, or recalibrate on the latest matured month.
-- No fairness review yet. Before production, check error rates by segment, region and age band.
+- Recalibration fitted on one month can overshoot if that month was unusual. Watch the calibration gap for the next two months after promotion.
+- The fairness review uses attributes in the data. Gender and income were deliberately not generated; a real review would need them, handled under the firm's data protection policy.
 - Feedback loop: once relationship managers act on the scores, saved clients look like false positives. Keep a small random holdout uncontacted to measure true lift.

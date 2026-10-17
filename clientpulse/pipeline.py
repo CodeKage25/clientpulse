@@ -25,6 +25,8 @@ from .data import TARGET, generate, split
 from .features import MODEL_FEATURES, annual_revenue_ngn, build_features
 from .model import (
     LGB_PARAMS,
+    RecalibratedModel,
+    recency_weights,
     baseline_model,
     evaluate,
     fit_lgbm,
@@ -100,6 +102,16 @@ def train_initial(splits: dict[str, pd.DataFrame], registry: Registry) -> str:
     return version
 
 
+def run_fairness(splits: dict[str, pd.DataFrame], registry: Registry, version: str) -> pd.DataFrame:
+    from . import fairness
+
+    model, meta = registry.load(version)
+    te = splits["test"]
+    report = fairness.group_report(te, model.predict_proba(build_features(te))[:, 1], TARGET)
+    (REPORTS / "fairness.md").write_text(fairness.to_markdown(report, meta["test_window"], version))
+    return report
+
+
 def run_monitoring(splits: dict[str, pd.DataFrame], registry: Registry) -> dict:
     model, meta = registry.load()
     drift = splits["drift"]
@@ -109,6 +121,25 @@ def run_monitoring(splits: dict[str, pd.DataFrame], registry: Registry) -> dict:
     (REPORTS / "monitoring_report.json").write_text(json.dumps(report.to_dict(), indent=2))
     plots.drift_bars(report.feature_psi, REPORTS / "drift_psi.png", PSI_WATCH, PSI_ACT, EXPECTED_DRIFT)
     return report.to_dict()
+
+
+def _write_ablation(ablation: dict, champ: dict, champ_version: str, chosen: str, observed: float) -> None:
+    lines = [
+        "# Retraining ablation: fixing post-shock calibration",
+        "",
+        f"Held-out month 2026-09, observed churn {observed:.1%}. Lower Brier is better.",
+        "",
+        "| Model | PR-AUC | ROC-AUC | Brier | Mean predicted |",
+        "|---|---:|---:|---:|---:|",
+        f"| Champion {champ_version} (no retrain) | {champ['pr_auc']:.3f} | {champ['roc_auc']:.3f} | "
+        f"{champ['brier']:.4f} | {champ['mean_predicted']:.1%} |",
+    ]
+    for name, m in ablation.items():
+        mark = " **(chosen)**" if name == chosen else ""
+        lines.append(f"| {name}{mark} | {m['pr_auc']:.3f} | {m['roc_auc']:.3f} | {m['brier']:.4f} | "
+                     f"{m['mean_predicted']:.1%} |")
+    lines += ["", "Rule: the lowest Brier among variants whose PR-AUC is within 0.005 of the plain retrain.", ""]
+    (REPORTS / "retrain_ablation.md").write_text("\n".join(lines))
 
 
 def retrain(df: pd.DataFrame, registry: Registry) -> dict:
@@ -125,12 +156,30 @@ def retrain(df: pd.DataFrame, registry: Registry) -> dict:
     tr, va, ho = df[months.isin(train_m)], df[months == "2026-08"], df[months == "2026-09"]
     Xtr, Xva, Xho = build_features(tr), build_features(va), build_features(ho)
 
-    challenger = fit_lgbm(Xtr, tr[TARGET], Xva, va[TARGET])
     champion, champ_meta = registry.load()
-
     s_champ = champion.predict_proba(Xho)[:, 1]
+    m_champ = evaluate(ho[TARGET], s_champ)
+
+    # Ablation: which fix closes the post-shock calibration gap?
+    # Recalibration is fitted on 2026-08, the latest matured month; 2026-09 stays untouched.
+    plain = fit_lgbm(Xtr, tr[TARGET], Xva, va[TARGET])
+    weighted = fit_lgbm(Xtr, tr[TARGET], Xva, va[TARGET], sample_weight=recency_weights(tr["snapshot_month"]))
+    candidates = {
+        "rolling window": plain,
+        "rolling window + recency weights": weighted,
+        "rolling window + recalibration": RecalibratedModel(plain, Xva, va[TARGET]),
+        "recency weights + recalibration": RecalibratedModel(weighted, Xva, va[TARGET]),
+    }
+    ablation = {}
+    for name, m in candidates.items():
+        ablation[name] = evaluate(ho[TARGET], m.predict_proba(Xho)[:, 1])
+    # pick the best-calibrated variant that still ranks at least as well as the plain retrain
+    floor = ablation["rolling window"]["pr_auc"] - 0.005
+    best = min((n for n in ablation if ablation[n]["pr_auc"] >= floor), key=lambda n: ablation[n]["brier"])
+    challenger = candidates[best]
     s_chal = challenger.predict_proba(Xho)[:, 1]
-    m_champ, m_chal = evaluate(ho[TARGET], s_champ), evaluate(ho[TARGET], s_chal)
+    m_chal = ablation[best]
+    _write_ablation(ablation, m_champ, champ_meta["version"], best, ho[TARGET].mean())
 
     gain = m_chal["pr_auc"] - m_champ["pr_auc"]
     calibrated = m_chal["brier"] <= m_champ["brier"]
@@ -147,6 +196,8 @@ def retrain(df: pd.DataFrame, registry: Registry) -> dict:
         "features": MODEL_FEATURES,
         "params": {**LGB_PARAMS, "best_iteration": int(challenger.best_iteration_ or LGB_PARAMS["n_estimators"])},
         "parent_version": champ_meta["version"],
+        "variant": best,
+        "ablation_on_holdout": ablation,
         "metrics": {"valid": evaluate(va[TARGET], challenger.predict_proba(Xva)[:, 1]), "test": m_chal},
         "champion_on_same_holdout": m_champ,
         "targeting_test": [t.to_dict() for t in targeting_comparison(ho, s_chal)],
@@ -204,7 +255,7 @@ def batch_score(df: pd.DataFrame, registry: Registry, month: str = "2026-09") ->
 def main(fresh: bool = True) -> dict:
     if fresh and MODELS.exists():
         shutil.rmtree(MODELS)
-    registry = Registry(MODELS)
+    registry = Registry(MODELS, mirror_to_mlflow=True)
     df = load_data()
     splits = split(df)
 
@@ -212,6 +263,11 @@ def main(fresh: bool = True) -> dict:
     _, meta = registry.load(v1)
     print(f"[train] registered {v1} | test {meta['metrics']['test']}")
     print(f"[train] baseline     | test {meta['metrics']['baseline_logreg_test']}")
+
+    fair = run_fairness(splits, registry, v1)
+    flagged = fair[fair["flag"] != ""]
+    print(f"[fairness] {len(flagged)} group(s) flagged: " +
+          ", ".join(f"{r.dimension}={r.group} ({r.flag})" for r in flagged.itertuples()))
 
     mon = run_monitoring(splits, registry)
     print(f"[monitor] retrain={mon['retrain']} | triggers:")

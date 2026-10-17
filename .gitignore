@@ -3,3 +3,6 @@ __pycache__/
 .pytest_cache/
 data/*.parquet
 reports/automation/statements/
+mlflow.db
+mlruns/
+mlartifacts/

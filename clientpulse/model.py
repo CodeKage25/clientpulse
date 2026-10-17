@@ -59,16 +59,55 @@ def baseline_model() -> Pipeline:
 
 
 def fit_lgbm(X_train: pd.DataFrame, y_train: pd.Series, X_valid: pd.DataFrame, y_valid: pd.Series,
-             params: dict[str, Any] | None = None) -> lgb.LGBMClassifier:
+             params: dict[str, Any] | None = None, sample_weight: np.ndarray | None = None) -> lgb.LGBMClassifier:
     model = lgb.LGBMClassifier(**(params or LGB_PARAMS))
     model.fit(
         X_train,
         y_train,
+        sample_weight=sample_weight,
         eval_set=[(X_valid, y_valid)],
         eval_metric="average_precision",
         callbacks=[lgb.early_stopping(50, verbose=False)],
     )
     return model
+
+
+def recency_weights(months: pd.Series, half_life_months: float = 3.0) -> np.ndarray:
+    """Weight each row by how recent its month is. The newest month gets 1.0,
+    a month half_life_months older gets 0.5. After a regime change this lets the
+    model learn the new behaviour without throwing away a year of history."""
+    p = pd.PeriodIndex(months, freq="M")
+    age = (p.max() - p).map(lambda d: d.n).to_numpy()
+    return 0.5 ** (age / half_life_months)
+
+
+class RecalibratedModel:
+    """A fitted model plus a logistic recalibration layer (Platt scaling on the
+    logit), fitted on the most recent matured month.
+
+    Boosted trees rank well but their probabilities lag behind when the base
+    rate jumps. Recalibrating keeps the ranking and fixes the level, which is
+    what expected-value targeting depends on.
+    """
+
+    def __init__(self, base: lgb.LGBMClassifier, X_cal: pd.DataFrame, y_cal: pd.Series):
+        self.base = base
+        self.calibrator = LogisticRegression(C=1e6).fit(self._logit(X_cal), y_cal)
+
+    def _logit(self, X: pd.DataFrame) -> np.ndarray:
+        p = np.clip(self.base.predict_proba(X)[:, 1], 1e-6, 1 - 1e-6)
+        return np.log(p / (1 - p)).reshape(-1, 1)
+
+    def predict_proba(self, X: pd.DataFrame) -> np.ndarray:
+        return self.calibrator.predict_proba(self._logit(X))
+
+    @property
+    def booster_(self):  # reason codes still come from the base trees
+        return self.base.booster_
+
+    @property
+    def best_iteration_(self):
+        return self.base.best_iteration_
 
 
 def lift_at(y: np.ndarray, scores: np.ndarray, top: float = 0.10) -> float:

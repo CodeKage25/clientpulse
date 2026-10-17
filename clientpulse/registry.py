@@ -19,6 +19,8 @@ from pathlib import Path
 from typing import Any
 
 import joblib
+
+from . import tracking
 import pandas as pd
 
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent / "models"
@@ -31,8 +33,9 @@ def data_fingerprint(df: pd.DataFrame) -> str:
 
 
 class Registry:
-    def __init__(self, root: Path | str = DEFAULT_ROOT):
+    def __init__(self, root: Path | str = DEFAULT_ROOT, mirror_to_mlflow: bool = False):
         self.root = Path(root)
+        self.mirror_to_mlflow = mirror_to_mlflow
         self.root.mkdir(parents=True, exist_ok=True)
         self.index_path = self.root / "registry.json"
 
@@ -59,7 +62,10 @@ class Registry:
             "registered_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }
         (vdir / "metadata.json").write_text(json.dumps(metadata, indent=2, default=str))
-        index["versions"].append({"version": version, "stage": stage, "registered_at": metadata["registered_at"]})
+        entry = {"version": version, "stage": stage, "registered_at": metadata["registered_at"]}
+        if self.mirror_to_mlflow:
+            entry["mlflow_version"] = tracking.log_version(version, vdir, metadata)
+        index["versions"].append(entry)
         self._write(index)
         return version
 
@@ -71,6 +77,8 @@ class Registry:
             if v["version"] == version:
                 v["stage"] = "production"
                 v["promotion_reason"] = reason
+                if self.mirror_to_mlflow:
+                    tracking.set_champion(v.get("mlflow_version"), reason)
             elif v["version"] == previous:
                 v["stage"] = "archived"
         index["production"] = version

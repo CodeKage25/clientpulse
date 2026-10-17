@@ -40,21 +40,12 @@
     "reg_lambda": 1.0,
     "random_state": 7,
     "verbose": -1,
-    "best_iteration": 266
+    "best_iteration": 270
   },
   "parent_version": "v1",
-  "metrics": {
-    "valid": {
-      "rows": 12000,
-      "churn_rate": 0.1617,
-      "pr_auc": 0.5315,
-      "roc_auc": 0.8112,
-      "brier": 0.1061,
-      "lift_top10": 3.66,
-      "recall_top10": 0.3665,
-      "mean_predicted": 0.1266
-    },
-    "test": {
+  "variant": "recency weights + recalibration",
+  "ablation_on_holdout": {
+    "rolling window": {
       "rows": 12000,
       "churn_rate": 0.1626,
       "pr_auc": 0.5176,
@@ -63,6 +54,58 @@
       "lift_top10": 3.62,
       "recall_top10": 0.3619,
       "mean_predicted": 0.1246
+    },
+    "rolling window + recency weights": {
+      "rows": 12000,
+      "churn_rate": 0.1626,
+      "pr_auc": 0.5241,
+      "roc_auc": 0.8131,
+      "brier": 0.1059,
+      "lift_top10": 3.68,
+      "recall_top10": 0.368,
+      "mean_predicted": 0.1381
+    },
+    "rolling window + recalibration": {
+      "rows": 12000,
+      "churn_rate": 0.1626,
+      "pr_auc": 0.5176,
+      "roc_auc": 0.8101,
+      "brier": 0.1058,
+      "lift_top10": 3.62,
+      "recall_top10": 0.3619,
+      "mean_predicted": 0.159
+    },
+    "recency weights + recalibration": {
+      "rows": 12000,
+      "churn_rate": 0.1626,
+      "pr_auc": 0.5241,
+      "roc_auc": 0.8131,
+      "brier": 0.105,
+      "lift_top10": 3.68,
+      "recall_top10": 0.368,
+      "mean_predicted": 0.1589
+    }
+  },
+  "metrics": {
+    "valid": {
+      "rows": 12000,
+      "churn_rate": 0.1617,
+      "pr_auc": 0.5376,
+      "roc_auc": 0.8129,
+      "brier": 0.1033,
+      "lift_top10": 3.68,
+      "recall_top10": 0.368,
+      "mean_predicted": 0.1616
+    },
+    "test": {
+      "rows": 12000,
+      "churn_rate": 0.1626,
+      "pr_auc": 0.5241,
+      "roc_auc": 0.8131,
+      "brier": 0.105,
+      "lift_top10": 3.68,
+      "recall_top10": 0.368,
+      "mean_predicted": 0.1589
     }
   },
   "champion_on_same_holdout": {
@@ -85,14 +128,14 @@
     {
       "policy": "Top 10% by churn probability",
       "contacted": 1200,
-      "churners_reached": 706,
-      "expected_net_value_ngn": 7515938.4
+      "churners_reached": 718,
+      "expected_net_value_ngn": 8140096.0
     },
     {
       "policy": "Expected-value targeting (contact when EV > 0)",
-      "contacted": 1088,
-      "churners_reached": 364,
-      "expected_net_value_ngn": 24500461.200000003
+      "contacted": 1522,
+      "churners_reached": 504,
+      "expected_net_value_ngn": 25441734.400000006
     }
   ],
   "reference_profile": {
@@ -475,15 +518,15 @@
     "__score__": {
       "type": "numeric",
       "inner_edges": [
-        0.016123727205540183,
-        0.022000505608923464,
-        0.027536108729015435,
-        0.033845320646866114,
-        0.041557153351039926,
-        0.05174918253551575,
-        0.06661500864559265,
-        0.09304923551569144,
-        0.15719920046644625
+        0.018301915926680328,
+        0.025503899217213764,
+        0.032383277306956525,
+        0.04031117853038995,
+        0.049898538453652025,
+        0.06260322584861305,
+        0.08151742370457314,
+        0.11597804791730673,
+        0.20241220942711988
       ],
       "proportions": [
         0.1,
@@ -501,5 +544,5 @@
   },
   "version": "v2",
   "stage": "production",
-  "registered_at": "2026-10-17T07:15:51+00:00"
+  "registered_at": "2026-10-17T10:08:44+00:00"
 }

@@ -44,7 +44,7 @@
   "retrain": {
     "challenger": "v2",
     "promoted": true,
-    "reason": "Challenger PR-AUC 0.518 vs champion 0.488 on 2026-09 (+0.030); Brier 0.1082 vs 0.1145",
+    "reason": "Challenger PR-AUC 0.524 vs champion 0.488 on 2026-09 (+0.036); Brier 0.1050 vs 0.1145",
     "champion_holdout": {
       "rows": 12000,
       "churn_rate": 0.1626,
@@ -58,12 +58,12 @@
     "challenger_holdout": {
       "rows": 12000,
       "churn_rate": 0.1626,
-      "pr_auc": 0.5176,
-      "roc_auc": 0.8101,
-      "brier": 0.1082,
-      "lift_top10": 3.62,
-      "recall_top10": 0.3619,
-      "mean_predicted": 0.1246
+      "pr_auc": 0.5241,
+      "roc_auc": 0.8131,
+      "brier": 0.105,
+      "lift_top10": 3.68,
+      "recall_top10": 0.368,
+      "mean_predicted": 0.1589
     }
   }
 }

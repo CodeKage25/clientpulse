@@ -1,0 +1,37 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Tests
+        run: pytest -q
+      - name: Pipeline smoke run
+        run: |
+          python -m clientpulse.pipeline
+          python -m automation.run
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build API image
+        run: docker build -t clientpulse-api .
+      - name: Smoke test the container
+        run: |
+          docker run -d -p 8000:8000 --name api clientpulse-api
+          for i in $(seq 1 30); do curl -sf localhost:8000/health && break; sleep 1; done
+          curl -sf localhost:8000/model

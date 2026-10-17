@@ -24,7 +24,13 @@ PR-AUC depends on the base rate. Churn more than doubled, so precision at every 
 Snapshots built nightly in the warehouse, a scheduled job to score and write the retention list to the CRM, the API for real-time scores in the RM app, MLflow for the registry, and a monthly monitoring report once labels mature.
 
 **What would you do before production?**
-Fairness check across segment, region and age band. A random holdout of clients not contacted, so the save rate is measured not assumed. Agree the revenue and cost figures with finance.
+I already ran a fairness check across segment, region, channel and age band; nothing crossed the thresholds, but clients 60 plus get double the false positives, so their retention call should be gentle. Still to do: a random holdout of clients not contacted, so the save rate is measured not assumed, and agree the revenue and cost figures with finance.
+
+**Your retrained model still under-predicted. What did you do?**
+A plain rolling retrain only had one post-shock month, so it predicted 12.5% against 16.3% observed. I compared four variants on a month none had seen: recency weighting improved ranking, recalibration on the latest matured month fixed the level, and the combination won on both. Mean predicted came to 15.9%.
+
+**How do you serve and track models?**
+FastAPI behind a slim Docker image, health check for the load balancer, Render blueprint for deployment. Every version is logged to MLflow with metrics, lineage tags and a registered model version; promotion moves the champion alias.
 
 **What goes wrong with RPA in practice?**
 Bots breaking when a screen changes, exceptions nobody owns, and savings claims nobody believes. The answers: APIs over screen scraping where possible, every exception lands with a named team and a reason, and a measured baseline before go-live.
@@ -40,5 +46,6 @@ Money movement needs segregation of duties. The bot validates and prepares; a pe
 - Churn: PR-AUC 0.330 vs 0.307 baseline, lift 4.2x in the top 10%
 - Targeting: N13.5m a month with 612 calls vs N3.5m with 1,200 calls
 - Drift: observed 16.4% vs predicted 10.7%; cash share PSI 1.02
-- Retrain: v2 PR-AUC 0.518 vs 0.488 on held-out September
+- Retrain: v2 PR-AUC 0.524 vs 0.488 on held-out September; mean predicted 15.9% vs 16.3% observed
 - Bot: 82% straight-through, 2.7 FTE, 0.4% error rate measured
+- Segmentation: 4 behavioural segments; a small 'drifting away' group churns at 45%

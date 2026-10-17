@@ -1,0 +1,7 @@
+# One-click deploy on Render: New > Blueprint, point it at this repo.
+services:
+  - type: web
+    name: clientpulse-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
