@@ -1,0 +1,42 @@
+{
+  "requests_processed": 1200,
+  "straight_through_rate": 0.824,
+  "outcomes": {
+    "Successful": 989,
+    "BusinessException": 180,
+    "HumanReview": 31
+  },
+  "exception_reasons_top": {
+    "No account number in message; auto-reply asks client to resend": 79,
+    "Requested N<amt> exceeds fund balance N<amt>": 38,
+    "Account <acct> not found in client master": 32,
+    "Low confidence (below 0.70)": 31,
+    "Sender does not own <acct>; possible error or fraud, held for review": 30,
+    "Redemption amount not found": 1
+  },
+  "manual_hours_per_month_before": 437.2,
+  "hours_saved_per_month": 376.0,
+  "fte_saved": 2.69,
+  "share_of_effort_removed": 0.86,
+  "turnaround_before": "6.0 hours",
+  "turnaround_after_auto": "5 minutes",
+  "manual_error_rate_assumed": 0.025,
+  "bot_error_rate_measured": 0.004,
+  "misrouted_auto_actions": 4,
+  "assumptions": {
+    "manual_minutes_per_request": {
+      "statement_request": 8,
+      "address_update": 12,
+      "dividend_enquiry": 10,
+      "redemption_request": 15,
+      "complaint": 10
+    },
+    "exception_minutes_saved_share": 0.3,
+    "monthly_request_volume": 2500,
+    "productive_hours_per_fte_month": 140,
+    "manual_turnaround_hours": 6.0,
+    "bot_turnaround_minutes": 5.0,
+    "manual_error_rate": 0.025
+  },
+  "churn_model_version": "v2"
+}

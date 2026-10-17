@@ -1,0 +1,41 @@
+{
+  "window": "2026-07 to 2026-09",
+  "model_version": "v1",
+  "rows": 36000,
+  "feature_psi": {
+    "age": 0.0076,
+    "tenure_months": 1.1501,
+    "cash_share": 1.0147,
+    "num_asset_classes": 0.0,
+    "trades_90d": 0.1429,
+    "trade_trend": 0.2104,
+    "logins_30d": 0.0003,
+    "days_since_login": 0.0001,
+    "net_flow_90d_share": 0.177,
+    "complaints_90d": 0.051,
+    "failed_txn_90d": 0.121,
+    "dividend_reinvest": 0.0,
+    "kyc_complete": 0.0,
+    "log_portfolio_value": 0.0165,
+    "is_dormant": 0.0,
+    "has_outflow": 0.1167,
+    "service_issues_90d": 0.1514,
+    "trades_per_login": 0.1747,
+    "segment": 0.0,
+    "channel": 0.0,
+    "region": 0.0
+  },
+  "score_psi": 0.2405,
+  "baseline_pr_auc": 0.3295,
+  "baseline_roc_auc": 0.7814,
+  "pr_auc": 0.4988,
+  "roc_auc": 0.7966,
+  "brier": 0.1141,
+  "observed_churn_rate": 0.1636,
+  "mean_predicted": 0.1066,
+  "triggers": [
+    "Data drift above 0.25 on: cash_share",
+    "Under-predicting churn: observed 16.4% vs predicted 10.7%"
+  ],
+  "retrain": true
+}

@@ -1,0 +1,887 @@
+at,action,client_id,detail
+2026-10-17T08:15:57,statement_generated,MC108916,July 2026
+2026-10-17T08:15:57,statement_generated,MC100508,last quarter
+2026-10-17T08:15:57,ticket_created,MC102197,P2: This is the third time your app failed when I tried to buy S
+2026-10-17T08:15:58,address_updated,MC109585,"64 Herbert Macaulay Way, Lekki -> 118 Admiralty Way, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC109585,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC101091,"25 Herbert Macaulay Way, Ikeja -> 99 Awolowo Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC101091,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC105422,"N44,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC104777,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,address_updated,MC105776,"28 Admiralty Way, Surulere -> on your records to 76 Admiralty Way, Lekki"
+2026-10-17T08:15:58,ticket_created,MC105776,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC102153,"N1,155,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC107613,"N58,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC108358,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,redemption_instruction,MC101005,"N10,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC106383,"75 Aba Road, Maitama -> on your records to 55 Allen Avenue, Yaba"
+2026-10-17T08:15:58,ticket_created,MC106383,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC106889,"N54,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC105334,the last 6 months
+2026-10-17T08:15:58,redemption_instruction,MC102631,"N141,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC107258,"N17,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC109578,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC103066,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC110556,July 2026
+2026-10-17T08:15:58,statement_generated,MC109171,last quarter
+2026-10-17T08:15:58,statement_generated,MC107843,July 2026
+2026-10-17T08:15:58,ticket_created,MC102104,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC107288,July 2026
+2026-10-17T08:15:58,statement_generated,MC105896,July 2026
+2026-10-17T08:15:58,ticket_created,MC109848,P2: This is the third time your app failed when I tried to buy G
+2026-10-17T08:15:58,statement_generated,MC100699,2025
+2026-10-17T08:15:58,statement_generated,MC107497,2025
+2026-10-17T08:15:58,address_updated,MC106583,"47 Awolowo Road, Surulere -> 101 Ring Road, Yaba"
+2026-10-17T08:15:58,ticket_created,MC106583,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC109576,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC105455,July 2026
+2026-10-17T08:15:58,statement_generated,MC100496,January to June 2026
+2026-10-17T08:15:58,redemption_instruction,MC105759,"N469,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC111513,July 2026
+2026-10-17T08:15:58,statement_generated,MC103192,the last 6 months
+2026-10-17T08:15:58,ticket_created,MC102344,P2: This is the third time your app failed when I tried to buy N
+2026-10-17T08:15:58,statement_generated,MC102909,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC106539,2025
+2026-10-17T08:15:58,ticket_created,MC107269,P1: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC109055,last quarter
+2026-10-17T08:15:58,redemption_instruction,MC104821,"N950,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC104707,"N31,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC110391,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,ticket_created,MC104872,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:58,ticket_created,MC107630,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,statement_generated,MC108945,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC111062,Q2 2026
+2026-10-17T08:15:58,address_updated,MC101242,"44 Aminu Kano Crescent, Bodija -> 58 Adeola Odeku Street, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC101242,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC100807,"45 Herbert Macaulay Way, Maitama -> 79 Awolowo Road, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC100807,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC101298,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC107910,January to June 2026
+2026-10-17T08:15:58,ticket_created,MC111052,P2: This is the third time your app failed when I tried to buy G
+2026-10-17T08:15:58,statement_generated,MC108585,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC102079,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC107475,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC100932,January to June 2026
+2026-10-17T08:15:58,ticket_created,MC105636,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,ticket_created,MC111654,P2: This is the third time your app failed when I tried to buy N
+2026-10-17T08:15:58,statement_generated,MC105141,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC109055,January to June 2026
+2026-10-17T08:15:58,ticket_created,MC110814,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:58,statement_generated,MC104891,July 2026
+2026-10-17T08:15:58,statement_generated,MC103177,January to June 2026
+2026-10-17T08:15:58,redemption_instruction,MC105573,"N29,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC110143,"36 Adeola Odeku Street, Ikeja -> 44 Herbert Macaulay Way, Maitama"
+2026-10-17T08:15:58,ticket_created,MC110143,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC110310,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC111107,2025
+2026-10-17T08:15:58,redemption_instruction,MC102826,"N176,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC104273,2025
+2026-10-17T08:15:58,address_updated,MC102324,"69 Awolowo Road, Wuse 2 -> 18 Ring Road, GRA Port Harcourt"
+2026-10-17T08:15:58,ticket_created,MC102324,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC107044,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:58,ticket_created,MC105866,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,redemption_instruction,MC109058,"N436,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC105053,"61 Adeola Odeku Street, Bodija -> 68 Allen Avenue, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC105053,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC102755,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:58,statement_generated,MC107758,2025
+2026-10-17T08:15:58,statement_generated,MC106414,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC110924,2025
+2026-10-17T08:15:58,statement_generated,MC109172,last quarter
+2026-10-17T08:15:58,statement_generated,MC103513,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC107256,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC103387,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC105644,July 2026
+2026-10-17T08:15:58,address_updated,MC109475,"29 Aminu Kano Crescent, Ikeja -> 40 Ring Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC109475,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC110721,"60 Aminu Kano Crescent, Yaba -> 78 Allen Avenue, Lekki"
+2026-10-17T08:15:58,ticket_created,MC110721,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC100013,2025
+2026-10-17T08:15:58,address_updated,MC100177,"41 Admiralty Way, Ikeja -> on your records to 69 Aba Road, Lekki"
+2026-10-17T08:15:58,ticket_created,MC100177,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC108708,the last 6 months
+2026-10-17T08:15:58,address_updated,MC110681,"41 Herbert Macaulay Way, Ikeja -> 86 Allen Avenue, Surulere"
+2026-10-17T08:15:58,ticket_created,MC110681,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC100809,"N616,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC108788,July 2026
+2026-10-17T08:15:58,address_updated,MC108359,"29 Ring Road, Wuse 2 -> 45 Admiralty Way, Maitama"
+2026-10-17T08:15:58,ticket_created,MC108359,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC107454,P1: This is the third time your app failed when I tried to buy N
+2026-10-17T08:15:58,statement_generated,MC110429,2025
+2026-10-17T08:15:58,address_updated,MC103907,"57 Aba Road, Ikeja -> 30 Ring Road, Yaba"
+2026-10-17T08:15:58,ticket_created,MC103907,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC105719,"N70,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC104095,P1: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:58,statement_generated,MC109803,2025
+2026-10-17T08:15:58,redemption_instruction,MC110677,"N1,916,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC102830,last quarter
+2026-10-17T08:15:58,statement_generated,MC104935,January to June 2026
+2026-10-17T08:15:58,ticket_created,MC108193,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC111041,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC102841,the last 6 months
+2026-10-17T08:15:58,address_updated,MC109947,"26 Aminu Kano Crescent, Surulere -> on your records to 59 Aminu Kano Crescent, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC109947,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC111942,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,redemption_instruction,MC110279,"N344,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC106640,July 2026
+2026-10-17T08:15:58,address_updated,MC111588,"6 Adeola Odeku Street, Yaba -> 108 Aba Road, Yaba"
+2026-10-17T08:15:58,ticket_created,MC111588,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC104887,"N477,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC106735,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,redemption_instruction,MC100588,"N83,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC104953,"N86,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC104048,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,ticket_created,MC103991,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,statement_generated,MC109239,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC110005,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC100278,the last 6 months
+2026-10-17T08:15:58,address_updated,MC108640,"42 Aminu Kano Crescent, Lekki -> 31 Aminu Kano Crescent, Maitama"
+2026-10-17T08:15:58,ticket_created,MC108640,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC106171,last quarter
+2026-10-17T08:15:58,statement_generated,MC103531,2025
+2026-10-17T08:15:58,redemption_instruction,MC102741,"N25,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC103675,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC109591,Q2 2026
+2026-10-17T08:15:58,redemption_instruction,MC102876,"N69,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC110425,July 2026
+2026-10-17T08:15:58,statement_generated,MC109826,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC104192,January to June 2026
+2026-10-17T08:15:58,redemption_instruction,MC107483,"N81,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC101483,last quarter
+2026-10-17T08:15:58,statement_generated,MC108159,July 2026
+2026-10-17T08:15:58,statement_generated,MC100040,last quarter
+2026-10-17T08:15:58,redemption_instruction,MC108657,"N98,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC103075,P1: This is the third time your app failed when I tried to buy D
+2026-10-17T08:15:58,ticket_created,MC109702,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC103087,last quarter
+2026-10-17T08:15:58,statement_generated,MC102725,January to June 2026
+2026-10-17T08:15:58,redemption_instruction,MC106473,"N10,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC104670,last quarter
+2026-10-17T08:15:58,ticket_created,MC109857,"P2: Good morning, please send me my account statement for last q"
+2026-10-17T08:15:58,statement_generated,MC102847,2025
+2026-10-17T08:15:58,address_updated,MC107414,"3 Ring Road, Wuse 2 -> on your records to 68 Adeola Odeku Street, Maitama"
+2026-10-17T08:15:58,ticket_created,MC107414,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC101062,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC102456,Q2 2026
+2026-10-17T08:15:58,address_updated,MC100603,"25 Admiralty Way, Surulere -> 52 Awolowo Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC100603,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC101316,"46 Herbert Macaulay Way, Surulere -> 76 Awolowo Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC101316,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC104899,"N28,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC107735,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,statement_generated,MC104721,July 2026
+2026-10-17T08:15:58,redemption_instruction,MC106379,"N3,948,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC102047,July 2026
+2026-10-17T08:15:58,ticket_created,MC101218,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,statement_generated,MC108807,last quarter
+2026-10-17T08:15:58,statement_generated,MC109819,2025
+2026-10-17T08:15:58,statement_generated,MC111388,Q2 2026
+2026-10-17T08:15:58,address_updated,MC108932,"29 Allen Avenue, Wuse 2 -> 76 Aba Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC108932,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC105009,July 2026
+2026-10-17T08:15:58,ticket_created,MC111399,P2: This is the third time your app failed when I tried to buy S
+2026-10-17T08:15:58,statement_generated,MC103173,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC106130,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC104231,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC107888,January to June 2026
+2026-10-17T08:15:58,address_updated,MC111883,"70 Adeola Odeku Street, Ikeja -> 112 Ring Road, Yaba"
+2026-10-17T08:15:58,ticket_created,MC111883,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC106428,January to June 2026
+2026-10-17T08:15:58,address_updated,MC103735,"18 Aba Road, Bodija -> 28 Awolowo Road, Lekki"
+2026-10-17T08:15:58,ticket_created,MC103735,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC109301,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC111176,Q2 2026
+2026-10-17T08:15:58,redemption_instruction,MC105259,"N56,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC111826,"N190,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC109171,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:58,statement_generated,MC103439,July 2026
+2026-10-17T08:15:58,statement_generated,MC105746,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC106001,Q2 2026
+2026-10-17T08:15:58,address_updated,MC100119,"24 Allen Avenue, Bodija -> 21 Admiralty Way, Surulere"
+2026-10-17T08:15:58,ticket_created,MC100119,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC105211,"N259,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC105851,Q2 2026
+2026-10-17T08:15:58,address_updated,MC103441,"65 Herbert Macaulay Way, Yaba -> on your records to 54 Ring Road, Maitama"
+2026-10-17T08:15:58,ticket_created,MC103441,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC105314,"42 Herbert Macaulay Way, Lekki -> on your records to 33 Ring Road, Lekki"
+2026-10-17T08:15:58,ticket_created,MC105314,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC105001,2025
+2026-10-17T08:15:58,statement_generated,MC103803,the last 6 months
+2026-10-17T08:15:58,address_updated,MC107544,"16 Awolowo Road, Ikeja -> 25 Admiralty Way, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC107544,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC109313,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,ticket_created,MC108599,P2: This is the third time your app failed when I tried to buy A
+2026-10-17T08:15:58,address_updated,MC110031,"49 Aminu Kano Crescent, Yaba -> 13 Awolowo Road, Yaba"
+2026-10-17T08:15:58,ticket_created,MC110031,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC103539,2025
+2026-10-17T08:15:58,statement_generated,MC105986,2025
+2026-10-17T08:15:58,redemption_instruction,MC105403,"N33,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC104756,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,address_updated,MC108985,"33 Herbert Macaulay Way, Surulere -> 78 Awolowo Road, Surulere"
+2026-10-17T08:15:58,ticket_created,MC108985,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC106357,"2 Aba Road, Bodija -> 2 Aba Road, Maitama"
+2026-10-17T08:15:58,ticket_created,MC106357,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC100907,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC106334,last quarter
+2026-10-17T08:15:58,statement_generated,MC105550,2025
+2026-10-17T08:15:58,statement_generated,MC103292,2025
+2026-10-17T08:15:58,address_updated,MC107823,"38 Aminu Kano Crescent, Surulere -> 16 Adeola Odeku Street, Maitama"
+2026-10-17T08:15:58,ticket_created,MC107823,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC103902,Q2 2026
+2026-10-17T08:15:58,address_updated,MC104210,"56 Admiralty Way, Yaba -> 109 Admiralty Way, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC104210,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC100578,"N547,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC105453,July 2026
+2026-10-17T08:15:58,address_updated,MC107925,"21 Ring Road, Ikeja -> 109 Admiralty Way, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC107925,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC109552,"N139,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC103187,last quarter
+2026-10-17T08:15:58,redemption_instruction,MC110683,"N97,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC111213,July 2026
+2026-10-17T08:15:58,statement_generated,MC111742,last quarter
+2026-10-17T08:15:58,statement_generated,MC104932,July 2026
+2026-10-17T08:15:58,redemption_instruction,MC105274,"N2,633,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC104803,"N19,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC101733,"N21,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC105636,P2: This is the third time your app failed when I tried to buy A
+2026-10-17T08:15:58,redemption_instruction,MC101463,"N29,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC100247,"24 Ring Road, Lekki -> 85 Ring Road, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC100247,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC106129,"N124,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC100218,"21 Aba Road, Bodija -> 67 Awolowo Road, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC100218,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC110963,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:58,redemption_instruction,MC105890,"N76,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC102540,2025
+2026-10-17T08:15:58,ticket_created,MC101603,P1: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:58,address_updated,MC101074,"62 Aba Road, Yaba -> 108 Awolowo Road, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC101074,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC103621,"50 Herbert Macaulay Way, Ikeja -> 41 Aba Road, Surulere"
+2026-10-17T08:15:58,ticket_created,MC103621,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,ticket_created,MC108749,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,address_updated,MC104730,"75 Herbert Macaulay Way, Yaba -> 34 Aminu Kano Crescent, Maitama"
+2026-10-17T08:15:58,ticket_created,MC104730,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC107664,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC102114,the last 6 months
+2026-10-17T08:15:58,statement_generated,MC104662,Q2 2026
+2026-10-17T08:15:58,statement_generated,MC105444,July 2026
+2026-10-17T08:15:58,statement_generated,MC110197,2025
+2026-10-17T08:15:58,statement_generated,MC108625,July 2026
+2026-10-17T08:15:58,ticket_created,MC107375,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,redemption_instruction,MC102446,"N156,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC108153,"71 Aminu Kano Crescent, Bodija -> 25 Allen Avenue, Bodija"
+2026-10-17T08:15:58,ticket_created,MC108153,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC105739,July 2026
+2026-10-17T08:15:58,statement_generated,MC108645,January to June 2026
+2026-10-17T08:15:58,statement_generated,MC106699,July 2026
+2026-10-17T08:15:58,redemption_instruction,MC102226,"N92,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC109052,"23 Allen Avenue, GRA Port Harcourt -> on your records to 59 Admiralty Way, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC109052,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,address_updated,MC101164,"79 Admiralty Way, Maitama -> 45 Ring Road, GRA Port Harcourt"
+2026-10-17T08:15:58,ticket_created,MC101164,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC100777,"N16,000 approval_required=False"
+2026-10-17T08:15:58,ticket_created,MC102449,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:58,statement_generated,MC107206,the last 6 months
+2026-10-17T08:15:58,redemption_instruction,MC105926,"N20,000 approval_required=False"
+2026-10-17T08:15:58,statement_generated,MC108455,Q2 2026
+2026-10-17T08:15:58,address_updated,MC107367,"23 Admiralty Way, Bodija -> 38 Aba Road, Surulere"
+2026-10-17T08:15:58,ticket_created,MC107367,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC102662,last quarter
+2026-10-17T08:15:58,statement_generated,MC100621,2025
+2026-10-17T08:15:58,statement_generated,MC100686,January to June 2026
+2026-10-17T08:15:58,ticket_created,MC101782,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:58,redemption_instruction,MC111848,"N131,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC111679,"31 Herbert Macaulay Way, Bodija -> on your records to 50 Herbert Macaulay Way, Ikeja"
+2026-10-17T08:15:58,ticket_created,MC111679,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,statement_generated,MC104109,July 2026
+2026-10-17T08:15:58,address_updated,MC103113,"80 Awolowo Road, Lekki -> 66 Ring Road, Lekki"
+2026-10-17T08:15:58,ticket_created,MC103113,P3: Verify proof of address for KYC change
+2026-10-17T08:15:58,redemption_instruction,MC102206,"N22,000 approval_required=False"
+2026-10-17T08:15:58,redemption_instruction,MC108452,"N33,000 approval_required=False"
+2026-10-17T08:15:58,address_updated,MC110232,"56 Allen Avenue, Yaba -> 74 Awolowo Road, Wuse 2"
+2026-10-17T08:15:58,ticket_created,MC110232,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC103540,last quarter
+2026-10-17T08:15:59,ticket_created,MC108948,P1: This is the third time your app failed when I tried to buy A
+2026-10-17T08:15:59,statement_generated,MC103919,January to June 2026
+2026-10-17T08:15:59,ticket_created,MC105379,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,statement_generated,MC110931,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC100910,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC104559,Q2 2026
+2026-10-17T08:15:59,address_updated,MC102011,"23 Herbert Macaulay Way, Maitama -> 116 Adeola Odeku Street, Maitama"
+2026-10-17T08:15:59,ticket_created,MC102011,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC101885,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC111551,"N10,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC107232,"N291,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC101830,2025
+2026-10-17T08:15:59,statement_generated,MC111170,July 2026
+2026-10-17T08:15:59,address_updated,MC104111,"46 Herbert Macaulay Way, Lekki -> 10 Aba Road, Bodija"
+2026-10-17T08:15:59,ticket_created,MC104111,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC102553,"N1,229,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC107523,P1: This is the third time your app failed when I tried to buy U
+2026-10-17T08:15:59,statement_generated,MC105842,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC102350,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC107631,January to June 2026
+2026-10-17T08:15:59,address_updated,MC107129,"1 Adeola Odeku Street, Ikeja -> 120 Ring Road, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC107129,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC100700,"12 Awolowo Road, Surulere -> 54 Allen Avenue, Bodija"
+2026-10-17T08:15:59,ticket_created,MC100700,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC101581,July 2026
+2026-10-17T08:15:59,ticket_created,MC109190,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,statement_generated,MC109003,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC103874,"N1,893,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC110963,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC101913,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC105399,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC101036,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC106367,July 2026
+2026-10-17T08:15:59,address_updated,MC110837,"20 Herbert Macaulay Way, GRA Port Harcourt -> 68 Ring Road, GRA Port Harcourt"
+2026-10-17T08:15:59,ticket_created,MC110837,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC100876,"N271,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC101360,"17 Admiralty Way, Bodija -> on your records to 43 Herbert Macaulay Way, Maitama"
+2026-10-17T08:15:59,ticket_created,MC101360,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC100455,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC111242,"N71,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC110356,July 2026
+2026-10-17T08:15:59,address_updated,MC106886,"32 Allen Avenue, Wuse 2 -> 108 Awolowo Road, GRA Port Harcourt"
+2026-10-17T08:15:59,ticket_created,MC106886,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC111688,"19 Aba Road, Wuse 2 -> 43 Allen Avenue, Bodija"
+2026-10-17T08:15:59,ticket_created,MC111688,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC108197,2025
+2026-10-17T08:15:59,ticket_created,MC105654,P2: This is the third time your app failed when I tried to buy S
+2026-10-17T08:15:59,statement_generated,MC102448,January to June 2026
+2026-10-17T08:15:59,address_updated,MC104833,"13 Herbert Macaulay Way, Surulere -> 39 Awolowo Road, GRA Port Harcourt"
+2026-10-17T08:15:59,ticket_created,MC104833,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC110430,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:59,redemption_instruction,MC110031,"N18,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC101656,Q2 2026
+2026-10-17T08:15:59,ticket_created,MC103504,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC111602,Q2 2026
+2026-10-17T08:15:59,ticket_created,MC103718,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC102436,July 2026
+2026-10-17T08:15:59,statement_generated,MC110333,the last 6 months
+2026-10-17T08:15:59,redemption_instruction,MC105477,"N650,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC105438,P2: This is the third time your app failed when I tried to buy D
+2026-10-17T08:15:59,ticket_created,MC103532,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:59,address_updated,MC100467,"14 Adeola Odeku Street, Lekki -> 96 Admiralty Way, Yaba"
+2026-10-17T08:15:59,ticket_created,MC100467,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC109216,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC106728,last quarter
+2026-10-17T08:15:59,statement_generated,MC108337,the last 6 months
+2026-10-17T08:15:59,address_updated,MC107610,"29 Allen Avenue, Wuse 2 -> 31 Ring Road, GRA Port Harcourt"
+2026-10-17T08:15:59,ticket_created,MC107610,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC100322,"6 Adeola Odeku Street, GRA Port Harcourt -> 76 Ring Road, Surulere"
+2026-10-17T08:15:59,ticket_created,MC100322,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC108581,"N36,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC109194,"N152,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC103371,"N20,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC107490,"N10,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC110023,July 2026
+2026-10-17T08:15:59,statement_generated,MC103343,January to June 2026
+2026-10-17T08:15:59,address_updated,MC108280,"20 Herbert Macaulay Way, Surulere -> 18 Ring Road, Yaba"
+2026-10-17T08:15:59,ticket_created,MC108280,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC103112,"74 Admiralty Way, GRA Port Harcourt -> 103 Aminu Kano Crescent, Surulere"
+2026-10-17T08:15:59,ticket_created,MC103112,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC106382,"35 Herbert Macaulay Way, Ikeja -> 103 Adeola Odeku Street, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC106382,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC110377,Q2 2026
+2026-10-17T08:15:59,address_updated,MC110722,"75 Adeola Odeku Street, Ikeja -> 120 Adeola Odeku Street, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC110722,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC104520,"N10,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC105709,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:59,statement_generated,MC106811,Q2 2026
+2026-10-17T08:15:59,ticket_created,MC107786,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,address_updated,MC100114,"75 Awolowo Road, Bodija -> 109 Aminu Kano Crescent, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC100114,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC111075,"35 Aminu Kano Crescent, Surulere -> 116 Adeola Odeku Street, Lekki"
+2026-10-17T08:15:59,ticket_created,MC111075,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC106557,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,address_updated,MC104782,"4 Allen Avenue, Surulere -> 56 Aminu Kano Crescent, Lekki"
+2026-10-17T08:15:59,ticket_created,MC104782,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC101011,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC106767,the last 6 months
+2026-10-17T08:15:59,ticket_created,MC100033,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC108660,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC101958,July 2026
+2026-10-17T08:15:59,statement_generated,MC100437,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC100170,"N171,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC109645,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC102282,"N33,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC111579,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC106632,July 2026
+2026-10-17T08:15:59,redemption_instruction,MC103194,"N10,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC104424,2025
+2026-10-17T08:15:59,redemption_instruction,MC108655,"N94,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC109913,P2: This is the third time your app failed when I tried to buy D
+2026-10-17T08:15:59,statement_generated,MC107247,2025
+2026-10-17T08:15:59,statement_generated,MC106508,the last 6 months
+2026-10-17T08:15:59,redemption_instruction,MC111068,"N326,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC104110,the last 6 months
+2026-10-17T08:15:59,address_updated,MC100991,"56 Ring Road, Maitama -> 105 Aba Road, Lekki"
+2026-10-17T08:15:59,ticket_created,MC100991,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC108311,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC102073,"N54,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC104057,"65 Aminu Kano Crescent, Bodija -> on your records to 65 Awolowo Road, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC104057,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC103653,"N99,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC105543,"68 Herbert Macaulay Way, Lekki -> 105 Admiralty Way, Surulere"
+2026-10-17T08:15:59,ticket_created,MC105543,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC109867,"N1,242,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC109614,Q2 2026
+2026-10-17T08:15:59,ticket_created,MC110951,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,ticket_created,MC107243,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,statement_generated,MC104954,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC110272,2025
+2026-10-17T08:15:59,statement_generated,MC108293,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC109520,"N191,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC103783,"18 Ring Road, Yaba -> 55 Adeola Odeku Street, Maitama"
+2026-10-17T08:15:59,ticket_created,MC103783,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC111459,"N171,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC106952,"80 Adeola Odeku Street, Wuse 2 -> 32 Herbert Macaulay Way, Lekki"
+2026-10-17T08:15:59,ticket_created,MC106952,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC111792,the last 6 months
+2026-10-17T08:15:59,redemption_instruction,MC106848,"N54,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC106484,July 2026
+2026-10-17T08:15:59,statement_generated,MC105915,January to June 2026
+2026-10-17T08:15:59,redemption_instruction,MC109816,"N477,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC103203,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,address_updated,MC109536,"59 Aba Road, Wuse 2 -> 7 Aba Road, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC109536,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC108910,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,address_updated,MC105625,"66 Ring Road, Wuse 2 -> 79 Aminu Kano Crescent, Surulere"
+2026-10-17T08:15:59,ticket_created,MC105625,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC111015,"32 Awolowo Road, Bodija -> 62 Ring Road, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC111015,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC100272,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC106286,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC105031,last quarter
+2026-10-17T08:15:59,ticket_created,MC102177,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,address_updated,MC106221,"69 Herbert Macaulay Way, Wuse 2 -> 7 Admiralty Way, GRA Port Harcourt"
+2026-10-17T08:15:59,ticket_created,MC106221,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC100383,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC105008,2025
+2026-10-17T08:15:59,ticket_created,MC109186,P2: This is the third time your app failed when I tried to buy A
+2026-10-17T08:15:59,ticket_created,MC109543,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,statement_generated,MC105341,the last 6 months
+2026-10-17T08:15:59,redemption_instruction,MC109392,"N51,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC109147,"7 Awolowo Road, Maitama -> 5 Herbert Macaulay Way, Surulere"
+2026-10-17T08:15:59,ticket_created,MC109147,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC110915,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC108992,January to June 2026
+2026-10-17T08:15:59,address_updated,MC106633,"4 Awolowo Road, Surulere -> 21 Admiralty Way, Ikeja"
+2026-10-17T08:15:59,address_updated,MC106633,"21 Admiralty Way, Ikeja -> 21 Admiralty Way, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC106633,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC101216,Q2 2026
+2026-10-17T08:15:59,ticket_created,MC110719,P2: This is the third time your app failed when I tried to buy M
+2026-10-17T08:15:59,ticket_created,MC110328,P2: This is the third time your app failed when I tried to buy N
+2026-10-17T08:15:59,statement_generated,MC108457,July 2026
+2026-10-17T08:15:59,redemption_instruction,MC111416,"N10,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC109322,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC111844,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC110338,last quarter
+2026-10-17T08:15:59,redemption_instruction,MC111080,"N1,345,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC106241,the last 6 months
+2026-10-17T08:15:59,address_updated,MC107118,"32 Aminu Kano Crescent, Lekki -> 5 Herbert Macaulay Way, Bodija"
+2026-10-17T08:15:59,ticket_created,MC107118,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC100783,last quarter
+2026-10-17T08:15:59,address_updated,MC111302,"30 Admiralty Way, Wuse 2 -> on your records to 19 Adeola Odeku Street, Lekki"
+2026-10-17T08:15:59,ticket_created,MC111302,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC106685,last quarter
+2026-10-17T08:15:59,address_updated,MC104023,"55 Aba Road, Ikeja -> 117 Aminu Kano Crescent, Surulere"
+2026-10-17T08:15:59,ticket_created,MC104023,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC103138,P2: This is the third time your app failed when I tried to buy Z
+2026-10-17T08:15:59,ticket_created,MC107541,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC105670,2025
+2026-10-17T08:15:59,statement_generated,MC111142,2025
+2026-10-17T08:15:59,address_updated,MC102901,"56 Allen Avenue, Wuse 2 -> 107 Ring Road, Maitama"
+2026-10-17T08:15:59,ticket_created,MC102901,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC101355,"N1,036,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC102965,last quarter
+2026-10-17T08:15:59,statement_generated,MC102020,2025
+2026-10-17T08:15:59,ticket_created,MC111899,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:59,ticket_created,MC107268,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,ticket_created,MC108635,P2: This is the third time your app failed when I tried to buy Z
+2026-10-17T08:15:59,statement_generated,MC106941,January to June 2026
+2026-10-17T08:15:59,statement_generated,MC103406,2025
+2026-10-17T08:15:59,address_updated,MC106641,"65 Aba Road, Maitama -> on your records to 105 Ring Road, Surulere"
+2026-10-17T08:15:59,ticket_created,MC106641,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC105547,"N35,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC104977,P1: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,redemption_instruction,MC107600,"N253,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC104058,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC104175,"N66,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC107576,"N185,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC101395,January to June 2026
+2026-10-17T08:15:59,address_updated,MC107642,"8 Ring Road, Surulere -> 69 Adeola Odeku Street, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC107642,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC105150,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,statement_generated,MC104749,2025
+2026-10-17T08:15:59,statement_generated,MC102075,2025
+2026-10-17T08:15:59,redemption_instruction,MC107220,"N482,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC108689,July 2026
+2026-10-17T08:15:59,ticket_created,MC108060,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,redemption_instruction,MC100658,"N13,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC102271,last quarter
+2026-10-17T08:15:59,redemption_instruction,MC111280,"N102,625,000 approval_required=True"
+2026-10-17T08:15:59,ticket_created,MC110575,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,statement_generated,MC107641,2025
+2026-10-17T08:15:59,address_updated,MC106846,"22 Awolowo Road, Bodija -> 66 Awolowo Road, Maitama"
+2026-10-17T08:15:59,ticket_created,MC106846,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC107113,"59 Awolowo Road, Bodija -> 21 Adeola Odeku Street, Surulere"
+2026-10-17T08:15:59,ticket_created,MC107113,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC104466,the last 6 months
+2026-10-17T08:15:59,redemption_instruction,MC108968,"N32,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC108218,"16 Aminu Kano Crescent, Surulere -> 2 Adeola Odeku Street, Maitama"
+2026-10-17T08:15:59,ticket_created,MC108218,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC104120,P2: This is the third time your app failed when I tried to buy G
+2026-10-17T08:15:59,address_updated,MC104742,"1 Aminu Kano Crescent, Lekki -> 46 Admiralty Way, Maitama"
+2026-10-17T08:15:59,ticket_created,MC104742,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,ticket_created,MC100464,P2: This is the third time your app failed when I tried to buy N
+2026-10-17T08:15:59,address_updated,MC100378,"68 Admiralty Way, Ikeja -> 3 Herbert Macaulay Way, Surulere"
+2026-10-17T08:15:59,ticket_created,MC100378,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC105985,"42 Allen Avenue, Maitama -> 26 Allen Avenue, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC105985,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC109486,2025
+2026-10-17T08:15:59,statement_generated,MC105492,2025
+2026-10-17T08:15:59,redemption_instruction,MC102366,"N32,000 approval_required=False"
+2026-10-17T08:15:59,redemption_instruction,MC105602,"N37,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC110470,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC102015,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC102552,"N138,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC103776,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,ticket_created,MC102509,P1: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:15:59,redemption_instruction,MC103522,"N1,549,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC102650,July 2026
+2026-10-17T08:15:59,address_updated,MC105078,"37 Admiralty Way, Yaba -> 116 Admiralty Way, Bodija"
+2026-10-17T08:15:59,ticket_created,MC105078,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC103411,"32 Aba Road, Ikeja -> on your records to 84 Herbert Macaulay Way, Bodija"
+2026-10-17T08:15:59,ticket_created,MC103411,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC111452,January to June 2026
+2026-10-17T08:15:59,ticket_created,MC109010,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,address_updated,MC106587,"7 Herbert Macaulay Way, Maitama -> on your records to 65 Awolowo Road, Lekki"
+2026-10-17T08:15:59,ticket_created,MC106587,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC109647,"N140,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC105711,July 2026
+2026-10-17T08:15:59,ticket_created,MC108090,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:15:59,statement_generated,MC105215,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC103004,the last 6 months
+2026-10-17T08:15:59,address_updated,MC108764,"67 Allen Avenue, Bodija -> 4 Aba Road, Yaba"
+2026-10-17T08:15:59,ticket_created,MC108764,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC100025,"41 Aba Road, Wuse 2 -> 75 Ring Road, Bodija"
+2026-10-17T08:15:59,ticket_created,MC100025,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC103938,"N158,000 approval_required=False"
+2026-10-17T08:15:59,ticket_created,MC103656,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:15:59,statement_generated,MC101467,last quarter
+2026-10-17T08:15:59,statement_generated,MC111530,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC102345,"N57,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC102007,July 2026
+2026-10-17T08:15:59,address_updated,MC104548,"28 Awolowo Road, Lekki -> 45 Aminu Kano Crescent, Ikeja"
+2026-10-17T08:15:59,ticket_created,MC104548,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC106499,2025
+2026-10-17T08:15:59,statement_generated,MC103988,2025
+2026-10-17T08:15:59,redemption_instruction,MC101511,"N1,354,000 approval_required=False"
+2026-10-17T08:15:59,statement_generated,MC101292,July 2026
+2026-10-17T08:15:59,statement_generated,MC104515,the last 6 months
+2026-10-17T08:15:59,statement_generated,MC103609,Q2 2026
+2026-10-17T08:15:59,statement_generated,MC107388,July 2026
+2026-10-17T08:15:59,ticket_created,MC110198,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:15:59,address_updated,MC110883,"58 Herbert Macaulay Way, Lekki -> 91 Admiralty Way, Lekki"
+2026-10-17T08:15:59,ticket_created,MC110883,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC108222,Q2 2026
+2026-10-17T08:15:59,redemption_instruction,MC106153,"N65,000 approval_required=False"
+2026-10-17T08:15:59,address_updated,MC106487,"57 Herbert Macaulay Way, Maitama -> on your records to 5 Admiralty Way, Maitama"
+2026-10-17T08:15:59,ticket_created,MC106487,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,address_updated,MC106590,"27 Aminu Kano Crescent, Lekki -> 21 Adeola Odeku Street, Wuse 2"
+2026-10-17T08:15:59,ticket_created,MC106590,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,statement_generated,MC101846,last quarter
+2026-10-17T08:15:59,statement_generated,MC105259,last quarter
+2026-10-17T08:15:59,address_updated,MC108326,"41 Herbert Macaulay Way, Wuse 2 -> 3 Aba Road, Maitama"
+2026-10-17T08:15:59,ticket_created,MC108326,P3: Verify proof of address for KYC change
+2026-10-17T08:15:59,redemption_instruction,MC107085,"N22,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC100359,July 2026
+2026-10-17T08:16:00,statement_generated,MC106706,last quarter
+2026-10-17T08:16:00,statement_generated,MC104002,July 2026
+2026-10-17T08:16:00,address_updated,MC110337,"61 Herbert Macaulay Way, Wuse 2 -> on your records to 106 Ring Road, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC110337,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC105517,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC107662,January to June 2026
+2026-10-17T08:16:00,ticket_created,MC103743,P2: This is the third time your app failed when I tried to buy M
+2026-10-17T08:16:00,address_updated,MC106693,"68 Adeola Odeku Street, Bodija -> 29 Ring Road, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC106693,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC101036,"75 Aba Road, Maitama -> on your records to 59 Ring Road, Bodija"
+2026-10-17T08:16:00,ticket_created,MC101036,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC106848,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC102747,last quarter
+2026-10-17T08:16:00,redemption_instruction,MC110038,"N192,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC105681,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC100636,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC110096,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC100310,Q2 2026
+2026-10-17T08:16:00,ticket_created,MC103190,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,address_updated,MC106120,"76 Awolowo Road, Lekki -> 65 Aba Road, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC106120,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC110319,last quarter
+2026-10-17T08:16:00,ticket_created,MC106230,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,statement_generated,MC102371,the last 6 months
+2026-10-17T08:16:00,redemption_instruction,MC105921,"N37,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC111312,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,statement_generated,MC108741,July 2026
+2026-10-17T08:16:00,redemption_instruction,MC105507,"N42,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC103378,January to June 2026
+2026-10-17T08:16:00,address_updated,MC111075,"116 Adeola Odeku Street, Lekki -> 89 Aminu Kano Crescent, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC111075,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC105748,"N589,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC104217,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,redemption_instruction,MC103841,"N155,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC100713,"3 Aba Road, Surulere -> on your records to 114 Allen Avenue, Surulere"
+2026-10-17T08:16:00,ticket_created,MC100713,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC100365,july 2026
+2026-10-17T08:16:00,redemption_instruction,MC105932,"N38,699,000 approval_required=True"
+2026-10-17T08:16:00,address_updated,MC110381,"2 Ring Road, Wuse 2 -> on your records to 52 Admiralty Way, Lekki"
+2026-10-17T08:16:00,ticket_created,MC110381,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC101513,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,ticket_created,MC111190,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,ticket_created,MC102866,P2: This is the third time your app failed when I tried to buy G
+2026-10-17T08:16:00,statement_generated,MC109347,2025
+2026-10-17T08:16:00,statement_generated,MC107060,last quarter
+2026-10-17T08:16:00,redemption_instruction,MC106517,"N34,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC104863,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC104518,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC107486,the last 6 months
+2026-10-17T08:16:00,address_updated,MC100402,"78 Admiralty Way, GRA Port Harcourt -> 56 Admiralty Way, Yaba"
+2026-10-17T08:16:00,ticket_created,MC100402,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC109288,"N41,502,000 approval_required=True"
+2026-10-17T08:16:00,address_updated,MC100508,"22 Awolowo Road, GRA Port Harcourt -> 18 Aba Road, Surulere"
+2026-10-17T08:16:00,ticket_created,MC100508,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC102583,"N359,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC101746,July 2026
+2026-10-17T08:16:00,statement_generated,MC109783,last quarter
+2026-10-17T08:16:00,statement_generated,MC102968,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC101598,2025
+2026-10-17T08:16:00,statement_generated,MC101386,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC107732,Q2 2026
+2026-10-17T08:16:00,redemption_instruction,MC106247,"N19,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC105314,July 2026
+2026-10-17T08:16:00,address_updated,MC100728,"78 Allen Avenue, GRA Port Harcourt -> on your records to 40 Awolowo Road, Lekki"
+2026-10-17T08:16:00,ticket_created,MC100728,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC107909,January to June 2026
+2026-10-17T08:16:00,ticket_created,MC104696,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC105977,July 2026
+2026-10-17T08:16:00,statement_generated,MC106508,2025
+2026-10-17T08:16:00,statement_generated,MC104635,Q2 2026
+2026-10-17T08:16:00,address_updated,MC100433,"48 Aba Road, Yaba -> 86 Admiralty Way, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC100433,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC108013,last quarter
+2026-10-17T08:16:00,address_updated,MC111289,"69 Awolowo Road, Ikeja -> on your records to 82 Herbert Macaulay Way, Yaba"
+2026-10-17T08:16:00,ticket_created,MC111289,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC110618,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,redemption_instruction,MC105893,"N793,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC103272,"58 Ring Road, Maitama -> 60 Ring Road, Lekki"
+2026-10-17T08:16:00,ticket_created,MC103272,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC108527,the last 6 months
+2026-10-17T08:16:00,address_updated,MC101769,"80 Admiralty Way, Bodija -> 16 Aminu Kano Crescent, Surulere"
+2026-10-17T08:16:00,ticket_created,MC101769,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC100945,"N13,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC101824,the last 6 months
+2026-10-17T08:16:00,address_updated,MC109167,"27 Herbert Macaulay Way, Ikeja -> 28 Ring Road, Yaba"
+2026-10-17T08:16:00,ticket_created,MC109167,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC111315,"20 Allen Avenue, Surulere -> 84 Aminu Kano Crescent, Surulere"
+2026-10-17T08:16:00,ticket_created,MC111315,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC110308,"17 Adeola Odeku Street, Surulere -> 107 Aminu Kano Crescent, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC110308,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC106847,last quarter
+2026-10-17T08:16:00,redemption_instruction,MC109519,"N3,371,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC105961,the last 6 months
+2026-10-17T08:16:00,redemption_instruction,MC100661,"N118,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC100634,"74 Aminu Kano Crescent, Bodija -> 29 Adeola Odeku Street, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC100634,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC110935,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC107794,July 2026
+2026-10-17T08:16:00,statement_generated,MC111224,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC100672,last quarter
+2026-10-17T08:16:00,statement_generated,MC109330,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC105080,2025
+2026-10-17T08:16:00,statement_generated,MC106913,last quarter
+2026-10-17T08:16:00,statement_generated,MC108008,January to June 2026
+2026-10-17T08:16:00,redemption_instruction,MC110618,"N14,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC102779,January to June 2026
+2026-10-17T08:16:00,redemption_instruction,MC110963,"N60,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC111205,2025
+2026-10-17T08:16:00,statement_generated,MC108820,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC105781,January to June 2026
+2026-10-17T08:16:00,redemption_instruction,MC106742,"N50,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC108439,July 2026
+2026-10-17T08:16:00,ticket_created,MC110169,P2: This is the third time your app failed when I tried to buy U
+2026-10-17T08:16:00,redemption_instruction,MC106765,"N283,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC107299,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC100769,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC106843,Q2 2026
+2026-10-17T08:16:00,address_updated,MC106475,"6 Allen Avenue, Maitama -> 12 Aminu Kano Crescent, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC106475,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC108718,"71 Allen Avenue, Surulere -> on your records to 96 Ring Road, Yaba"
+2026-10-17T08:16:00,ticket_created,MC108718,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC101149,"75 Adeola Odeku Street, Maitama -> on your records to 63 Admiralty Way, Surulere"
+2026-10-17T08:16:00,ticket_created,MC101149,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC111310,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC100562,Q2 2026
+2026-10-17T08:16:00,address_updated,MC104352,"5 Ring Road, Bodija -> 71 Herbert Macaulay Way, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC104352,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC110541,"N315,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC103266,"68 Adeola Odeku Street, Ikeja -> 56 Adeola Odeku Street, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC103266,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC106554,Q2 2026
+2026-10-17T08:16:00,redemption_instruction,MC105315,"N25,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC104207,2025
+2026-10-17T08:16:00,redemption_instruction,MC110591,"N138,000 approval_required=False"
+2026-10-17T08:16:00,redemption_instruction,MC103297,"N1,314,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC105297,July 2026
+2026-10-17T08:16:00,statement_generated,MC104426,Q2 2026
+2026-10-17T08:16:00,redemption_instruction,MC108163,"N121,000 approval_required=False"
+2026-10-17T08:16:00,redemption_instruction,MC104731,"N60,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC107308,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC104206,2025
+2026-10-17T08:16:00,address_updated,MC102640,"70 Awolowo Road, Maitama -> 120 Ring Road, Bodija"
+2026-10-17T08:16:00,ticket_created,MC102640,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC108998,"31 Admiralty Way, Maitama -> on your records to 14 Herbert Macaulay Way, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC108998,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC101735,"62 Allen Avenue, Wuse 2 -> 78 Allen Avenue, Maitama"
+2026-10-17T08:16:00,ticket_created,MC101735,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC103462,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:16:00,statement_generated,MC109001,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC105344,last quarter
+2026-10-17T08:16:00,ticket_created,MC101931,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,statement_generated,MC109904,January to June 2026
+2026-10-17T08:16:00,address_updated,MC108279,"65 Aba Road, Maitama -> 97 Herbert Macaulay Way, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC108279,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC110811,last quarter
+2026-10-17T08:16:00,statement_generated,MC101113,last quarter
+2026-10-17T08:16:00,statement_generated,MC105808,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC108555,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC103605,January to June 2026
+2026-10-17T08:16:00,redemption_instruction,MC108192,"N23,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC108026,P1: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:16:00,statement_generated,MC110281,2025
+2026-10-17T08:16:00,statement_generated,MC109134,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC111857,2025
+2026-10-17T08:16:00,statement_generated,MC103729,July 2026
+2026-10-17T08:16:00,statement_generated,MC107218,2025
+2026-10-17T08:16:00,ticket_created,MC103399,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,redemption_instruction,MC102474,"N155,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC109183,January to June 2026
+2026-10-17T08:16:00,address_updated,MC104324,"64 Aminu Kano Crescent, Lekki -> 71 Aminu Kano Crescent, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC104324,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC104439,Q2 2026
+2026-10-17T08:16:00,redemption_instruction,MC104069,"N14,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC108829,last quarter
+2026-10-17T08:16:00,ticket_created,MC103488,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,address_updated,MC101351,"56 Admiralty Way, Bodija -> 91 Awolowo Road, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC101351,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC107682,"N4,386,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC111152,January to June 2026
+2026-10-17T08:16:00,redemption_instruction,MC107924,"N48,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC109827,January to June 2026
+2026-10-17T08:16:00,address_updated,MC104727,"40 Admiralty Way, Bodija -> on your records to 71 Herbert Macaulay Way, Ikeja"
+2026-10-17T08:16:00,ticket_created,MC104727,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC111470,"30 Allen Avenue, GRA Port Harcourt -> 82 Aminu Kano Crescent, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC111470,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC108766,January to June 2026
+2026-10-17T08:16:00,address_updated,MC104336,"60 Allen Avenue, Bodija -> on your records to 44 Admiralty Way, Lekki"
+2026-10-17T08:16:00,ticket_created,MC104336,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC105181,last quarter
+2026-10-17T08:16:00,address_updated,MC108592,"75 Aba Road, Lekki -> on your records to 62 Herbert Macaulay Way, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC108592,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC111429,"6 Ring Road, Bodija -> 32 Aba Road, Wuse 2"
+2026-10-17T08:16:00,ticket_created,MC111429,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC110336,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC109434,2025
+2026-10-17T08:16:00,ticket_created,MC104939,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,ticket_created,MC108265,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,ticket_created,MC101957,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,redemption_instruction,MC111559,"N159,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC111492,July 2026
+2026-10-17T08:16:00,address_updated,MC109757,"69 Ring Road, Surulere -> on your records to 59 Aba Road, Yaba"
+2026-10-17T08:16:00,ticket_created,MC109757,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC104866,P1: This is the third time your app failed when I tried to buy U
+2026-10-17T08:16:00,statement_generated,MC100795,January to June 2026
+2026-10-17T08:16:00,address_updated,MC108643,"48 Aba Road, GRA Port Harcourt -> on your records to 69 Admiralty Way, Maitama"
+2026-10-17T08:16:00,ticket_created,MC108643,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC102908,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,address_updated,MC107941,"1 Adeola Odeku Street, Lekki -> 6 Aminu Kano Crescent, Lekki"
+2026-10-17T08:16:00,ticket_created,MC107941,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC100348,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC110429,the last 6 months
+2026-10-17T08:16:00,redemption_instruction,MC106937,"N249,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC106776,January to June 2026
+2026-10-17T08:16:00,statement_generated,MC104883,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC104757,Q2 2026
+2026-10-17T08:16:00,address_updated,MC109420,"10 Aminu Kano Crescent, Wuse 2 -> 28 Awolowo Road, Lekki"
+2026-10-17T08:16:00,ticket_created,MC109420,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC102352,"N75,000 approval_required=False"
+2026-10-17T08:16:00,statement_generated,MC108010,January to June 2026
+2026-10-17T08:16:00,address_updated,MC107550,"44 Awolowo Road, Surulere -> 119 Awolowo Road, Surulere"
+2026-10-17T08:16:00,ticket_created,MC107550,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC109231,the last 6 months
+2026-10-17T08:16:00,ticket_created,MC104528,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,redemption_instruction,MC110388,"N53,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC104795,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:16:00,statement_generated,MC108130,last quarter
+2026-10-17T08:16:00,address_updated,MC108078,"19 Aminu Kano Crescent, Surulere -> 74 Aba Road, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC108078,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC102333,"1 Admiralty Way, Surulere -> 53 Aba Road, Lekki"
+2026-10-17T08:16:00,ticket_created,MC102333,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC109588,January to June 2026
+2026-10-17T08:16:00,address_updated,MC101813,"70 Aminu Kano Crescent, Yaba -> on your records to 49 Awolowo Road, Lekki"
+2026-10-17T08:16:00,ticket_created,MC101813,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC105141,2025
+2026-10-17T08:16:00,statement_generated,MC111873,2025
+2026-10-17T08:16:00,address_updated,MC104395,"53 Adeola Odeku Street, Maitama -> on your records to 83 Admiralty Way, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC104395,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC104914,"N50,000 approval_required=False"
+2026-10-17T08:16:00,redemption_instruction,MC111808,"N10,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC109243,P2: This is the third time your app failed when I tried to buy G
+2026-10-17T08:16:00,redemption_instruction,MC107193,"N81,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC108583,"20 Adeola Odeku Street, Yaba -> 108 Admiralty Way, Surulere"
+2026-10-17T08:16:00,ticket_created,MC108583,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC111482,"N3,025,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC105954,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,statement_generated,MC104190,the last 6 months
+2026-10-17T08:16:00,address_updated,MC104005,"54 Awolowo Road, Yaba -> 41 Adeola Odeku Street, Maitama"
+2026-10-17T08:16:00,ticket_created,MC104005,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC111142,"30 Aminu Kano Crescent, Lekki -> 110 Herbert Macaulay Way, Maitama"
+2026-10-17T08:16:00,ticket_created,MC111142,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC104345,"14 Herbert Macaulay Way, Yaba -> 111 Adeola Odeku Street, Maitama"
+2026-10-17T08:16:00,ticket_created,MC104345,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,address_updated,MC110699,"78 Aminu Kano Crescent, Lekki -> 89 Aminu Kano Crescent, Lekki"
+2026-10-17T08:16:00,ticket_created,MC110699,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,redemption_instruction,MC106509,"N487,000 approval_required=False"
+2026-10-17T08:16:00,ticket_created,MC107238,P2: Your platform keeps logging me out and I missed a good entry
+2026-10-17T08:16:00,address_updated,MC105245,"46 Herbert Macaulay Way, GRA Port Harcourt -> 13 Aba Road, GRA Port Harcourt"
+2026-10-17T08:16:00,ticket_created,MC105245,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC100060,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,redemption_instruction,MC103243,"N675,000 approval_required=False"
+2026-10-17T08:16:00,address_updated,MC109438,"76 Ring Road, Bodija -> on your records to 63 Allen Avenue, Yaba"
+2026-10-17T08:16:00,ticket_created,MC109438,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,statement_generated,MC103014,the last 6 months
+2026-10-17T08:16:00,ticket_created,MC105630,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC104164,2025
+2026-10-17T08:16:00,ticket_created,MC104011,P1: This is the third time your app failed when I tried to buy M
+2026-10-17T08:16:00,ticket_created,MC104891,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,statement_generated,MC110254,July 2026
+2026-10-17T08:16:00,redemption_instruction,MC106309,"N8,257,000 approval_required=True"
+2026-10-17T08:16:00,ticket_created,MC102068,P2: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,statement_generated,MC107553,the last 6 months
+2026-10-17T08:16:00,statement_generated,MC104099,last quarter
+2026-10-17T08:16:00,ticket_created,MC111169,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:16:00,statement_generated,MC111395,Q2 2026
+2026-10-17T08:16:00,statement_generated,MC101106,Q2 2026
+2026-10-17T08:16:00,address_updated,MC108764,"4 Aba Road, Yaba -> on your records to 6 Herbert Macaulay Way, Yaba"
+2026-10-17T08:16:00,ticket_created,MC108764,P3: Verify proof of address for KYC change
+2026-10-17T08:16:00,ticket_created,MC107089,"P2: Una app no dey work since morning, I no fit trade. Account M"
+2026-10-17T08:16:00,ticket_created,MC105932,P1: I am not happy with the service. My trade was not executed a
+2026-10-17T08:16:00,redemption_instruction,MC109748,"N541,000 approval_required=False"
+2026-10-17T08:16:01,statement_generated,MC111560,Q2 2026
+2026-10-17T08:16:01,ticket_created,MC109252,P2: This is the third time your app failed when I tried to buy U
+2026-10-17T08:16:01,ticket_created,MC100963,P2: I have been waiting two weeks for a response. I am consideri
+2026-10-17T08:16:01,statement_generated,MC111945,January to June 2026
+2026-10-17T08:16:01,statement_generated,MC106914,2025
+2026-10-17T08:16:01,statement_generated,MC109569,the last 6 months
+2026-10-17T08:16:01,statement_generated,MC109480,2025

@@ -1,0 +1,11 @@
+                    precision    recall  f1-score   support
+
+    address_update      0.940     0.952     0.946        83
+         complaint      0.950     1.000     0.974        95
+  dividend_enquiry      1.000     0.992     0.996       130
+redemption_request      0.970     0.933     0.951       104
+ statement_request      0.984     0.979     0.981       188
+
+          accuracy                          0.973       600
+         macro avg      0.969     0.971     0.970       600
+      weighted avg      0.974     0.973     0.973       600

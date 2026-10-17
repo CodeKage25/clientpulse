@@ -1,0 +1,212 @@
+message_id,client_id,predicted_intent,status,reason
+MSG-00006,,complaint,BusinessException,"Sender does not own MC110739; possible error or fraud, held for review"
+MSG-00011,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00019,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00020,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00022,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00023,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00025,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00029,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00030,,dividend_enquiry,BusinessException,"Sender does not own MC101636; possible error or fraud, held for review"
+MSG-00031,MC106450,redemption_request,BusinessException,"Requested N109,000 exceeds fund balance N92,500"
+MSG-00036,MC100751,redemption_request,BusinessException,"Requested N26,000 exceeds fund balance N23,400"
+MSG-00038,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00040,,complaint,BusinessException,"Sender does not own MC111480; possible error or fraud, held for review"
+MSG-00043,,statement_request,BusinessException,"Sender does not own MC102969; possible error or fraud, held for review"
+MSG-00048,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00055,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00057,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00069,,statement_request,BusinessException,Account MC928558 not found in client master
+MSG-00078,,statement_request,BusinessException,Account MC960303 not found in client master
+MSG-00079,,statement_request,BusinessException,"Sender does not own MC105765; possible error or fraud, held for review"
+MSG-00088,,complaint,BusinessException,"Sender does not own MC105132; possible error or fraud, held for review"
+MSG-00094,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00118,MC102148,redemption_request,BusinessException,"Requested N511,000 exceeds fund balance N475,200"
+MSG-00122,,complaint,HumanReview,Low confidence (0.61); could be complaint or statement_request
+MSG-00123,,address_update,HumanReview,Low confidence (0.52); could be address_update or statement_request
+MSG-00131,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00138,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00142,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00146,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00160,,dividend_enquiry,BusinessException,Account MC934984 not found in client master
+MSG-00169,,redemption_request,BusinessException,Account MC946523 not found in client master
+MSG-00171,,statement_request,HumanReview,Low confidence (0.52); could be statement_request or dividend_enquiry
+MSG-00173,,statement_request,BusinessException,Account MC908886 not found in client master
+MSG-00194,,statement_request,BusinessException,"Sender does not own MC102140; possible error or fraud, held for review"
+MSG-00196,,complaint,BusinessException,Account MC922730 not found in client master
+MSG-00205,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00216,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00217,MC103296,redemption_request,BusinessException,"Requested N268,000 exceeds fund balance N226,000"
+MSG-00221,,complaint,BusinessException,"Sender does not own MC105868; possible error or fraud, held for review"
+MSG-00236,MC103322,redemption_request,BusinessException,"Requested N446,000 exceeds fund balance N369,400"
+MSG-00248,MC103549,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N3,300"
+MSG-00251,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00253,,dividend_enquiry,BusinessException,Account MC921896 not found in client master
+MSG-00262,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00268,MC104727,redemption_request,BusinessException,"Requested N90,000 exceeds fund balance N82,900"
+MSG-00283,MC109740,redemption_request,BusinessException,"Requested N233,000 exceeds fund balance N202,800"
+MSG-00289,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00291,,statement_request,HumanReview,Low confidence (0.54); could be statement_request or redemption_request
+MSG-00293,,statement_request,HumanReview,Low confidence (0.65); could be statement_request or dividend_enquiry
+MSG-00296,MC108369,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N9,500"
+MSG-00299,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00300,,statement_request,BusinessException,Account MC924954 not found in client master
+MSG-00309,MC111919,redemption_request,BusinessException,"Requested N25,000 exceeds fund balance N22,600"
+MSG-00317,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00320,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00322,,statement_request,BusinessException,"Sender does not own MC104457; possible error or fraud, held for review"
+MSG-00327,MC110622,redemption_request,BusinessException,"Requested N17,000 exceeds fund balance N16,300"
+MSG-00331,,dividend_enquiry,BusinessException,"Sender does not own MC100282; possible error or fraud, held for review"
+MSG-00337,MC107113,redemption_request,BusinessException,"Requested N13,000 exceeds fund balance N11,400"
+MSG-00347,MC110320,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N2,600"
+MSG-00349,,statement_request,HumanReview,Low confidence (0.65); could be statement_request or redemption_request
+MSG-00361,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00365,,complaint,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00368,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00371,MC103623,redemption_request,BusinessException,"Requested N51,000 exceeds fund balance N44,600"
+MSG-00378,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00389,,address_update,HumanReview,Low confidence (0.51); could be address_update or dividend_enquiry
+MSG-00394,MC111420,redemption_request,BusinessException,"Requested N202,000 exceeds fund balance N174,400"
+MSG-00404,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00408,,statement_request,HumanReview,Low confidence (0.66); could be statement_request or redemption_request
+MSG-00411,MC100481,redemption_request,BusinessException,"Requested N170,000 exceeds fund balance N158,700"
+MSG-00415,MC102122,redemption_request,BusinessException,"Requested N188,000 exceeds fund balance N165,600"
+MSG-00416,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00423,,dividend_enquiry,BusinessException,"Sender does not own MC100029; possible error or fraud, held for review"
+MSG-00425,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00432,,complaint,HumanReview,Low confidence (0.49); could be complaint or address_update
+MSG-00437,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00442,,complaint,HumanReview,Low confidence (0.62); could be complaint or address_update
+MSG-00448,,statement_request,BusinessException,Account MC980432 not found in client master
+MSG-00449,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00450,,statement_request,BusinessException,"Sender does not own MC104104; possible error or fraud, held for review"
+MSG-00454,MC107419,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N5,300"
+MSG-00455,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00456,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00462,,complaint,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00464,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00466,,address_update,BusinessException,Account MC972677 not found in client master
+MSG-00467,,statement_request,BusinessException,"Sender does not own MC108949; possible error or fraud, held for review"
+MSG-00475,,statement_request,HumanReview,Low confidence (0.60); could be statement_request or address_update
+MSG-00478,,dividend_enquiry,BusinessException,"Sender does not own MC104318; possible error or fraud, held for review"
+MSG-00483,,address_update,BusinessException,Account MC900539 not found in client master
+MSG-00485,,redemption_request,HumanReview,Low confidence (0.52); could be redemption_request or statement_request
+MSG-00494,,statement_request,BusinessException,"Sender does not own MC107015; possible error or fraud, held for review"
+MSG-00496,MC104098,redemption_request,BusinessException,"Requested N55,000 exceeds fund balance N52,900"
+MSG-00498,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00511,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00518,,complaint,HumanReview,Low confidence (0.70); could be complaint or redemption_request
+MSG-00520,MC102055,redemption_request,BusinessException,"Requested N35,000 exceeds fund balance N29,900"
+MSG-00523,,redemption_request,HumanReview,Low confidence (0.50); could be redemption_request or statement_request
+MSG-00565,,complaint,BusinessException,"Sender does not own MC111747; possible error or fraud, held for review"
+MSG-00569,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00570,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00583,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00587,MC108326,redemption_request,BusinessException,"Requested N29,000 exceeds fund balance N24,600"
+MSG-00601,,statement_request,HumanReview,Low confidence (0.65); could be statement_request or address_update
+MSG-00607,,dividend_enquiry,HumanReview,Low confidence (0.60); could be dividend_enquiry or address_update
+MSG-00611,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00615,,address_update,BusinessException,"Sender does not own MC100730; possible error or fraud, held for review"
+MSG-00617,MC104645,redemption_request,BusinessException,"Requested N182,000 exceeds fund balance N149,800"
+MSG-00622,,complaint,BusinessException,Account MC981260 not found in client master
+MSG-00628,MC102438,redemption_request,BusinessException,"Requested N270,000 exceeds fund balance N252,600"
+MSG-00632,MC111911,redemption_request,BusinessException,"Requested N25,000 exceeds fund balance N22,700"
+MSG-00637,,statement_request,BusinessException,Account MC979024 not found in client master
+MSG-00659,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00660,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00678,,dividend_enquiry,BusinessException,"Sender does not own MC111678; possible error or fraud, held for review"
+MSG-00683,,address_update,BusinessException,"Sender does not own MC103581; possible error or fraud, held for review"
+MSG-00685,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00686,,dividend_enquiry,BusinessException,"Sender does not own MC110234; possible error or fraud, held for review"
+MSG-00690,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00691,MC105431,redemption_request,BusinessException,"Requested N250,000 exceeds fund balance N245,900"
+MSG-00705,,redemption_request,HumanReview,Low confidence (0.60); could be redemption_request or dividend_enquiry
+MSG-00708,,dividend_enquiry,BusinessException,Account MC930029 not found in client master
+MSG-00721,MC108478,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N4,100"
+MSG-00725,,address_update,BusinessException,Account MC946030 not found in client master
+MSG-00730,,dividend_enquiry,BusinessException,Account MC911913 not found in client master
+MSG-00738,,dividend_enquiry,BusinessException,"Sender does not own MC106728; possible error or fraud, held for review"
+MSG-00739,,address_update,HumanReview,Low confidence (0.58); could be address_update or statement_request
+MSG-00744,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00746,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00748,,address_update,HumanReview,Low confidence (0.56); could be address_update or dividend_enquiry
+MSG-00749,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00754,,statement_request,BusinessException,"Sender does not own MC108152; possible error or fraud, held for review"
+MSG-00759,,dividend_enquiry,BusinessException,"Sender does not own MC111840; possible error or fraud, held for review"
+MSG-00763,MC102856,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N3,500"
+MSG-00764,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00765,,complaint,HumanReview,Low confidence (0.67); could be complaint or address_update
+MSG-00767,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00775,MC103630,redemption_request,BusinessException,"Requested N46,000 exceeds fund balance N41,600"
+MSG-00780,,statement_request,HumanReview,Low confidence (0.66); could be statement_request or dividend_enquiry
+MSG-00781,,redemption_request,BusinessException,Account MC947049 not found in client master
+MSG-00787,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00791,,redemption_request,BusinessException,"Sender does not own MC110811; possible error or fraud, held for review"
+MSG-00798,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00803,,redemption_request,BusinessException,Account MC996699 not found in client master
+MSG-00815,,statement_request,BusinessException,Account MC919292 not found in client master
+MSG-00824,MC105032,redemption_request,BusinessException,"Requested N67,000 exceeds fund balance N63,800"
+MSG-00825,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00829,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00839,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00841,MC109634,redemption_request,BusinessException,"Requested N152,000 exceeds fund balance N142,100"
+MSG-00845,MC108697,redemption_request,BusinessException,Redemption amount not found
+MSG-00850,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00852,,address_update,BusinessException,"Sender does not own MC100595; possible error or fraud, held for review"
+MSG-00857,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00864,,statement_request,HumanReview,Low confidence (0.64); could be statement_request or redemption_request
+MSG-00873,,dividend_enquiry,BusinessException,Account MC991752 not found in client master
+MSG-00876,,statement_request,BusinessException,Account MC924146 not found in client master
+MSG-00878,,statement_request,HumanReview,Low confidence (0.69); could be statement_request or address_update
+MSG-00897,MC110928,redemption_request,BusinessException,"Requested N119,000 exceeds fund balance N102,400"
+MSG-00899,,address_update,BusinessException,Account MC995332 not found in client master
+MSG-00908,,dividend_enquiry,HumanReview,Low confidence (0.55); could be dividend_enquiry or address_update
+MSG-00909,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00914,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00915,MC111499,redemption_request,BusinessException,"Requested N3,719,000 exceeds fund balance N3,035,400"
+MSG-00918,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00923,,complaint,BusinessException,Account MC998853 not found in client master
+MSG-00938,,redemption_request,HumanReview,Low confidence (0.57); could be redemption_request or address_update
+MSG-00945,,statement_request,BusinessException,Account MC948829 not found in client master
+MSG-00947,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00958,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00961,,redemption_request,HumanReview,Low confidence (0.65); could be redemption_request or address_update
+MSG-00962,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00965,,statement_request,BusinessException,Account MC938267 not found in client master
+MSG-00972,,redemption_request,BusinessException,"Sender does not own MC101488; possible error or fraud, held for review"
+MSG-00976,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-00985,,statement_request,BusinessException,"Sender does not own MC111734; possible error or fraud, held for review"
+MSG-00987,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01002,,complaint,HumanReview,Low confidence (0.60); could be complaint or redemption_request
+MSG-01010,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01014,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01028,,redemption_request,BusinessException,"Sender does not own MC111533; possible error or fraud, held for review"
+MSG-01030,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01031,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01035,,dividend_enquiry,BusinessException,Account MC962984 not found in client master
+MSG-01047,MC108851,redemption_request,BusinessException,"Requested N2,438,000 exceeds fund balance N2,071,500"
+MSG-01053,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01057,,address_update,BusinessException,Account MC938774 not found in client master
+MSG-01059,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01090,,address_update,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01101,,address_update,BusinessException,"Sender does not own MC106911; possible error or fraud, held for review"
+MSG-01107,,dividend_enquiry,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01119,MC107411,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N8,400"
+MSG-01120,,statement_request,HumanReview,Low confidence (0.61); could be statement_request or complaint
+MSG-01127,,statement_request,BusinessException,Account MC985747 not found in client master
+MSG-01132,,address_update,HumanReview,Low confidence (0.51); could be address_update or dividend_enquiry
+MSG-01133,MC104748,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N5,600"
+MSG-01146,,redemption_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01148,,complaint,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01149,,address_update,BusinessException,Account MC923426 not found in client master
+MSG-01150,MC107693,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N6,900"
+MSG-01156,,address_update,HumanReview,Low confidence (0.68); could be address_update or dividend_enquiry
+MSG-01162,,statement_request,BusinessException,"Sender does not own MC105149; possible error or fraud, held for review"
+MSG-01164,,dividend_enquiry,HumanReview,Low confidence (0.59); could be dividend_enquiry or statement_request
+MSG-01167,,address_update,BusinessException,Account MC963390 not found in client master
+MSG-01168,,statement_request,BusinessException,No account number in message; auto-reply asks client to resend
+MSG-01169,,complaint,BusinessException,Account MC950441 not found in client master
+MSG-01172,MC101345,redemption_request,BusinessException,"Requested N19,000 exceeds fund balance N18,600"
+MSG-01193,MC101300,redemption_request,BusinessException,"Requested N10,000 exceeds fund balance N5,200"
+MSG-01194,,statement_request,BusinessException,Account MC947343 not found in client master
+MSG-01199,,complaint,BusinessException,No account number in message; auto-reply asks client to resend

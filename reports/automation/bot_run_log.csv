@@ -1,0 +1,1201 @@
+message_id,true_intent,predicted_intent,confidence,status,action,reason,retries,priority,client_id,runtime_ms,extras
+MSG-00001,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108916,5.75,{'file': 'MC108916_statement.txt'}
+MSG-00002,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC109005,3.37,{'stock': 'MTNN'}
+MSG-00003,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC100508,3.15,{'file': 'MC100508_statement.txt'}
+MSG-00004,complaint,complaint,0.983,Successful,complaint_ticket,,1,P2,MC102197,2.55,"{'ticket': 'TKT-00003', 'churn_risk': 0.039}"
+MSG-00005,address_update,address_update,0.979,Successful,address_staged_for_kyc_review,,0,,MC109585,2.7,{'ticket': 'TKT-00005'}
+MSG-00006,complaint,complaint,0.995,BusinessException,routed_to_agent_with_reason,"Sender does not own MC110739; possible error or fraud, held for review",0,,,2.1,{}
+MSG-00007,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC101091,2.46,{'ticket': 'TKT-00007'}
+MSG-00008,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,1,,MC105422,2.32,"{'amount_ngn': 44000.0, 'ref': 'RED-MC105422-44000'}"
+MSG-00009,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC104777,2.27,"{'ticket': 'TKT-00009', 'churn_risk': 0.042}"
+MSG-00010,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109759,1.97,{'stock': 'SEPLAT'}
+MSG-00011,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.29,{}
+MSG-00012,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC105776,3.46,{'ticket': 'TKT-00011'}
+MSG-00013,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC105243,2.26,{'stock': 'ACCESSCORP'}
+MSG-00014,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC102153,2.5,"{'amount_ngn': 1155000.0, 'ref': 'RED-MC102153-1155000'}"
+MSG-00015,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC105468,2.39,{'stock': 'UBA'}
+MSG-00016,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC103126,2.36,{'stock': 'ZENITHBANK'}
+MSG-00017,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC107613,2.35,"{'amount_ngn': 58000.0, 'ref': 'RED-MC107613-58000'}"
+MSG-00018,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC108358,2.4,"{'ticket': 'TKT-00014', 'churn_risk': 0.063}"
+MSG-00019,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.91,{}
+MSG-00020,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.62,{}
+MSG-00021,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC101005,2.08,"{'amount_ngn': 10000.0, 'ref': 'RED-MC101005-10000'}"
+MSG-00022,dividend_enquiry,dividend_enquiry,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.8,{}
+MSG-00023,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.75,{}
+MSG-00024,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC106383,3.15,{'ticket': 'TKT-00017'}
+MSG-00025,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.8,{}
+MSG-00026,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC106889,2.4,"{'amount_ngn': 54000.0, 'ref': 'RED-MC106889-54000'}"
+MSG-00027,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC105334,3.27,{'file': 'MC105334_statement.txt'}
+MSG-00028,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC109629,2.23,{'stock': 'ACCESSCORP'}
+MSG-00029,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.8,{}
+MSG-00030,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,"Sender does not own MC101636; possible error or fraud, held for review",0,,,1.95,{}
+MSG-00031,redemption_request,redemption_request,0.999,BusinessException,routed_to_agent_with_reason,"Requested N109,000 exceeds fund balance N92,500",0,,MC106450,2.05,{}
+MSG-00032,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC102631,1.86,"{'amount_ngn': 141000.0, 'ref': 'RED-MC102631-141000'}"
+MSG-00033,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC107258,1.93,"{'amount_ngn': 17000.0, 'ref': 'RED-MC107258-17000'}"
+MSG-00034,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC109578,2.07,"{'ticket': 'TKT-00022', 'churn_risk': 0.155}"
+MSG-00035,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC102352,1.9,{'stock': 'MTNN'}
+MSG-00036,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,"Requested N26,000 exceeds fund balance N23,400",1,,MC100751,2.05,{}
+MSG-00037,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103066,3.17,{'file': 'MC103066_statement.txt'}
+MSG-00038,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,3.27,{}
+MSG-00039,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC110556,3.37,{'file': 'MC110556_statement.txt'}
+MSG-00040,complaint,complaint,0.988,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111480; possible error or fraud, held for review",0,,,2.69,{}
+MSG-00041,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC108612,2.48,{'stock': 'ZENITHBANK'}
+MSG-00042,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC109171,3.35,{'file': 'MC109171_statement.txt'}
+MSG-00043,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,"Sender does not own MC102969; possible error or fraud, held for review",0,,,2.83,{}
+MSG-00044,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107843,4.73,{'file': 'MC107843_statement.txt'}
+MSG-00045,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC101837,3.02,{'stock': 'GTCO'}
+MSG-00046,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC102104,2.36,"{'ticket': 'TKT-00027', 'churn_risk': 0.027}"
+MSG-00047,statement_request,statement_request,0.745,Successful,statement_sent,,0,,MC107288,3.34,{'file': 'MC107288_statement.txt'}
+MSG-00048,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.87,{}
+MSG-00049,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105896,2.63,{'file': 'MC105896_statement.txt'}
+MSG-00050,complaint,complaint,0.992,Successful,complaint_ticket,,0,P2,MC109848,2.41,"{'ticket': 'TKT-00030', 'churn_risk': 0.023}"
+MSG-00051,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC100699,3.01,{'file': 'MC100699_statement.txt'}
+MSG-00052,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107497,3.27,{'file': 'MC107497_statement.txt'}
+MSG-00053,address_update,address_update,0.997,Successful,address_staged_for_kyc_review,,0,,MC106583,2.65,{'ticket': 'TKT-00034'}
+MSG-00054,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109576,3.07,{'file': 'MC109576_statement.txt'}
+MSG-00055,address_update,address_update,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.09,{}
+MSG-00056,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105455,2.95,{'file': 'MC105455_statement.txt'}
+MSG-00057,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.15,{}
+MSG-00058,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC100496,2.94,{'file': 'MC100496_statement.txt'}
+MSG-00059,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105759,2.2,"{'amount_ngn': 469000.0, 'ref': 'RED-MC105759-469000'}"
+MSG-00060,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC108966,2.69,{'stock': 'ZENITHBANK'}
+MSG-00061,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC111513,3.02,{'file': 'MC111513_statement.txt'}
+MSG-00062,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC111335,2.19,{'stock': 'UBA'}
+MSG-00063,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103192,2.67,{'file': 'MC103192_statement.txt'}
+MSG-00064,complaint,complaint,0.99,Successful,complaint_ticket,,0,P2,MC102344,2.29,"{'ticket': 'TKT-00041', 'churn_risk': 0.032}"
+MSG-00065,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102909,2.91,{'file': 'MC102909_statement.txt'}
+MSG-00066,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC106539,3.07,{'file': 'MC106539_statement.txt'}
+MSG-00067,complaint,complaint,0.995,Successful,complaint_ticket_rm_alerted,,0,P1,MC107269,2.65,"{'ticket': 'TKT-00044', 'churn_risk': 0.603}"
+MSG-00068,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC109055,3.66,{'file': 'MC109055_statement.txt'}
+MSG-00069,statement_request,statement_request,0.994,BusinessException,routed_to_agent_with_reason,Account MC928558 not found in client master,0,,,3.54,{}
+MSG-00070,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC106705,2.17,{'stock': 'DANGCEM'}
+MSG-00071,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC104821,2.47,"{'amount_ngn': 950000.0, 'ref': 'RED-MC104821-950000'}"
+MSG-00072,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC104707,2.53,"{'amount_ngn': 31000.0, 'ref': 'RED-MC104707-31000'}"
+MSG-00073,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC110391,2.4,"{'ticket': 'TKT-00048', 'churn_risk': 0.048}"
+MSG-00074,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC104872,2.09,"{'ticket': 'TKT-00049', 'churn_risk': 0.117}"
+MSG-00075,complaint,complaint,0.993,Successful,complaint_ticket,,0,P2,MC107630,1.9,"{'ticket': 'TKT-00050', 'churn_risk': 0.045}"
+MSG-00076,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108945,2.81,{'file': 'MC108945_statement.txt'}
+MSG-00077,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111062,2.6,{'file': 'MC111062_statement.txt'}
+MSG-00078,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,Account MC960303 not found in client master,0,,,1.77,{}
+MSG-00079,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,"Sender does not own MC105765; possible error or fraud, held for review",0,,,1.69,{}
+MSG-00080,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC103776,1.86,{'stock': 'ZENITHBANK'}
+MSG-00081,address_update,address_update,0.983,Successful,address_staged_for_kyc_review,,0,,MC101242,2.14,{'ticket': 'TKT-00054'}
+MSG-00082,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC100807,2.18,{'ticket': 'TKT-00056'}
+MSG-00083,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC101298,1.89,"{'ticket': 'TKT-00057', 'churn_risk': 0.046}"
+MSG-00084,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC107910,2.58,{'file': 'MC107910_statement.txt'}
+MSG-00085,complaint,complaint,0.99,Successful,complaint_ticket,,0,P2,MC111052,2.07,"{'ticket': 'TKT-00059', 'churn_risk': 0.038}"
+MSG-00086,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108585,3.08,{'file': 'MC108585_statement.txt'}
+MSG-00087,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC102079,2.61,{'file': 'MC102079_statement.txt'}
+MSG-00088,complaint,complaint,0.989,BusinessException,routed_to_agent_with_reason,"Sender does not own MC105132; possible error or fraud, held for review",0,,,2.01,{}
+MSG-00089,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC107475,2.96,{'file': 'MC107475_statement.txt'}
+MSG-00090,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC100932,3.48,{'file': 'MC100932_statement.txt'}
+MSG-00091,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109517,3.27,{'stock': 'NESTLE'}
+MSG-00092,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC105636,2.82,"{'ticket': 'TKT-00064', 'churn_risk': 0.021}"
+MSG-00093,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC104626,2.31,{'stock': 'DANGCEM'}
+MSG-00094,redemption_request,redemption_request,0.987,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.32,{}
+MSG-00095,complaint,complaint,0.987,Successful,complaint_ticket,,0,P2,MC111654,2.6,"{'ticket': 'TKT-00065', 'churn_risk': 0.027}"
+MSG-00096,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105298,2.23,{'stock': 'NESTLE'}
+MSG-00097,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC105141,2.77,{'file': 'MC105141_statement.txt'}
+MSG-00098,statement_request,statement_request,0.933,Successful,statement_sent,,0,,MC109055,2.92,{'file': 'MC109055_statement.txt'}
+MSG-00099,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111324,1.98,{'stock': 'NESTLE'}
+MSG-00100,complaint,complaint,0.986,Successful,complaint_ticket,,0,P2,MC110814,2.13,"{'ticket': 'TKT-00068', 'churn_risk': 0.033}"
+MSG-00101,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC108338,3.43,{'stock': 'NESTLE'}
+MSG-00102,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC104891,2.8,{'file': 'MC104891_statement.txt'}
+MSG-00103,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC103177,9.84,{'file': 'MC103177_statement.txt'}
+MSG-00104,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC106296,2.0,{'stock': 'SEPLAT'}
+MSG-00105,redemption_request,redemption_request,0.99,Successful,redemption_instruction_created,,0,,MC105573,1.85,"{'amount_ngn': 29000.0, 'ref': 'RED-MC105573-29000'}"
+MSG-00106,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109983,1.77,{'stock': 'UBA'}
+MSG-00107,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107489,2.08,{'stock': 'ACCESSCORP'}
+MSG-00108,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,1,,MC110143,3.05,{'ticket': 'TKT-00073'}
+MSG-00109,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC110310,3.16,{'file': 'MC110310_statement.txt'}
+MSG-00110,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC111107,2.8,{'file': 'MC111107_statement.txt'}
+MSG-00111,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109292,2.29,{'stock': 'NESTLE'}
+MSG-00112,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC102826,2.12,"{'amount_ngn': 176000.0, 'ref': 'RED-MC102826-176000'}"
+MSG-00113,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC102738,2.36,{'stock': 'SEPLAT'}
+MSG-00114,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104273,3.2,{'file': 'MC104273_statement.txt'}
+MSG-00115,dividend_enquiry,dividend_enquiry,0.991,Successful,dividend_reply_paid,,0,,MC104046,2.07,{'stock': 'GTCO'}
+MSG-00116,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC102324,2.19,{'ticket': 'TKT-00079'}
+MSG-00117,complaint,complaint,0.996,Successful,complaint_ticket,,1,P2,MC107044,2.47,"{'ticket': 'TKT-00080', 'churn_risk': 0.098}"
+MSG-00118,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N511,000 exceeds fund balance N475,200",0,,MC102148,2.45,{}
+MSG-00119,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC105866,1.97,"{'ticket': 'TKT-00081', 'churn_risk': 0.166}"
+MSG-00120,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109892,1.9,{'stock': 'DANGCEM'}
+MSG-00121,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC109058,1.91,"{'amount_ngn': 436000.0, 'ref': 'RED-MC109058-436000'}"
+MSG-00122,statement_request,complaint,0.614,HumanReview,routed_to_agent,Low confidence (0.61); could be complaint or statement_request,0,,,1.75,{}
+MSG-00123,statement_request,address_update,0.515,HumanReview,routed_to_agent,Low confidence (0.52); could be address_update or statement_request,0,,,1.81,{}
+MSG-00124,address_update,address_update,0.978,Successful,address_staged_for_kyc_review,,0,,MC105053,2.2,{'ticket': 'TKT-00084'}
+MSG-00125,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC102755,2.06,"{'ticket': 'TKT-00085', 'churn_risk': 0.066}"
+MSG-00126,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107758,2.59,{'file': 'MC107758_statement.txt'}
+MSG-00127,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104922,1.96,{'stock': 'MTNN'}
+MSG-00128,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106414,2.71,{'file': 'MC106414_statement.txt'}
+MSG-00129,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC110924,3.09,{'file': 'MC110924_statement.txt'}
+MSG-00130,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC104206,2.21,{'stock': 'GTCO'}
+MSG-00131,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.81,{}
+MSG-00132,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC106178,1.84,{'stock': 'GTCO'}
+MSG-00133,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,1,,MC110520,2.02,{'stock': 'ACCESSCORP'}
+MSG-00134,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC109172,2.89,{'file': 'MC109172_statement.txt'}
+MSG-00135,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC103513,2.79,{'file': 'MC103513_statement.txt'}
+MSG-00136,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC107256,2.73,{'file': 'MC107256_statement.txt'}
+MSG-00137,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC103387,2.9,{'file': 'MC103387_statement.txt'}
+MSG-00138,dividend_enquiry,dividend_enquiry,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.77,{}
+MSG-00139,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105644,2.67,{'file': 'MC105644_statement.txt'}
+MSG-00140,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC109475,2.51,{'ticket': 'TKT-00095'}
+MSG-00141,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC110721,2.56,{'ticket': 'TKT-00097'}
+MSG-00142,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.81,{}
+MSG-00143,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC100013,2.97,{'file': 'MC100013_statement.txt'}
+MSG-00144,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC100177,2.38,{'ticket': 'TKT-00100'}
+MSG-00145,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC108708,2.86,{'file': 'MC108708_statement.txt'}
+MSG-00146,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.76,{}
+MSG-00147,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,0,,MC110681,2.06,{'ticket': 'TKT-00103'}
+MSG-00148,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC100809,2.2,"{'amount_ngn': 616000.0, 'ref': 'RED-MC100809-616000'}"
+MSG-00149,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC108788,3.13,{'file': 'MC108788_statement.txt'}
+MSG-00150,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110154,2.16,{'stock': 'NESTLE'}
+MSG-00151,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC111444,1.94,{'stock': 'ZENITHBANK'}
+MSG-00152,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC108359,2.09,{'ticket': 'TKT-00107'}
+MSG-00153,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC109859,2.03,{'stock': 'MTNN'}
+MSG-00154,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107256,1.89,{'stock': 'DANGCEM'}
+MSG-00155,complaint,complaint,0.99,Successful,complaint_ticket_rm_alerted,,0,P1,MC107454,2.63,"{'ticket': 'TKT-00108', 'churn_risk': 0.397}"
+MSG-00156,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC110429,3.29,{'file': 'MC110429_statement.txt'}
+MSG-00157,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105955,2.59,{'stock': 'ZENITHBANK'}
+MSG-00158,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,0,,MC103907,2.28,{'ticket': 'TKT-00111'}
+MSG-00159,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC105719,2.01,"{'amount_ngn': 70000.0, 'ref': 'RED-MC105719-70000'}"
+MSG-00160,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,Account MC934984 not found in client master,0,,,1.68,{}
+MSG-00161,complaint,complaint,0.988,Successful,complaint_ticket_rm_alerted,,0,P1,MC104095,1.74,"{'ticket': 'TKT-00113', 'churn_risk': 0.404}"
+MSG-00162,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC109803,2.87,{'file': 'MC109803_statement.txt'}
+MSG-00163,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107956,2.06,{'stock': 'ACCESSCORP'}
+MSG-00164,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,1,,MC101511,1.95,{'stock': 'SEPLAT'}
+MSG-00165,dividend_enquiry,dividend_enquiry,0.99,Successful,dividend_reply_paid,,0,,MC107135,1.84,{'stock': 'GTCO'}
+MSG-00166,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC110677,1.95,"{'amount_ngn': 1916000.0, 'ref': 'RED-MC110677-1916000'}"
+MSG-00167,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC100316,3.21,{'stock': 'NESTLE'}
+MSG-00168,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102830,2.68,{'file': 'MC102830_statement.txt'}
+MSG-00169,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,Account MC946523 not found in client master,0,,,1.84,{}
+MSG-00170,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104935,2.42,{'file': 'MC104935_statement.txt'}
+MSG-00171,dividend_enquiry,statement_request,0.517,HumanReview,routed_to_agent,Low confidence (0.52); could be statement_request or dividend_enquiry,0,,,1.89,{}
+MSG-00172,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101410,1.74,{'stock': 'ACCESSCORP'}
+MSG-00173,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,Account MC908886 not found in client master,0,,,1.72,{}
+MSG-00174,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC108193,1.83,"{'ticket': 'TKT-00118', 'churn_risk': 0.076}"
+MSG-00175,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC111041,2.93,{'file': 'MC111041_statement.txt'}
+MSG-00176,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC102841,2.71,{'file': 'MC102841_statement.txt'}
+MSG-00177,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC103872,1.95,{'stock': 'UBA'}
+MSG-00178,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101865,2.06,{'stock': 'DANGCEM'}
+MSG-00179,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,0,,MC109947,2.23,{'ticket': 'TKT-00122'}
+MSG-00180,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC100338,1.93,{'stock': 'SEPLAT'}
+MSG-00181,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_held_pending_kyc,,0,,MC106902,1.84,{'stock': 'MTNN'}
+MSG-00182,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,1,,MC110287,1.84,{'stock': 'MTNN'}
+MSG-00183,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC111942,1.91,"{'ticket': 'TKT-00123', 'churn_risk': 0.037}"
+MSG-00184,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC110279,2.2,"{'amount_ngn': 344000.0, 'ref': 'RED-MC110279-344000'}"
+MSG-00185,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC106640,2.66,{'file': 'MC106640_statement.txt'}
+MSG-00186,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC111588,2.82,{'ticket': 'TKT-00127'}
+MSG-00187,redemption_request,redemption_request,0.74,Successful,redemption_instruction_created,,0,,MC104887,2.1,"{'amount_ngn': 477000.0, 'ref': 'RED-MC104887-477000'}"
+MSG-00188,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC106735,1.92,"{'ticket': 'TKT-00129', 'churn_risk': 0.081}"
+MSG-00189,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC110292,1.71,{'stock': 'NESTLE'}
+MSG-00190,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC100588,1.97,"{'amount_ngn': 83000.0, 'ref': 'RED-MC100588-83000'}"
+MSG-00191,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC104953,1.84,"{'amount_ngn': 86000.0, 'ref': 'RED-MC104953-86000'}"
+MSG-00192,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC104048,1.96,"{'ticket': 'TKT-00132', 'churn_risk': 0.044}"
+MSG-00193,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC103991,1.79,"{'ticket': 'TKT-00133', 'churn_risk': 0.15}"
+MSG-00194,statement_request,statement_request,1.0,BusinessException,routed_to_agent_with_reason,"Sender does not own MC102140; possible error or fraud, held for review",0,,,1.72,{}
+MSG-00195,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC109239,2.47,{'file': 'MC109239_statement.txt'}
+MSG-00196,complaint,complaint,0.988,BusinessException,routed_to_agent_with_reason,Account MC922730 not found in client master,0,,,1.81,{}
+MSG-00197,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC105514,1.58,{'stock': 'SEPLAT'}
+MSG-00198,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105001,2.09,{'stock': 'NESTLE'}
+MSG-00199,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC110005,2.69,{'file': 'MC110005_statement.txt'}
+MSG-00200,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC103545,1.88,{'stock': 'MTNN'}
+MSG-00201,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC100278,2.66,{'file': 'MC100278_statement.txt'}
+MSG-00202,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC108640,2.41,{'ticket': 'TKT-00138'}
+MSG-00203,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106171,2.8,{'file': 'MC106171_statement.txt'}
+MSG-00204,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC103531,3.04,{'file': 'MC103531_statement.txt'}
+MSG-00205,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.83,{}
+MSG-00206,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC102741,1.83,"{'amount_ngn': 25000.0, 'ref': 'RED-MC102741-25000'}"
+MSG-00207,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104173,2.68,{'stock': 'SEPLAT'}
+MSG-00208,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC103675,2.67,{'file': 'MC103675_statement.txt'}
+MSG-00209,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC106973,2.02,{'stock': 'DANGCEM'}
+MSG-00210,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC109591,2.58,{'file': 'MC109591_statement.txt'}
+MSG-00211,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC109828,1.85,{'stock': 'ZENITHBANK'}
+MSG-00212,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC102876,1.86,"{'amount_ngn': 69000.0, 'ref': 'RED-MC102876-69000'}"
+MSG-00213,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC110425,2.51,{'file': 'MC110425_statement.txt'}
+MSG-00214,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC109826,3.04,{'file': 'MC109826_statement.txt'}
+MSG-00215,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104192,2.99,{'file': 'MC104192_statement.txt'}
+MSG-00216,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.08,{}
+MSG-00217,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,"Requested N268,000 exceeds fund balance N226,000",0,,MC103296,1.98,{}
+MSG-00218,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC107483,2.0,"{'amount_ngn': 81000.0, 'ref': 'RED-MC107483-81000'}"
+MSG-00219,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101483,2.84,{'file': 'MC101483_statement.txt'}
+MSG-00220,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108159,3.32,{'file': 'MC108159_statement.txt'}
+MSG-00221,complaint,complaint,0.996,BusinessException,routed_to_agent_with_reason,"Sender does not own MC105868; possible error or fraud, held for review",0,,,2.08,{}
+MSG-00222,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC100040,3.29,{'file': 'MC100040_statement.txt'}
+MSG-00223,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC108657,2.13,"{'amount_ngn': 98000.0, 'ref': 'RED-MC108657-98000'}"
+MSG-00224,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC103075,2.08,"{'ticket': 'TKT-00153', 'churn_risk': 0.826}"
+MSG-00225,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC106818,1.89,{'stock': 'ACCESSCORP'}
+MSG-00226,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC100006,1.86,{'stock': 'NESTLE'}
+MSG-00227,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104393,1.94,{'stock': 'ACCESSCORP'}
+MSG-00228,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110112,1.86,{'stock': 'MTNN'}
+MSG-00229,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC109702,2.3,"{'ticket': 'TKT-00154', 'churn_risk': 0.021}"
+MSG-00230,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103087,2.81,{'file': 'MC103087_statement.txt'}
+MSG-00231,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102725,3.0,{'file': 'MC102725_statement.txt'}
+MSG-00232,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC106473,2.12,"{'amount_ngn': 10000.0, 'ref': 'RED-MC106473-10000'}"
+MSG-00233,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC104670,2.75,{'file': 'MC104670_statement.txt'}
+MSG-00234,statement_request,complaint,0.703,Successful,complaint_ticket,,1,P2,MC109857,2.23,"{'ticket': 'TKT-00159', 'churn_risk': 0.087}"
+MSG-00235,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_held_pending_kyc,,0,,MC110474,1.88,{'stock': 'NESTLE'}
+MSG-00236,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Requested N446,000 exceeds fund balance N369,400",0,,MC103322,1.8,{}
+MSG-00237,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC102847,2.74,{'file': 'MC102847_statement.txt'}
+MSG-00238,address_update,address_update,0.982,Successful,address_staged_for_kyc_review,,0,,MC107414,3.73,{'ticket': 'TKT-00162'}
+MSG-00239,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC101062,4.06,{'file': 'MC101062_statement.txt'}
+MSG-00240,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102456,4.05,{'file': 'MC102456_statement.txt'}
+MSG-00241,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,0,,MC100603,3.93,{'ticket': 'TKT-00166'}
+MSG-00242,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC101316,3.44,{'ticket': 'TKT-00168'}
+MSG-00243,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC104899,3.05,"{'amount_ngn': 28000.0, 'ref': 'RED-MC104899-28000'}"
+MSG-00244,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109885,3.02,{'stock': 'ZENITHBANK'}
+MSG-00245,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC107735,3.47,"{'ticket': 'TKT-00170', 'churn_risk': 0.081}"
+MSG-00246,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC104721,4.27,{'file': 'MC104721_statement.txt'}
+MSG-00247,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC105886,3.11,{'stock': 'UBA'}
+MSG-00248,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N3,300",0,,MC103549,3.1,{}
+MSG-00249,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC106379,2.94,"{'amount_ngn': 3948000.0, 'ref': 'RED-MC106379-3948000'}"
+MSG-00250,statement_request,statement_request,1.0,Successful,statement_sent,,1,,MC102047,3.43,{'file': 'MC102047_statement.txt'}
+MSG-00251,address_update,address_update,0.99,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.14,{}
+MSG-00252,complaint,complaint,0.99,Successful,complaint_ticket,,0,P2,MC101218,2.43,"{'ticket': 'TKT-00174', 'churn_risk': 0.16}"
+MSG-00253,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,Account MC921896 not found in client master,0,,,2.33,{}
+MSG-00254,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111985,2.88,{'stock': 'ACCESSCORP'}
+MSG-00255,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108807,3.29,{'file': 'MC108807_statement.txt'}
+MSG-00256,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109819,3.12,{'file': 'MC109819_statement.txt'}
+MSG-00257,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC111388,3.43,{'file': 'MC111388_statement.txt'}
+MSG-00258,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC108932,2.45,{'ticket': 'TKT-00179'}
+MSG-00259,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC104084,2.04,{'stock': 'DANGCEM'}
+MSG-00260,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105009,2.73,{'file': 'MC105009_statement.txt'}
+MSG-00261,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103947,2.03,{'stock': 'MTNN'}
+MSG-00262,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.66,{}
+MSG-00263,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC101869,1.66,{'stock': 'ACCESSCORP'}
+MSG-00264,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC100823,2.13,{'stock': 'NESTLE'}
+MSG-00265,complaint,complaint,0.979,Successful,complaint_ticket,,0,P2,MC111399,1.85,"{'ticket': 'TKT-00181', 'churn_risk': 0.025}"
+MSG-00266,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC103173,2.64,{'file': 'MC103173_statement.txt'}
+MSG-00267,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106130,2.61,{'file': 'MC106130_statement.txt'}
+MSG-00268,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N90,000 exceeds fund balance N82,900",0,,MC104727,1.87,{}
+MSG-00269,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC102665,1.82,{'stock': 'SEPLAT'}
+MSG-00270,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104231,2.48,{'file': 'MC104231_statement.txt'}
+MSG-00271,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC107888,2.83,{'file': 'MC107888_statement.txt'}
+MSG-00272,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,0,,MC111883,2.23,{'ticket': 'TKT-00187'}
+MSG-00273,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC105749,2.01,{'stock': 'ZENITHBANK'}
+MSG-00274,statement_request,statement_request,0.84,Successful,statement_sent,,0,,MC106428,2.57,{'file': 'MC106428_statement.txt'}
+MSG-00275,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC103735,2.18,{'ticket': 'TKT-00190'}
+MSG-00276,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC109301,3.05,{'file': 'MC109301_statement.txt'}
+MSG-00277,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC111176,2.83,{'file': 'MC111176_statement.txt'}
+MSG-00278,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC105259,1.93,"{'amount_ngn': 56000.0, 'ref': 'RED-MC105259-56000'}"
+MSG-00279,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC111826,1.83,"{'amount_ngn': 190000.0, 'ref': 'RED-MC111826-190000'}"
+MSG-00280,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC109171,1.78,"{'ticket': 'TKT-00195', 'churn_risk': 0.15}"
+MSG-00281,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103439,2.43,{'file': 'MC103439_statement.txt'}
+MSG-00282,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105746,2.8,{'file': 'MC105746_statement.txt'}
+MSG-00283,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N233,000 exceeds fund balance N202,800",0,,MC109740,2.05,{}
+MSG-00284,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109115,2.38,{'stock': 'DANGCEM'}
+MSG-00285,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC106001,2.64,{'file': 'MC106001_statement.txt'}
+MSG-00286,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC100119,2.44,{'ticket': 'TKT-00200'}
+MSG-00287,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105211,3.61,"{'amount_ngn': 259000.0, 'ref': 'RED-MC105211-259000'}"
+MSG-00288,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105851,3.91,{'file': 'MC105851_statement.txt'}
+MSG-00289,address_update,address_update,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.91,{}
+MSG-00290,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC103441,2.33,{'ticket': 'TKT-00204'}
+MSG-00291,statement_request,statement_request,0.537,HumanReview,routed_to_agent,Low confidence (0.54); could be statement_request or redemption_request,0,,,1.87,{}
+MSG-00292,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC105314,2.37,{'ticket': 'TKT-00206'}
+MSG-00293,dividend_enquiry,statement_request,0.649,HumanReview,routed_to_agent,Low confidence (0.65); could be statement_request or dividend_enquiry,0,,,1.97,{}
+MSG-00294,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105001,2.84,{'file': 'MC105001_statement.txt'}
+MSG-00295,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101544,2.6,{'stock': 'ZENITHBANK'}
+MSG-00296,redemption_request,redemption_request,0.994,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N9,500",0,,MC108369,1.97,{}
+MSG-00297,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC103803,3.29,{'file': 'MC103803_statement.txt'}
+MSG-00298,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC107544,2.86,{'ticket': 'TKT-00210'}
+MSG-00299,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.83,{}
+MSG-00300,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,Account MC924954 not found in client master,0,,,1.84,{}
+MSG-00301,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC109313,1.91,"{'ticket': 'TKT-00211', 'churn_risk': 0.029}"
+MSG-00302,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102129,2.16,{'stock': 'NESTLE'}
+MSG-00303,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC110612,2.25,{'stock': 'ZENITHBANK'}
+MSG-00304,complaint,complaint,0.985,Successful,complaint_ticket,,0,P2,MC108599,2.3,"{'ticket': 'TKT-00212', 'churn_risk': 0.137}"
+MSG-00305,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC110031,2.49,{'ticket': 'TKT-00214'}
+MSG-00306,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC103539,3.09,{'file': 'MC103539_statement.txt'}
+MSG-00307,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC111405,2.19,{'stock': 'MTNN'}
+MSG-00308,statement_request,statement_request,0.993,Successful,statement_sent,,1,,MC105986,2.83,{'file': 'MC105986_statement.txt'}
+MSG-00309,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N25,000 exceeds fund balance N22,600",0,,MC111919,2.19,{}
+MSG-00310,redemption_request,redemption_request,0.709,Successful,redemption_instruction_created,,0,,MC105403,2.23,"{'amount_ngn': 33000.0, 'ref': 'RED-MC105403-33000'}"
+MSG-00311,complaint,complaint,0.993,Successful,complaint_ticket,,0,P2,MC104756,2.09,"{'ticket': 'TKT-00218', 'churn_risk': 0.061}"
+MSG-00312,address_update,address_update,0.984,Successful,address_staged_for_kyc_review,,0,,MC108985,2.36,{'ticket': 'TKT-00220'}
+MSG-00313,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,1,,MC106357,2.51,{'ticket': 'TKT-00222'}
+MSG-00314,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC100907,3.1,{'file': 'MC100907_statement.txt'}
+MSG-00315,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC106334,3.08,{'file': 'MC106334_statement.txt'}
+MSG-00316,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC105550,3.66,{'file': 'MC105550_statement.txt'}
+MSG-00317,address_update,address_update,0.98,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.9,{}
+MSG-00318,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103292,3.22,{'file': 'MC103292_statement.txt'}
+MSG-00319,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC107823,2.69,{'ticket': 'TKT-00228'}
+MSG-00320,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.8,{}
+MSG-00321,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103902,2.95,{'file': 'MC103902_statement.txt'}
+MSG-00322,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,"Sender does not own MC104457; possible error or fraud, held for review",0,,,2.2,{}
+MSG-00323,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC104210,2.11,{'ticket': 'TKT-00231'}
+MSG-00324,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC100578,2.08,"{'amount_ngn': 547000.0, 'ref': 'RED-MC100578-547000'}"
+MSG-00325,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105453,2.97,{'file': 'MC105453_statement.txt'}
+MSG-00326,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,0,,MC107925,2.3,{'ticket': 'TKT-00235'}
+MSG-00327,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,"Requested N17,000 exceeds fund balance N16,300",0,,MC110622,2.19,{}
+MSG-00328,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC109552,1.92,"{'amount_ngn': 139000.0, 'ref': 'RED-MC109552-139000'}"
+MSG-00329,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC103187,2.74,{'file': 'MC103187_statement.txt'}
+MSG-00330,redemption_request,redemption_request,0.992,Successful,redemption_instruction_created,,0,,MC110683,2.24,"{'amount_ngn': 97000.0, 'ref': 'RED-MC110683-97000'}"
+MSG-00331,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,"Sender does not own MC100282; possible error or fraud, held for review",0,,,2.1,{}
+MSG-00332,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC111213,2.79,{'file': 'MC111213_statement.txt'}
+MSG-00333,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC111742,3.14,{'file': 'MC111742_statement.txt'}
+MSG-00334,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC104932,4.13,{'file': 'MC104932_statement.txt'}
+MSG-00335,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC105274,5.48,"{'amount_ngn': 2633000.0, 'ref': 'RED-MC105274-2633000'}"
+MSG-00336,redemption_request,redemption_request,0.988,Successful,redemption_instruction_created,,0,,MC104803,1.87,"{'amount_ngn': 19000.0, 'ref': 'RED-MC104803-19000'}"
+MSG-00337,redemption_request,redemption_request,0.994,BusinessException,routed_to_agent_with_reason,"Requested N13,000 exceeds fund balance N11,400",0,,MC107113,2.55,{}
+MSG-00338,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC101733,2.09,"{'amount_ngn': 21000.0, 'ref': 'RED-MC101733-21000'}"
+MSG-00339,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_held_pending_kyc,,0,,MC107896,2.02,{'stock': 'ACCESSCORP'}
+MSG-00340,complaint,complaint,0.985,Successful,complaint_ticket,,0,P2,MC105636,2.98,"{'ticket': 'TKT-00245', 'churn_risk': 0.021}"
+MSG-00341,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC101463,2.42,"{'amount_ngn': 29000.0, 'ref': 'RED-MC101463-29000'}"
+MSG-00342,address_update,address_update,0.984,Successful,address_staged_for_kyc_review,,0,,MC100247,2.43,{'ticket': 'TKT-00248'}
+MSG-00343,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC106612,1.91,{'stock': 'SEPLAT'}
+MSG-00344,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC106129,2.02,"{'amount_ngn': 124000.0, 'ref': 'RED-MC106129-124000'}"
+MSG-00345,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,1,,MC100218,3.41,{'ticket': 'TKT-00251'}
+MSG-00346,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC110963,2.01,"{'ticket': 'TKT-00252', 'churn_risk': 0.046}"
+MSG-00347,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N2,600",1,,MC110320,2.23,{}
+MSG-00348,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105890,2.51,"{'amount_ngn': 76000.0, 'ref': 'RED-MC105890-76000'}"
+MSG-00349,statement_request,statement_request,0.652,HumanReview,routed_to_agent,Low confidence (0.65); could be statement_request or redemption_request,0,,,1.84,{}
+MSG-00350,statement_request,statement_request,0.803,Successful,statement_sent,,0,,MC102540,3.33,{'file': 'MC102540_statement.txt'}
+MSG-00351,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC101603,2.14,"{'ticket': 'TKT-00255', 'churn_risk': 0.528}"
+MSG-00352,address_update,address_update,0.979,Successful,address_staged_for_kyc_review,,0,,MC101074,4.19,{'ticket': 'TKT-00257'}
+MSG-00353,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC103621,4.4,{'ticket': 'TKT-00259'}
+MSG-00354,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC108749,2.4,"{'ticket': 'TKT-00260', 'churn_risk': 0.01}"
+MSG-00355,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,0,,MC104730,2.5,{'ticket': 'TKT-00262'}
+MSG-00356,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC107664,3.19,{'file': 'MC107664_statement.txt'}
+MSG-00357,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107083,2.49,{'stock': 'SEPLAT'}
+MSG-00358,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102114,2.92,{'file': 'MC102114_statement.txt'}
+MSG-00359,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104662,2.52,{'file': 'MC104662_statement.txt'}
+MSG-00360,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC105444,2.73,{'file': 'MC105444_statement.txt'}
+MSG-00361,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.73,{}
+MSG-00362,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102620,1.76,{'stock': 'NESTLE'}
+MSG-00363,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110197,3.14,{'file': 'MC110197_statement.txt'}
+MSG-00364,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104412,2.61,{'stock': 'MTNN'}
+MSG-00365,complaint,complaint,0.981,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.96,{}
+MSG-00366,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108625,2.77,{'file': 'MC108625_statement.txt'}
+MSG-00367,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC107375,2.45,"{'ticket': 'TKT-00269', 'churn_risk': 0.179}"
+MSG-00368,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.16,{}
+MSG-00369,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102446,1.85,"{'amount_ngn': 156000.0, 'ref': 'RED-MC102446-156000'}"
+MSG-00370,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC108153,2.52,{'ticket': 'TKT-00272'}
+MSG-00371,redemption_request,redemption_request,0.991,BusinessException,routed_to_agent_with_reason,"Requested N51,000 exceeds fund balance N44,600",1,,MC103623,2.03,{}
+MSG-00372,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105739,3.15,{'file': 'MC105739_statement.txt'}
+MSG-00373,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108645,2.87,{'file': 'MC108645_statement.txt'}
+MSG-00374,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC106699,2.74,{'file': 'MC106699_statement.txt'}
+MSG-00375,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102226,2.08,"{'amount_ngn': 92000.0, 'ref': 'RED-MC102226-92000'}"
+MSG-00376,address_update,address_update,0.978,Successful,address_staged_for_kyc_review,,0,,MC109052,2.1,{'ticket': 'TKT-00278'}
+MSG-00377,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC101164,2.45,{'ticket': 'TKT-00280'}
+MSG-00378,dividend_enquiry,dividend_enquiry,0.988,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.61,{}
+MSG-00379,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC100777,1.73,"{'amount_ngn': 16000.0, 'ref': 'RED-MC100777-16000'}"
+MSG-00380,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC102449,1.82,"{'ticket': 'TKT-00282', 'churn_risk': 0.05}"
+MSG-00381,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107206,3.55,{'file': 'MC107206_statement.txt'}
+MSG-00382,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC105926,2.49,"{'amount_ngn': 20000.0, 'ref': 'RED-MC105926-20000'}"
+MSG-00383,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105174,2.58,{'stock': 'ACCESSCORP'}
+MSG-00384,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC108455,2.7,{'file': 'MC108455_statement.txt'}
+MSG-00385,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC107367,2.24,{'ticket': 'TKT-00287'}
+MSG-00386,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102662,3.25,{'file': 'MC102662_statement.txt'}
+MSG-00387,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_held_pending_kyc,,0,,MC103301,1.94,{'stock': 'ZENITHBANK'}
+MSG-00388,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC100621,2.59,{'file': 'MC100621_statement.txt'}
+MSG-00389,dividend_enquiry,address_update,0.505,HumanReview,routed_to_agent,Low confidence (0.51); could be address_update or dividend_enquiry,0,,,1.8,{}
+MSG-00390,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100686,4.47,{'file': 'MC100686_statement.txt'}
+MSG-00391,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC101782,3.01,"{'ticket': 'TKT-00291', 'churn_risk': 0.076}"
+MSG-00392,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC105698,2.76,{'stock': 'DANGCEM'}
+MSG-00393,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC111848,2.97,"{'amount_ngn': 131000.0, 'ref': 'RED-MC111848-131000'}"
+MSG-00394,redemption_request,redemption_request,0.999,BusinessException,routed_to_agent_with_reason,"Requested N202,000 exceeds fund balance N174,400",0,,MC111420,3.11,{}
+MSG-00395,address_update,address_update,0.984,Successful,address_staged_for_kyc_review,,0,,MC111679,3.97,{'ticket': 'TKT-00294'}
+MSG-00396,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109234,3.09,{'stock': 'MTNN'}
+MSG-00397,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC104109,3.89,{'file': 'MC104109_statement.txt'}
+MSG-00398,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110434,2.89,{'stock': 'NESTLE'}
+MSG-00399,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC103113,2.81,{'ticket': 'TKT-00297'}
+MSG-00400,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102206,3.0,"{'amount_ngn': 22000.0, 'ref': 'RED-MC102206-22000'}"
+MSG-00401,redemption_request,redemption_request,0.992,Successful,redemption_instruction_created,,0,,MC108452,3.43,"{'amount_ngn': 33000.0, 'ref': 'RED-MC108452-33000'}"
+MSG-00402,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC110232,3.09,{'ticket': 'TKT-00301'}
+MSG-00403,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103540,4.04,{'file': 'MC103540_statement.txt'}
+MSG-00404,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.5,{}
+MSG-00405,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC100139,2.66,{'stock': 'NESTLE'}
+MSG-00406,complaint,complaint,0.985,Successful,complaint_ticket_rm_alerted,,0,P1,MC108948,3.16,"{'ticket': 'TKT-00303', 'churn_risk': 0.834}"
+MSG-00407,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC111261,2.73,{'stock': 'UBA'}
+MSG-00408,statement_request,statement_request,0.658,HumanReview,routed_to_agent,Low confidence (0.66); could be statement_request or redemption_request,0,,,2.84,{}
+MSG-00409,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103919,3.84,{'file': 'MC103919_statement.txt'}
+MSG-00410,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102964,2.77,{'stock': 'NESTLE'}
+MSG-00411,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N170,000 exceeds fund balance N158,700",0,,MC100481,2.93,{}
+MSG-00412,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC105379,3.27,"{'ticket': 'TKT-00305', 'churn_risk': 0.045}"
+MSG-00413,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110931,4.04,{'file': 'MC110931_statement.txt'}
+MSG-00414,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC106149,2.8,{'stock': 'DANGCEM'}
+MSG-00415,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Requested N188,000 exceeds fund balance N165,600",0,,MC102122,2.46,{}
+MSG-00416,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.5,{}
+MSG-00417,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC100910,3.25,{'file': 'MC100910_statement.txt'}
+MSG-00418,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104559,3.42,{'file': 'MC104559_statement.txt'}
+MSG-00419,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC111453,2.98,{'stock': 'ACCESSCORP'}
+MSG-00420,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC102011,3.34,{'ticket': 'TKT-00310'}
+MSG-00421,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC101885,4.18,{'file': 'MC101885_statement.txt'}
+MSG-00422,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC111551,5.05,"{'amount_ngn': 10000.0, 'ref': 'RED-MC111551-10000'}"
+MSG-00423,dividend_enquiry,dividend_enquiry,0.844,BusinessException,routed_to_agent_with_reason,"Sender does not own MC100029; possible error or fraud, held for review",0,,,2.51,{}
+MSG-00424,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC107232,2.33,"{'amount_ngn': 291000.0, 'ref': 'RED-MC107232-291000'}"
+MSG-00425,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.07,{}
+MSG-00426,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105626,2.16,{'stock': 'SEPLAT'}
+MSG-00427,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC101830,2.86,{'file': 'MC101830_statement.txt'}
+MSG-00428,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC111170,2.64,{'file': 'MC111170_statement.txt'}
+MSG-00429,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC104111,2.21,{'ticket': 'TKT-00317'}
+MSG-00430,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC102553,1.93,"{'amount_ngn': 1229000.0, 'ref': 'RED-MC102553-1229000'}"
+MSG-00431,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC107523,1.81,"{'ticket': 'TKT-00319', 'churn_risk': 0.454}"
+MSG-00432,address_update,complaint,0.486,HumanReview,routed_to_agent,Low confidence (0.49); could be complaint or address_update,0,,,1.83,{}
+MSG-00433,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105842,2.48,{'file': 'MC105842_statement.txt'}
+MSG-00434,dividend_enquiry,dividend_enquiry,0.991,Successful,dividend_reply_paid,,0,,MC110216,1.94,{'stock': 'SEPLAT'}
+MSG-00435,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102350,2.65,{'file': 'MC102350_statement.txt'}
+MSG-00436,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC107631,3.39,{'file': 'MC107631_statement.txt'}
+MSG-00437,redemption_request,redemption_request,0.989,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.5,{}
+MSG-00438,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC107129,2.39,{'ticket': 'TKT-00324'}
+MSG-00439,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC100700,2.62,{'ticket': 'TKT-00326'}
+MSG-00440,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC101581,3.45,{'file': 'MC101581_statement.txt'}
+MSG-00441,complaint,complaint,0.988,Successful,complaint_ticket,,1,P2,MC109190,2.38,"{'ticket': 'TKT-00328', 'churn_risk': 0.009}"
+MSG-00442,address_update,complaint,0.62,HumanReview,routed_to_agent,Low confidence (0.62); could be complaint or address_update,0,,,2.3,{}
+MSG-00443,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109003,3.62,{'file': 'MC109003_statement.txt'}
+MSG-00444,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC107420,2.46,{'stock': 'MTNN'}
+MSG-00445,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC103874,2.13,"{'amount_ngn': 1893000.0, 'ref': 'RED-MC103874-1893000'}"
+MSG-00446,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110963,3.09,{'file': 'MC110963_statement.txt'}
+MSG-00447,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101913,3.0,{'file': 'MC101913_statement.txt'}
+MSG-00448,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,Account MC980432 not found in client master,0,,,2.0,{}
+MSG-00449,dividend_enquiry,dividend_enquiry,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.57,{}
+MSG-00450,statement_request,statement_request,0.993,BusinessException,routed_to_agent_with_reason,"Sender does not own MC104104; possible error or fraud, held for review",0,,,1.74,{}
+MSG-00451,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105399,3.02,{'file': 'MC105399_statement.txt'}
+MSG-00452,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC101036,3.1,{'file': 'MC101036_statement.txt'}
+MSG-00453,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC106367,2.94,{'file': 'MC106367_statement.txt'}
+MSG-00454,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N5,300",0,,MC107419,2.15,{}
+MSG-00455,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.65,{}
+MSG-00456,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.67,{}
+MSG-00457,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109029,1.74,{'stock': 'DANGCEM'}
+MSG-00458,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,1,,MC110837,2.61,{'ticket': 'TKT-00337'}
+MSG-00459,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC105716,2.02,{'stock': 'ACCESSCORP'}
+MSG-00460,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC100876,1.95,"{'amount_ngn': 271000.0, 'ref': 'RED-MC100876-271000'}"
+MSG-00461,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC101360,2.26,{'ticket': 'TKT-00340'}
+MSG-00462,complaint,complaint,0.987,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.82,{}
+MSG-00463,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC100455,2.67,{'file': 'MC100455_statement.txt'}
+MSG-00464,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.99,{}
+MSG-00465,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC111242,1.87,"{'amount_ngn': 71000.0, 'ref': 'RED-MC111242-71000'}"
+MSG-00466,address_update,address_update,0.98,BusinessException,routed_to_agent_with_reason,Account MC972677 not found in client master,0,,,1.74,{}
+MSG-00467,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,"Sender does not own MC108949; possible error or fraud, held for review",0,,,1.69,{}
+MSG-00468,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC101235,1.91,{'stock': 'MTNN'}
+MSG-00469,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC110356,2.76,{'file': 'MC110356_statement.txt'}
+MSG-00470,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC106886,2.52,{'ticket': 'TKT-00345'}
+MSG-00471,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC111688,2.43,{'ticket': 'TKT-00347'}
+MSG-00472,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC108197,2.9,{'file': 'MC108197_statement.txt'}
+MSG-00473,complaint,complaint,0.981,Successful,complaint_ticket,,1,P2,MC105654,2.25,"{'ticket': 'TKT-00349', 'churn_risk': 0.032}"
+MSG-00474,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102448,2.87,{'file': 'MC102448_statement.txt'}
+MSG-00475,statement_request,statement_request,0.602,HumanReview,routed_to_agent,Low confidence (0.60); could be statement_request or address_update,0,,,2.06,{}
+MSG-00476,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC104833,2.16,{'ticket': 'TKT-00352'}
+MSG-00477,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC110430,2.02,"{'ticket': 'TKT-00353', 'churn_risk': 0.055}"
+MSG-00478,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,"Sender does not own MC104318; possible error or fraud, held for review",0,,,1.94,{}
+MSG-00479,redemption_request,redemption_request,0.99,Successful,redemption_instruction_created,,0,,MC110031,1.91,"{'amount_ngn': 18000.0, 'ref': 'RED-MC110031-18000'}"
+MSG-00480,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC101656,2.9,{'file': 'MC101656_statement.txt'}
+MSG-00481,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC106951,2.18,{'stock': 'MTNN'}
+MSG-00482,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC103504,2.09,"{'ticket': 'TKT-00356', 'churn_risk': 0.026}"
+MSG-00483,address_update,address_update,0.996,BusinessException,routed_to_agent_with_reason,Account MC900539 not found in client master,0,,,1.62,{}
+MSG-00484,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC100693,2.74,{'stock': 'SEPLAT'}
+MSG-00485,redemption_request,redemption_request,0.515,HumanReview,routed_to_agent,Low confidence (0.52); could be redemption_request or statement_request,0,,,1.98,{}
+MSG-00486,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC111602,2.83,{'file': 'MC111602_statement.txt'}
+MSG-00487,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC103718,2.32,"{'ticket': 'TKT-00358', 'churn_risk': 0.189}"
+MSG-00488,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC102436,2.74,{'file': 'MC102436_statement.txt'}
+MSG-00489,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC110333,2.83,{'file': 'MC110333_statement.txt'}
+MSG-00490,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105477,2.21,"{'amount_ngn': 650000.0, 'ref': 'RED-MC105477-650000'}"
+MSG-00491,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC105438,1.92,"{'ticket': 'TKT-00362', 'churn_risk': 0.056}"
+MSG-00492,complaint,complaint,0.996,Successful,complaint_ticket,,1,P2,MC103532,1.98,"{'ticket': 'TKT-00363', 'churn_risk': 0.029}"
+MSG-00493,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC100467,2.2,{'ticket': 'TKT-00365'}
+MSG-00494,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,"Sender does not own MC107015; possible error or fraud, held for review",0,,,1.96,{}
+MSG-00495,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC109216,2.71,{'file': 'MC109216_statement.txt'}
+MSG-00496,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,"Requested N55,000 exceeds fund balance N52,900",0,,MC104098,2.19,{}
+MSG-00497,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC106728,2.72,{'file': 'MC106728_statement.txt'}
+MSG-00498,address_update,address_update,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.81,{}
+MSG-00499,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108337,2.57,{'file': 'MC108337_statement.txt'}
+MSG-00500,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC107610,2.47,{'ticket': 'TKT-00370'}
+MSG-00501,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC100322,2.19,{'ticket': 'TKT-00372'}
+MSG-00502,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC108581,2.01,"{'amount_ngn': 36000.0, 'ref': 'RED-MC108581-36000'}"
+MSG-00503,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC109194,1.87,"{'amount_ngn': 152000.0, 'ref': 'RED-MC109194-152000'}"
+MSG-00504,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC100329,1.88,{'stock': 'NESTLE'}
+MSG-00505,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC103371,1.86,"{'amount_ngn': 20000.0, 'ref': 'RED-MC103371-20000'}"
+MSG-00506,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC107490,1.97,"{'amount_ngn': 10000.0, 'ref': 'RED-MC107490-10000'}"
+MSG-00507,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110023,2.88,{'file': 'MC110023_statement.txt'}
+MSG-00508,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103343,3.02,{'file': 'MC103343_statement.txt'}
+MSG-00509,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC108280,2.37,{'ticket': 'TKT-00380'}
+MSG-00510,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC103112,2.19,{'ticket': 'TKT-00382'}
+MSG-00511,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.81,{}
+MSG-00512,address_update,address_update,0.981,Successful,address_staged_for_kyc_review,,0,,MC106382,2.04,{'ticket': 'TKT-00384'}
+MSG-00513,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC110377,2.92,{'file': 'MC110377_statement.txt'}
+MSG-00514,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC110722,2.3,{'ticket': 'TKT-00387'}
+MSG-00515,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC101730,2.35,{'stock': 'ACCESSCORP'}
+MSG-00516,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC106243,1.76,{'stock': 'ZENITHBANK'}
+MSG-00517,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101775,1.87,{'stock': 'SEPLAT'}
+MSG-00518,redemption_request,complaint,0.699,HumanReview,routed_to_agent,Low confidence (0.70); could be complaint or redemption_request,0,,,1.7,{}
+MSG-00519,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC104520,1.8,"{'amount_ngn': 10000.0, 'ref': 'RED-MC104520-10000'}"
+MSG-00520,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,"Requested N35,000 exceeds fund balance N29,900",0,,MC102055,1.81,{}
+MSG-00521,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC105709,1.87,"{'ticket': 'TKT-00389', 'churn_risk': 0.159}"
+MSG-00522,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC106811,2.82,{'file': 'MC106811_statement.txt'}
+MSG-00523,redemption_request,redemption_request,0.499,HumanReview,routed_to_agent,Low confidence (0.50); could be redemption_request or statement_request,0,,,1.98,{}
+MSG-00524,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC110901,1.85,{'stock': 'NESTLE'}
+MSG-00525,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC107786,1.99,"{'ticket': 'TKT-00391', 'churn_risk': 0.072}"
+MSG-00526,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC100114,2.12,{'ticket': 'TKT-00393'}
+MSG-00527,address_update,address_update,0.982,Successful,address_staged_for_kyc_review,,0,,MC111075,2.33,{'ticket': 'TKT-00395'}
+MSG-00528,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC106557,1.97,"{'ticket': 'TKT-00396', 'churn_risk': 0.016}"
+MSG-00529,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC103300,1.95,{'stock': 'ACCESSCORP'}
+MSG-00530,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC104782,2.07,{'ticket': 'TKT-00398'}
+MSG-00531,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101011,3.0,{'file': 'MC101011_statement.txt'}
+MSG-00532,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC100097,2.08,{'stock': 'NESTLE'}
+MSG-00533,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC106767,2.86,{'file': 'MC106767_statement.txt'}
+MSG-00534,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC100033,2.16,"{'ticket': 'TKT-00401', 'churn_risk': 0.077}"
+MSG-00535,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110292,1.81,{'stock': 'DANGCEM'}
+MSG-00536,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC108660,2.78,{'file': 'MC108660_statement.txt'}
+MSG-00537,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC101958,2.77,{'file': 'MC101958_statement.txt'}
+MSG-00538,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100437,2.99,{'file': 'MC100437_statement.txt'}
+MSG-00539,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC100170,2.18,"{'amount_ngn': 171000.0, 'ref': 'RED-MC100170-171000'}"
+MSG-00540,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC109645,2.89,{'file': 'MC109645_statement.txt'}
+MSG-00541,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102023,2.18,{'stock': 'ZENITHBANK'}
+MSG-00542,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC102282,2.06,"{'amount_ngn': 33000.0, 'ref': 'RED-MC102282-33000'}"
+MSG-00543,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111579,2.76,{'file': 'MC111579_statement.txt'}
+MSG-00544,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC106632,2.97,{'file': 'MC106632_statement.txt'}
+MSG-00545,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC103194,2.18,"{'amount_ngn': 10000.0, 'ref': 'RED-MC103194-10000'}"
+MSG-00546,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104424,2.67,{'file': 'MC104424_statement.txt'}
+MSG-00547,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC108655,2.1,"{'amount_ngn': 94000.0, 'ref': 'RED-MC108655-94000'}"
+MSG-00548,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC109913,3.76,"{'ticket': 'TKT-00413', 'churn_risk': 0.092}"
+MSG-00549,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC102761,1.86,{'stock': 'MTNN'}
+MSG-00550,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107247,2.72,{'file': 'MC107247_statement.txt'}
+MSG-00551,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC100040,2.11,{'stock': 'DANGCEM'}
+MSG-00552,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC106508,2.79,{'file': 'MC106508_statement.txt'}
+MSG-00553,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC111068,2.18,"{'amount_ngn': 326000.0, 'ref': 'RED-MC111068-326000'}"
+MSG-00554,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC104110,2.87,{'file': 'MC104110_statement.txt'}
+MSG-00555,address_update,address_update,0.996,Successful,address_staged_for_kyc_review,,0,,MC100991,2.44,{'ticket': 'TKT-00419'}
+MSG-00556,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC111388,2.06,{'stock': 'DANGCEM'}
+MSG-00557,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC109736,1.94,{'stock': 'MTNN'}
+MSG-00558,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108311,3.23,{'file': 'MC108311_statement.txt'}
+MSG-00559,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102073,2.2,"{'amount_ngn': 54000.0, 'ref': 'RED-MC102073-54000'}"
+MSG-00560,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC104057,2.29,{'ticket': 'TKT-00423'}
+MSG-00561,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101867,2.14,{'stock': 'DANGCEM'}
+MSG-00562,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC103653,1.96,"{'amount_ngn': 99000.0, 'ref': 'RED-MC103653-99000'}"
+MSG-00563,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC105543,2.24,{'ticket': 'TKT-00426'}
+MSG-00564,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC109867,1.98,"{'amount_ngn': 1242000.0, 'ref': 'RED-MC109867-1242000'}"
+MSG-00565,complaint,complaint,0.978,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111747; possible error or fraud, held for review",0,,,1.97,{}
+MSG-00566,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC109614,2.88,{'file': 'MC109614_statement.txt'}
+MSG-00567,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC110245,2.58,{'stock': 'DANGCEM'}
+MSG-00568,complaint,complaint,0.986,Successful,complaint_ticket,,0,P2,MC110951,2.11,"{'ticket': 'TKT-00429', 'churn_risk': 0.015}"
+MSG-00569,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.64,{}
+MSG-00570,statement_request,statement_request,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.62,{}
+MSG-00571,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC107243,1.9,"{'ticket': 'TKT-00430', 'churn_risk': 0.057}"
+MSG-00572,statement_request,statement_request,0.995,Successful,statement_sent,,1,,MC104954,2.96,{'file': 'MC104954_statement.txt'}
+MSG-00573,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC110272,3.05,{'file': 'MC110272_statement.txt'}
+MSG-00574,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC108293,2.99,{'file': 'MC108293_statement.txt'}
+MSG-00575,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC107295,2.2,{'stock': 'ZENITHBANK'}
+MSG-00576,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC109520,1.9,"{'amount_ngn': 191000.0, 'ref': 'RED-MC109520-191000'}"
+MSG-00577,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC102754,1.9,{'stock': 'MTNN'}
+MSG-00578,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104043,1.74,{'stock': 'MTNN'}
+MSG-00579,address_update,address_update,0.985,Successful,address_staged_for_kyc_review,,0,,MC103783,2.12,{'ticket': 'TKT-00436'}
+MSG-00580,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC111459,1.9,"{'amount_ngn': 171000.0, 'ref': 'RED-MC111459-171000'}"
+MSG-00581,address_update,address_update,0.997,Successful,address_staged_for_kyc_review,,0,,MC106952,2.21,{'ticket': 'TKT-00439'}
+MSG-00582,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC100089,1.96,{'stock': 'GTCO'}
+MSG-00583,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.57,{}
+MSG-00584,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111792,2.6,{'file': 'MC111792_statement.txt'}
+MSG-00585,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC106848,2.08,"{'amount_ngn': 54000.0, 'ref': 'RED-MC106848-54000'}"
+MSG-00586,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106484,2.78,{'file': 'MC106484_statement.txt'}
+MSG-00587,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,"Requested N29,000 exceeds fund balance N24,600",0,,MC108326,2.18,{}
+MSG-00588,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109021,1.96,{'stock': 'MTNN'}
+MSG-00589,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105915,2.82,{'file': 'MC105915_statement.txt'}
+MSG-00590,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC100434,2.16,{'stock': 'DANGCEM'}
+MSG-00591,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC109816,2.06,"{'amount_ngn': 477000.0, 'ref': 'RED-MC109816-477000'}"
+MSG-00592,dividend_enquiry,dividend_enquiry,0.991,Successful,dividend_reply_held_pending_kyc,,0,,MC106287,1.92,{'stock': 'GTCO'}
+MSG-00593,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC103203,2.01,"{'ticket': 'TKT-00445', 'churn_risk': 0.065}"
+MSG-00594,address_update,address_update,0.997,Successful,address_staged_for_kyc_review,,0,,MC109536,2.3,{'ticket': 'TKT-00447'}
+MSG-00595,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC108910,2.13,"{'ticket': 'TKT-00448', 'churn_risk': 0.06}"
+MSG-00596,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103580,2.04,{'stock': 'ZENITHBANK'}
+MSG-00597,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC105625,3.54,{'ticket': 'TKT-00450'}
+MSG-00598,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104167,2.04,{'stock': 'DANGCEM'}
+MSG-00599,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC111015,2.16,{'ticket': 'TKT-00452'}
+MSG-00600,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC109837,1.96,{'stock': 'UBA'}
+MSG-00601,address_update,statement_request,0.647,HumanReview,routed_to_agent,Low confidence (0.65); could be statement_request or address_update,0,,,1.84,{}
+MSG-00602,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC100272,2.87,{'file': 'MC100272_statement.txt'}
+MSG-00603,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC106286,3.04,{'file': 'MC106286_statement.txt'}
+MSG-00604,statement_request,statement_request,0.99,Successful,statement_sent,,0,,MC105031,3.04,{'file': 'MC105031_statement.txt'}
+MSG-00605,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC102177,2.25,"{'ticket': 'TKT-00456', 'churn_risk': 0.032}"
+MSG-00606,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC103325,1.95,{'stock': 'GTCO'}
+MSG-00607,dividend_enquiry,dividend_enquiry,0.595,HumanReview,routed_to_agent,Low confidence (0.60); could be dividend_enquiry or address_update,0,,,1.78,{}
+MSG-00608,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC106221,2.11,{'ticket': 'TKT-00458'}
+MSG-00609,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC100383,2.8,{'file': 'MC100383_statement.txt'}
+MSG-00610,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC105008,3.09,{'file': 'MC105008_statement.txt'}
+MSG-00611,address_update,address_update,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.81,{}
+MSG-00612,complaint,complaint,0.985,Successful,complaint_ticket,,0,P2,MC109186,2.65,"{'ticket': 'TKT-00461', 'churn_risk': 0.141}"
+MSG-00613,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC109543,1.89,"{'ticket': 'TKT-00462', 'churn_risk': 0.012}"
+MSG-00614,statement_request,statement_request,0.993,Successful,statement_sent,,1,,MC105341,2.82,{'file': 'MC105341_statement.txt'}
+MSG-00615,address_update,address_update,0.99,BusinessException,routed_to_agent_with_reason,"Sender does not own MC100730; possible error or fraud, held for review",0,,,2.88,{}
+MSG-00616,redemption_request,redemption_request,0.991,Successful,redemption_instruction_created,,0,,MC109392,1.89,"{'amount_ngn': 51000.0, 'ref': 'RED-MC109392-51000'}"
+MSG-00617,redemption_request,redemption_request,0.999,BusinessException,routed_to_agent_with_reason,"Requested N182,000 exceeds fund balance N149,800",0,,MC104645,1.96,{}
+MSG-00618,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC109147,2.21,{'ticket': 'TKT-00466'}
+MSG-00619,statement_request,statement_request,0.819,Successful,statement_sent,,0,,MC110915,3.14,{'file': 'MC110915_statement.txt'}
+MSG-00620,statement_request,statement_request,0.932,Successful,statement_sent,,0,,MC108992,3.09,{'file': 'MC108992_statement.txt'}
+MSG-00621,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,1,,MC106633,2.99,{'ticket': 'TKT-00471'}
+MSG-00622,complaint,complaint,0.988,BusinessException,routed_to_agent_with_reason,Account MC981260 not found in client master,0,,,2.35,{}
+MSG-00623,dividend_enquiry,dividend_enquiry,0.992,Successful,dividend_reply_paid,,0,,MC106427,1.88,{'stock': 'GTCO'}
+MSG-00624,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC101216,3.09,{'file': 'MC101216_statement.txt'}
+MSG-00625,complaint,complaint,0.987,Successful,complaint_ticket,,0,P2,MC110719,2.36,"{'ticket': 'TKT-00473', 'churn_risk': 0.172}"
+MSG-00626,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC110328,1.97,"{'ticket': 'TKT-00474', 'churn_risk': 0.019}"
+MSG-00627,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108457,2.97,{'file': 'MC108457_statement.txt'}
+MSG-00628,redemption_request,redemption_request,0.997,BusinessException,routed_to_agent_with_reason,"Requested N270,000 exceeds fund balance N252,600",0,,MC102438,2.34,{}
+MSG-00629,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC111416,1.97,"{'amount_ngn': 10000.0, 'ref': 'RED-MC111416-10000'}"
+MSG-00630,complaint,complaint,0.994,Successful,complaint_ticket,,1,P2,MC109322,2.1,"{'ticket': 'TKT-00477', 'churn_risk': 0.237}"
+MSG-00631,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC111844,2.89,{'file': 'MC111844_statement.txt'}
+MSG-00632,redemption_request,redemption_request,0.746,BusinessException,routed_to_agent_with_reason,"Requested N25,000 exceeds fund balance N22,700",0,,MC111911,2.26,{}
+MSG-00633,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110338,3.41,{'file': 'MC110338_statement.txt'}
+MSG-00634,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC111080,2.26,"{'amount_ngn': 1345000.0, 'ref': 'RED-MC111080-1345000'}"
+MSG-00635,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC106241,2.93,{'file': 'MC106241_statement.txt'}
+MSG-00636,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC107118,2.58,{'ticket': 'TKT-00483'}
+MSG-00637,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,Account MC979024 not found in client master,0,,,1.9,{}
+MSG-00638,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC100783,2.84,{'file': 'MC100783_statement.txt'}
+MSG-00639,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,1,,MC108621,2.02,{'stock': 'MTNN'}
+MSG-00640,address_update,address_update,0.985,Successful,address_staged_for_kyc_review,,0,,MC111302,2.22,{'ticket': 'TKT-00486'}
+MSG-00641,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC106685,2.81,{'file': 'MC106685_statement.txt'}
+MSG-00642,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,1,,MC104023,2.37,{'ticket': 'TKT-00489'}
+MSG-00643,complaint,complaint,0.982,Successful,complaint_ticket,,0,P2,MC103138,2.78,"{'ticket': 'TKT-00490', 'churn_risk': 0.127}"
+MSG-00644,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC107541,2.21,"{'ticket': 'TKT-00491', 'churn_risk': 0.034}"
+MSG-00645,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC105670,3.32,{'file': 'MC105670_statement.txt'}
+MSG-00646,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109203,2.04,{'stock': 'MTNN'}
+MSG-00647,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111142,2.55,{'file': 'MC111142_statement.txt'}
+MSG-00648,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_held_pending_kyc,,0,,MC110943,2.16,{'stock': 'SEPLAT'}
+MSG-00649,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,1,,MC102901,2.95,{'ticket': 'TKT-00495'}
+MSG-00650,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC101355,2.18,"{'amount_ngn': 1036000.0, 'ref': 'RED-MC101355-1036000'}"
+MSG-00651,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102965,3.03,{'file': 'MC102965_statement.txt'}
+MSG-00652,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102020,3.37,{'file': 'MC102020_statement.txt'}
+MSG-00653,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC111899,2.13,"{'ticket': 'TKT-00499', 'churn_risk': 0.032}"
+MSG-00654,complaint,complaint,0.988,Successful,complaint_ticket,,1,P2,MC107268,2.14,"{'ticket': 'TKT-00500', 'churn_risk': 0.058}"
+MSG-00655,complaint,complaint,0.982,Successful,complaint_ticket,,0,P2,MC108635,2.02,"{'ticket': 'TKT-00501', 'churn_risk': 0.209}"
+MSG-00656,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106941,3.59,{'file': 'MC106941_statement.txt'}
+MSG-00657,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103406,4.38,{'file': 'MC103406_statement.txt'}
+MSG-00658,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC106641,2.49,{'ticket': 'TKT-00505'}
+MSG-00659,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.87,{}
+MSG-00660,statement_request,statement_request,0.991,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.52,{}
+MSG-00661,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC102415,1.88,{'stock': 'UBA'}
+MSG-00662,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC107853,2.04,{'stock': 'MTNN'}
+MSG-00663,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC105547,2.72,"{'amount_ngn': 35000.0, 'ref': 'RED-MC105547-35000'}"
+MSG-00664,complaint,complaint,0.995,Successful,complaint_ticket_rm_alerted,,0,P1,MC104977,2.34,"{'ticket': 'TKT-00507', 'churn_risk': 0.007}"
+MSG-00665,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC107600,2.18,"{'amount_ngn': 253000.0, 'ref': 'RED-MC107600-253000'}"
+MSG-00666,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC100885,2.16,{'stock': 'UBA'}
+MSG-00667,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC104058,3.35,{'file': 'MC104058_statement.txt'}
+MSG-00668,redemption_request,redemption_request,0.99,Successful,redemption_instruction_created,,0,,MC104175,2.28,"{'amount_ngn': 66000.0, 'ref': 'RED-MC104175-66000'}"
+MSG-00669,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC107576,2.07,"{'amount_ngn': 185000.0, 'ref': 'RED-MC107576-185000'}"
+MSG-00670,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC101395,2.9,{'file': 'MC101395_statement.txt'}
+MSG-00671,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,1,,MC107642,2.59,{'ticket': 'TKT-00514'}
+MSG-00672,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC105150,1.94,"{'ticket': 'TKT-00515', 'churn_risk': 0.019}"
+MSG-00673,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104070,1.95,{'stock': 'NESTLE'}
+MSG-00674,statement_request,statement_request,0.996,Successful,statement_sent,,1,,MC104749,2.56,{'file': 'MC104749_statement.txt'}
+MSG-00675,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104729,1.93,{'stock': 'MTNN'}
+MSG-00676,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC102075,3.18,{'file': 'MC102075_statement.txt'}
+MSG-00677,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111356,3.98,{'stock': 'DANGCEM'}
+MSG-00678,dividend_enquiry,dividend_enquiry,0.998,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111678; possible error or fraud, held for review",0,,,3.78,{}
+MSG-00679,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC107220,2.49,"{'amount_ngn': 482000.0, 'ref': 'RED-MC107220-482000'}"
+MSG-00680,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108689,3.52,{'file': 'MC108689_statement.txt'}
+MSG-00681,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC108060,2.22,"{'ticket': 'TKT-00520', 'churn_risk': 0.056}"
+MSG-00682,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC100658,1.94,"{'amount_ngn': 13000.0, 'ref': 'RED-MC100658-13000'}"
+MSG-00683,address_update,address_update,0.988,BusinessException,routed_to_agent_with_reason,"Sender does not own MC103581; possible error or fraud, held for review",0,,,1.88,{}
+MSG-00684,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109736,1.89,{'stock': 'ZENITHBANK'}
+MSG-00685,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.54,{}
+MSG-00686,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,"Sender does not own MC110234; possible error or fraud, held for review",0,,,1.77,{}
+MSG-00687,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC102271,3.05,{'file': 'MC102271_statement.txt'}
+MSG-00688,redemption_request,redemption_request,0.994,Successful,redemption_pending_approval,,0,,MC111280,2.47,"{'amount_ngn': 102625000.0, 'ref': 'RED-MC111280-102625000'}"
+MSG-00689,complaint,complaint,0.987,Successful,complaint_ticket,,0,P2,MC110575,2.11,"{'ticket': 'TKT-00524', 'churn_risk': 0.022}"
+MSG-00690,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.68,{}
+MSG-00691,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Requested N250,000 exceeds fund balance N245,900",0,,MC105431,1.87,{}
+MSG-00692,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107641,2.67,{'file': 'MC107641_statement.txt'}
+MSG-00693,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC106846,2.48,{'ticket': 'TKT-00527'}
+MSG-00694,address_update,address_update,0.984,Successful,address_staged_for_kyc_review,,0,,MC107113,2.36,{'ticket': 'TKT-00529'}
+MSG-00695,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC104466,3.09,{'file': 'MC104466_statement.txt'}
+MSG-00696,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC108968,2.27,"{'amount_ngn': 32000.0, 'ref': 'RED-MC108968-32000'}"
+MSG-00697,address_update,address_update,0.985,Successful,address_staged_for_kyc_review,,0,,MC108218,2.36,{'ticket': 'TKT-00533'}
+MSG-00698,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC104120,2.33,"{'ticket': 'TKT-00534', 'churn_risk': 0.073}"
+MSG-00699,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC104742,2.35,{'ticket': 'TKT-00536'}
+MSG-00700,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC100464,2.1,"{'ticket': 'TKT-00537', 'churn_risk': 0.07}"
+MSG-00701,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC108408,1.9,{'stock': 'ACCESSCORP'}
+MSG-00702,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC100378,2.19,{'ticket': 'TKT-00539'}
+MSG-00703,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC105985,2.33,{'ticket': 'TKT-00541'}
+MSG-00704,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC109486,2.92,{'file': 'MC109486_statement.txt'}
+MSG-00705,dividend_enquiry,redemption_request,0.597,HumanReview,routed_to_agent,Low confidence (0.60); could be redemption_request or dividend_enquiry,0,,,2.0,{}
+MSG-00706,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105492,2.51,{'file': 'MC105492_statement.txt'}
+MSG-00707,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC102366,2.04,"{'amount_ngn': 32000.0, 'ref': 'RED-MC102366-32000'}"
+MSG-00708,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,Account MC930029 not found in client master,0,,,1.85,{}
+MSG-00709,redemption_request,redemption_request,0.993,Successful,redemption_instruction_created,,0,,MC105602,1.73,"{'amount_ngn': 37000.0, 'ref': 'RED-MC105602-37000'}"
+MSG-00710,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC105721,2.04,{'stock': 'SEPLAT'}
+MSG-00711,complaint,complaint,0.993,Successful,complaint_ticket,,0,P2,MC110470,2.23,"{'ticket': 'TKT-00546', 'churn_risk': 0.077}"
+MSG-00712,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102015,4.05,{'file': 'MC102015_statement.txt'}
+MSG-00713,dividend_enquiry,dividend_enquiry,0.991,Successful,dividend_reply_paid,,0,,MC106910,2.72,{'stock': 'GTCO'}
+MSG-00714,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102552,2.38,"{'amount_ngn': 138000.0, 'ref': 'RED-MC102552-138000'}"
+MSG-00715,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102351,2.45,{'stock': 'NESTLE'}
+MSG-00716,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC108764,2.41,{'stock': 'ZENITHBANK'}
+MSG-00717,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109571,2.02,{'stock': 'ACCESSCORP'}
+MSG-00718,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC103776,1.99,"{'ticket': 'TKT-00549', 'churn_risk': 0.012}"
+MSG-00719,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_held_pending_kyc,,0,,MC110694,2.02,{'stock': 'NESTLE'}
+MSG-00720,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC102509,2.0,"{'ticket': 'TKT-00550', 'churn_risk': 0.265}"
+MSG-00721,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N4,100",0,,MC108478,2.06,{}
+MSG-00722,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC103522,2.14,"{'amount_ngn': 1549000.0, 'ref': 'RED-MC103522-1549000'}"
+MSG-00723,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102650,3.94,{'file': 'MC102650_statement.txt'}
+MSG-00724,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC108273,4.52,{'stock': 'ACCESSCORP'}
+MSG-00725,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,Account MC946030 not found in client master,0,,,4.99,{}
+MSG-00726,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110514,1.8,{'stock': 'ZENITHBANK'}
+MSG-00727,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103345,1.76,{'stock': 'NESTLE'}
+MSG-00728,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104483,1.69,{'stock': 'UBA'}
+MSG-00729,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC105078,2.22,{'ticket': 'TKT-00554'}
+MSG-00730,dividend_enquiry,dividend_enquiry,0.994,BusinessException,routed_to_agent_with_reason,Account MC911913 not found in client master,0,,,1.6,{}
+MSG-00731,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC102100,1.71,{'stock': 'SEPLAT'}
+MSG-00732,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC103411,2.13,{'ticket': 'TKT-00556'}
+MSG-00733,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC111452,2.9,{'file': 'MC111452_statement.txt'}
+MSG-00734,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC109010,2.03,"{'ticket': 'TKT-00558', 'churn_risk': 0.055}"
+MSG-00735,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC106587,2.12,{'ticket': 'TKT-00560'}
+MSG-00736,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC109647,1.94,"{'amount_ngn': 140000.0, 'ref': 'RED-MC109647-140000'}"
+MSG-00737,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105711,3.19,{'file': 'MC105711_statement.txt'}
+MSG-00738,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,"Sender does not own MC106728; possible error or fraud, held for review",0,,,3.24,{}
+MSG-00739,statement_request,address_update,0.578,HumanReview,routed_to_agent,Low confidence (0.58); could be address_update or statement_request,0,,,2.81,{}
+MSG-00740,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC108090,3.53,"{'ticket': 'TKT-00563', 'churn_risk': 0.059}"
+MSG-00741,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC107825,3.11,{'stock': 'SEPLAT'}
+MSG-00742,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC105215,4.14,{'file': 'MC105215_statement.txt'}
+MSG-00743,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103004,4.4,{'file': 'MC103004_statement.txt'}
+MSG-00744,statement_request,statement_request,0.991,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.88,{}
+MSG-00745,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC108764,3.25,{'ticket': 'TKT-00567'}
+MSG-00746,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.93,{}
+MSG-00747,address_update,address_update,0.998,Successful,address_staged_for_kyc_review,,0,,MC100025,3.62,{'ticket': 'TKT-00569'}
+MSG-00748,address_update,address_update,0.561,HumanReview,routed_to_agent,Low confidence (0.56); could be address_update or dividend_enquiry,0,,,3.08,{}
+MSG-00749,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.82,{}
+MSG-00750,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109207,3.19,{'stock': 'DANGCEM'}
+MSG-00751,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC103938,2.12,"{'amount_ngn': 158000.0, 'ref': 'RED-MC103938-158000'}"
+MSG-00752,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC103656,2.03,"{'ticket': 'TKT-00571', 'churn_risk': 0.043}"
+MSG-00753,statement_request,statement_request,0.992,Successful,statement_sent,,0,,MC101467,2.94,{'file': 'MC101467_statement.txt'}
+MSG-00754,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,"Sender does not own MC108152; possible error or fraud, held for review",0,,,1.97,{}
+MSG-00755,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC109786,1.96,{'stock': 'SEPLAT'}
+MSG-00756,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC105227,1.96,{'stock': 'GTCO'}
+MSG-00757,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC104095,2.8,{'stock': 'NESTLE'}
+MSG-00758,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC111530,2.97,{'file': 'MC111530_statement.txt'}
+MSG-00759,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111840; possible error or fraud, held for review",0,,,2.02,{}
+MSG-00760,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111264,1.93,{'stock': 'ACCESSCORP'}
+MSG-00761,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC108153,1.91,{'stock': 'ZENITHBANK'}
+MSG-00762,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC100527,1.9,{'stock': 'ACCESSCORP'}
+MSG-00763,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N3,500",0,,MC102856,1.9,{}
+MSG-00764,redemption_request,redemption_request,0.988,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.71,{}
+MSG-00765,complaint,complaint,0.668,HumanReview,routed_to_agent,Low confidence (0.67); could be complaint or address_update,0,,,1.72,{}
+MSG-00766,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC102758,1.89,{'stock': 'ZENITHBANK'}
+MSG-00767,redemption_request,redemption_request,0.989,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.68,{}
+MSG-00768,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110762,1.68,{'stock': 'SEPLAT'}
+MSG-00769,redemption_request,redemption_request,0.99,Successful,redemption_instruction_created,,0,,MC102345,1.94,"{'amount_ngn': 57000.0, 'ref': 'RED-MC102345-57000'}"
+MSG-00770,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC102007,2.97,{'file': 'MC102007_statement.txt'}
+MSG-00771,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC104548,2.93,{'ticket': 'TKT-00577'}
+MSG-00772,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110712,2.32,{'stock': 'ACCESSCORP'}
+MSG-00773,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111797,1.87,{'stock': 'NESTLE'}
+MSG-00774,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106499,2.77,{'file': 'MC106499_statement.txt'}
+MSG-00775,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,"Requested N46,000 exceeds fund balance N41,600",1,,MC103630,2.02,{}
+MSG-00776,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_held_pending_kyc,,0,,MC100983,1.99,{'stock': 'DANGCEM'}
+MSG-00777,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103988,2.99,{'file': 'MC103988_statement.txt'}
+MSG-00778,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC101511,2.34,"{'amount_ngn': 1354000.0, 'ref': 'RED-MC101511-1354000'}"
+MSG-00779,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC106588,1.98,{'stock': 'NESTLE'}
+MSG-00780,statement_request,statement_request,0.663,HumanReview,routed_to_agent,Low confidence (0.66); could be statement_request or dividend_enquiry,0,,,1.77,{}
+MSG-00781,redemption_request,redemption_request,0.995,BusinessException,routed_to_agent_with_reason,Account MC947049 not found in client master,0,,,1.64,{}
+MSG-00782,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC108707,1.75,{'stock': 'SEPLAT'}
+MSG-00783,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101292,3.09,{'file': 'MC101292_statement.txt'}
+MSG-00784,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC104515,3.17,{'file': 'MC104515_statement.txt'}
+MSG-00785,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC104672,2.98,{'stock': 'GTCO'}
+MSG-00786,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC103609,4.16,{'file': 'MC103609_statement.txt'}
+MSG-00787,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.8,{}
+MSG-00788,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107388,4.45,{'file': 'MC107388_statement.txt'}
+MSG-00789,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC110198,3.05,"{'ticket': 'TKT-00585', 'churn_risk': 0.061}"
+MSG-00790,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC100934,3.23,{'stock': 'MTNN'}
+MSG-00791,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Sender does not own MC110811; possible error or fraud, held for review",0,,,2.99,{}
+MSG-00792,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC110883,3.56,{'ticket': 'TKT-00587'}
+MSG-00793,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC108222,4.14,{'file': 'MC108222_statement.txt'}
+MSG-00794,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,1,,MC106153,3.25,"{'amount_ngn': 65000.0, 'ref': 'RED-MC106153-65000'}"
+MSG-00795,address_update,address_update,0.985,Successful,address_staged_for_kyc_review,,0,,MC106487,3.62,{'ticket': 'TKT-00591'}
+MSG-00796,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,0,,MC106590,3.85,{'ticket': 'TKT-00593'}
+MSG-00797,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103642,3.18,{'stock': 'UBA'}
+MSG-00798,redemption_request,redemption_request,0.989,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.79,{}
+MSG-00799,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101846,6.0,{'file': 'MC101846_statement.txt'}
+MSG-00800,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105259,3.57,{'file': 'MC105259_statement.txt'}
+MSG-00801,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109570,2.9,{'stock': 'MTNN'}
+MSG-00802,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC108326,3.16,{'ticket': 'TKT-00597'}
+MSG-00803,redemption_request,redemption_request,0.999,BusinessException,routed_to_agent_with_reason,Account MC996699 not found in client master,0,,,2.29,{}
+MSG-00804,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC107085,2.58,"{'amount_ngn': 22000.0, 'ref': 'RED-MC107085-22000'}"
+MSG-00805,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104088,2.49,{'stock': 'ACCESSCORP'}
+MSG-00806,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC100359,3.94,{'file': 'MC100359_statement.txt'}
+MSG-00807,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106706,3.75,{'file': 'MC106706_statement.txt'}
+MSG-00808,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104002,3.59,{'file': 'MC104002_statement.txt'}
+MSG-00809,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC110337,3.13,{'ticket': 'TKT-00603'}
+MSG-00810,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105517,3.77,{'file': 'MC105517_statement.txt'}
+MSG-00811,statement_request,statement_request,0.793,Successful,statement_sent,,0,,MC107662,3.57,{'file': 'MC107662_statement.txt'}
+MSG-00812,complaint,complaint,0.99,Successful,complaint_ticket,,0,P2,MC103743,2.84,"{'ticket': 'TKT-00606', 'churn_risk': 0.09}"
+MSG-00813,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC106693,3.39,{'ticket': 'TKT-00608'}
+MSG-00814,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,1,,MC101036,3.4,{'ticket': 'TKT-00610'}
+MSG-00815,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,Account MC919292 not found in client master,0,,,2.95,{}
+MSG-00816,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC106848,3.07,"{'ticket': 'TKT-00611', 'churn_risk': 0.14}"
+MSG-00817,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102747,4.35,{'file': 'MC102747_statement.txt'}
+MSG-00818,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC110038,3.85,"{'amount_ngn': 192000.0, 'ref': 'RED-MC110038-192000'}"
+MSG-00819,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC105681,4.28,{'file': 'MC105681_statement.txt'}
+MSG-00820,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100636,4.34,{'file': 'MC100636_statement.txt'}
+MSG-00821,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110096,4.42,{'file': 'MC110096_statement.txt'}
+MSG-00822,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC110209,3.88,{'stock': 'DANGCEM'}
+MSG-00823,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100310,4.25,{'file': 'MC100310_statement.txt'}
+MSG-00824,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,"Requested N67,000 exceeds fund balance N63,800",0,,MC105032,3.25,{}
+MSG-00825,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.68,{}
+MSG-00826,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC103190,2.38,"{'ticket': 'TKT-00618', 'churn_risk': 0.085}"
+MSG-00827,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC106120,2.51,{'ticket': 'TKT-00620'}
+MSG-00828,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC110319,3.79,{'file': 'MC110319_statement.txt'}
+MSG-00829,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.57,{}
+MSG-00830,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_held_pending_kyc,,0,,MC100542,2.49,{'stock': 'GTCO'}
+MSG-00831,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC111654,2.89,{'stock': 'NESTLE'}
+MSG-00832,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC106230,2.67,"{'ticket': 'TKT-00622', 'churn_risk': 0.13}"
+MSG-00833,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC103157,2.83,{'stock': 'ZENITHBANK'}
+MSG-00834,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC100304,2.96,{'stock': 'DANGCEM'}
+MSG-00835,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC102371,3.97,{'file': 'MC102371_statement.txt'}
+MSG-00836,redemption_request,redemption_request,0.992,Successful,redemption_instruction_created,,0,,MC105921,3.06,"{'amount_ngn': 37000.0, 'ref': 'RED-MC105921-37000'}"
+MSG-00837,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC111312,2.8,"{'ticket': 'TKT-00625', 'churn_risk': 0.027}"
+MSG-00838,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC106538,2.62,{'stock': 'ACCESSCORP'}
+MSG-00839,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.06,{}
+MSG-00840,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108741,2.9,{'file': 'MC108741_statement.txt'}
+MSG-00841,redemption_request,redemption_request,0.997,BusinessException,routed_to_agent_with_reason,"Requested N152,000 exceeds fund balance N142,100",0,,MC109634,2.48,{}
+MSG-00842,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC105507,3.14,"{'amount_ngn': 42000.0, 'ref': 'RED-MC105507-42000'}"
+MSG-00843,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103378,4.37,{'file': 'MC103378_statement.txt'}
+MSG-00844,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC111075,3.93,{'ticket': 'TKT-00630'}
+MSG-00845,complaint,redemption_request,0.728,BusinessException,routed_to_agent_with_reason,Redemption amount not found,0,,MC108697,3.46,{}
+MSG-00846,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC107252,3.14,{'stock': 'UBA'}
+MSG-00847,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105748,3.07,"{'amount_ngn': 589000.0, 'ref': 'RED-MC105748-589000'}"
+MSG-00848,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC104217,3.28,"{'ticket': 'TKT-00632', 'churn_risk': 0.05}"
+MSG-00849,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC106997,3.34,{'stock': 'NESTLE'}
+MSG-00850,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.68,{}
+MSG-00851,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC103841,3.43,"{'amount_ngn': 155000.0, 'ref': 'RED-MC103841-155000'}"
+MSG-00852,address_update,address_update,0.997,BusinessException,routed_to_agent_with_reason,"Sender does not own MC100595; possible error or fraud, held for review",0,,,3.02,{}
+MSG-00853,address_update,address_update,0.979,Successful,address_staged_for_kyc_review,,0,,MC100713,3.8,{'ticket': 'TKT-00635'}
+MSG-00854,dividend_enquiry,statement_request,0.729,Successful,statement_sent,,0,,MC100365,4.68,{'file': 'MC100365_statement.txt'}
+MSG-00855,redemption_request,redemption_request,0.997,Successful,redemption_pending_approval,,0,,MC105932,2.68,"{'amount_ngn': 38699000.0, 'ref': 'RED-MC105932-38699000'}"
+MSG-00856,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109353,1.97,{'stock': 'NESTLE'}
+MSG-00857,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.61,{}
+MSG-00858,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC110381,2.12,{'ticket': 'TKT-00639'}
+MSG-00859,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC104575,2.01,{'stock': 'SEPLAT'}
+MSG-00860,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC101513,1.98,"{'ticket': 'TKT-00640', 'churn_risk': 0.074}"
+MSG-00861,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC111190,2.04,"{'ticket': 'TKT-00641', 'churn_risk': 0.083}"
+MSG-00862,complaint,complaint,0.992,Successful,complaint_ticket,,0,P2,MC102866,2.09,"{'ticket': 'TKT-00642', 'churn_risk': 0.139}"
+MSG-00863,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC106313,1.87,{'stock': 'GTCO'}
+MSG-00864,statement_request,statement_request,0.636,HumanReview,routed_to_agent,Low confidence (0.64); could be statement_request or redemption_request,0,,,1.8,{}
+MSG-00865,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC109347,3.02,{'file': 'MC109347_statement.txt'}
+MSG-00866,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC107060,2.91,{'file': 'MC107060_statement.txt'}
+MSG-00867,redemption_request,redemption_request,0.992,Successful,redemption_instruction_created,,0,,MC106517,2.13,"{'amount_ngn': 34000.0, 'ref': 'RED-MC106517-34000'}"
+MSG-00868,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC104863,2.71,{'file': 'MC104863_statement.txt'}
+MSG-00869,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103383,2.12,{'stock': 'ACCESSCORP'}
+MSG-00870,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104518,2.59,{'file': 'MC104518_statement.txt'}
+MSG-00871,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC107486,2.78,{'file': 'MC107486_statement.txt'}
+MSG-00872,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,1,,MC100402,2.35,{'ticket': 'TKT-00650'}
+MSG-00873,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,Account MC991752 not found in client master,0,,,1.75,{}
+MSG-00874,redemption_request,redemption_request,0.996,Successful,redemption_pending_approval,,0,,MC109288,1.82,"{'amount_ngn': 41502000.0, 'ref': 'RED-MC109288-41502000'}"
+MSG-00875,address_update,address_update,0.988,Successful,address_staged_for_kyc_review,,0,,MC100508,2.13,{'ticket': 'TKT-00653'}
+MSG-00876,statement_request,statement_request,0.931,BusinessException,routed_to_agent_with_reason,Account MC924146 not found in client master,0,,,1.96,{}
+MSG-00877,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102583,1.82,"{'amount_ngn': 359000.0, 'ref': 'RED-MC102583-359000'}"
+MSG-00878,address_update,statement_request,0.686,HumanReview,routed_to_agent,Low confidence (0.69); could be statement_request or address_update,0,,,1.68,{}
+MSG-00879,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101746,2.79,{'file': 'MC101746_statement.txt'}
+MSG-00880,statement_request,statement_request,0.813,Successful,statement_sent,,0,,MC109783,3.25,{'file': 'MC109783_statement.txt'}
+MSG-00881,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103992,2.26,{'stock': 'ACCESSCORP'}
+MSG-00882,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC102968,2.8,{'file': 'MC102968_statement.txt'}
+MSG-00883,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC101598,3.4,{'file': 'MC101598_statement.txt'}
+MSG-00884,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101386,3.42,{'file': 'MC101386_statement.txt'}
+MSG-00885,dividend_enquiry,dividend_enquiry,0.99,Successful,dividend_reply_held_pending_kyc,,1,,MC105115,2.63,{'stock': 'GTCO'}
+MSG-00886,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC107732,3.41,{'file': 'MC107732_statement.txt'}
+MSG-00887,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,1,,MC106817,2.75,{'stock': 'NESTLE'}
+MSG-00888,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC108824,2.79,{'stock': 'ZENITHBANK'}
+MSG-00889,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102813,2.55,{'stock': 'ZENITHBANK'}
+MSG-00890,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC106247,2.67,"{'amount_ngn': 19000.0, 'ref': 'RED-MC106247-19000'}"
+MSG-00891,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC102011,2.53,{'stock': 'SEPLAT'}
+MSG-00892,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC105314,3.35,{'file': 'MC105314_statement.txt'}
+MSG-00893,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC111484,2.49,{'stock': 'GTCO'}
+MSG-00894,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC100728,2.83,{'ticket': 'TKT-00664'}
+MSG-00895,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107909,3.49,{'file': 'MC107909_statement.txt'}
+MSG-00896,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104048,2.64,{'stock': 'SEPLAT'}
+MSG-00897,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Requested N119,000 exceeds fund balance N102,400",0,,MC110928,2.31,{}
+MSG-00898,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC104696,2.1,"{'ticket': 'TKT-00666', 'churn_risk': 0.02}"
+MSG-00899,address_update,address_update,0.995,BusinessException,routed_to_agent_with_reason,Account MC995332 not found in client master,0,,,1.72,{}
+MSG-00900,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105977,2.63,{'file': 'MC105977_statement.txt'}
+MSG-00901,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC106508,2.85,{'file': 'MC106508_statement.txt'}
+MSG-00902,statement_request,statement_request,0.999,Successful,statement_sent,,1,,MC104635,2.86,{'file': 'MC104635_statement.txt'}
+MSG-00903,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,1,,MC100938,3.04,{'stock': 'ZENITHBANK'}
+MSG-00904,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC100433,2.23,{'ticket': 'TKT-00671'}
+MSG-00905,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104019,2.03,{'stock': 'UBA'}
+MSG-00906,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC103156,1.77,{'stock': 'ZENITHBANK'}
+MSG-00907,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC108013,2.69,{'file': 'MC108013_statement.txt'}
+MSG-00908,dividend_enquiry,dividend_enquiry,0.547,HumanReview,routed_to_agent,Low confidence (0.55); could be dividend_enquiry or address_update,0,,,1.94,{}
+MSG-00909,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.43,{}
+MSG-00910,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC111289,2.14,{'ticket': 'TKT-00674'}
+MSG-00911,complaint,complaint,0.994,Successful,complaint_ticket,,0,P2,MC110618,2.01,"{'ticket': 'TKT-00675', 'churn_risk': 0.03}"
+MSG-00912,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC105893,1.86,"{'amount_ngn': 793000.0, 'ref': 'RED-MC105893-793000'}"
+MSG-00913,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC103272,2.28,{'ticket': 'TKT-00678'}
+MSG-00914,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.63,{}
+MSG-00915,redemption_request,redemption_request,0.997,BusinessException,routed_to_agent_with_reason,"Requested N3,719,000 exceeds fund balance N3,035,400",0,,MC111499,1.81,{}
+MSG-00916,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC108527,2.7,{'file': 'MC108527_statement.txt'}
+MSG-00917,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC101769,2.43,{'ticket': 'TKT-00681'}
+MSG-00918,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.74,{}
+MSG-00919,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC100945,1.74,"{'amount_ngn': 13000.0, 'ref': 'RED-MC100945-13000'}"
+MSG-00920,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC103757,1.78,{'stock': 'NESTLE'}
+MSG-00921,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC109871,1.83,{'stock': 'UBA'}
+MSG-00922,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC101824,2.65,{'file': 'MC101824_statement.txt'}
+MSG-00923,complaint,complaint,0.987,BusinessException,routed_to_agent_with_reason,Account MC998853 not found in client master,0,,,1.95,{}
+MSG-00924,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC101406,1.9,{'stock': 'ACCESSCORP'}
+MSG-00925,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC109167,2.17,{'ticket': 'TKT-00685'}
+MSG-00926,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104947,2.08,{'stock': 'SEPLAT'}
+MSG-00927,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104299,1.84,{'stock': 'ZENITHBANK'}
+MSG-00928,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC110112,1.91,{'stock': 'SEPLAT'}
+MSG-00929,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC111315,2.2,{'ticket': 'TKT-00687'}
+MSG-00930,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC110308,2.36,{'ticket': 'TKT-00689'}
+MSG-00931,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC108878,1.98,{'stock': 'UBA'}
+MSG-00932,complaint,dividend_enquiry,0.803,Successful,dividend_reply_held_pending_kyc,,0,,MC107255,2.12,{'stock': 'NESTLE'}
+MSG-00933,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106847,2.82,{'file': 'MC106847_statement.txt'}
+MSG-00934,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC109519,2.13,"{'amount_ngn': 3371000.0, 'ref': 'RED-MC109519-3371000'}"
+MSG-00935,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC105961,2.64,{'file': 'MC105961_statement.txt'}
+MSG-00936,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC100661,2.12,"{'amount_ngn': 118000.0, 'ref': 'RED-MC100661-118000'}"
+MSG-00937,address_update,address_update,0.982,Successful,address_staged_for_kyc_review,,0,,MC100634,2.22,{'ticket': 'TKT-00695'}
+MSG-00938,redemption_request,redemption_request,0.566,HumanReview,routed_to_agent,Low confidence (0.57); could be redemption_request or address_update,0,,,1.93,{}
+MSG-00939,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC110935,2.81,{'file': 'MC110935_statement.txt'}
+MSG-00940,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC107794,2.9,{'file': 'MC107794_statement.txt'}
+MSG-00941,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111224,2.85,{'file': 'MC111224_statement.txt'}
+MSG-00942,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC100672,2.88,{'file': 'MC100672_statement.txt'}
+MSG-00943,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109330,3.15,{'file': 'MC109330_statement.txt'}
+MSG-00944,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC105080,2.81,{'file': 'MC105080_statement.txt'}
+MSG-00945,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,Account MC948829 not found in client master,0,,,1.92,{}
+MSG-00946,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC108197,1.94,{'stock': 'SEPLAT'}
+MSG-00947,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.78,{}
+MSG-00948,statement_request,statement_request,0.994,Successful,statement_sent,,0,,MC106913,2.4,{'file': 'MC106913_statement.txt'}
+MSG-00949,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC108008,2.52,{'file': 'MC108008_statement.txt'}
+MSG-00950,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC110618,3.3,"{'amount_ngn': 14000.0, 'ref': 'RED-MC110618-14000'}"
+MSG-00951,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC102779,2.9,{'file': 'MC102779_statement.txt'}
+MSG-00952,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC110963,2.33,"{'amount_ngn': 60000.0, 'ref': 'RED-MC110963-60000'}"
+MSG-00953,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111205,2.58,{'file': 'MC111205_statement.txt'}
+MSG-00954,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC101289,2.16,{'stock': 'DANGCEM'}
+MSG-00955,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108820,2.77,{'file': 'MC108820_statement.txt'}
+MSG-00956,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC105781,3.13,{'file': 'MC105781_statement.txt'}
+MSG-00957,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC106742,2.28,"{'amount_ngn': 50000.0, 'ref': 'RED-MC106742-50000'}"
+MSG-00958,dividend_enquiry,dividend_enquiry,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.7,{}
+MSG-00959,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108439,2.44,{'file': 'MC108439_statement.txt'}
+MSG-00960,complaint,complaint,0.987,Successful,complaint_ticket,,0,P2,MC110169,2.13,"{'ticket': 'TKT-00712', 'churn_risk': 0.069}"
+MSG-00961,address_update,redemption_request,0.653,HumanReview,routed_to_agent,Low confidence (0.65); could be redemption_request or address_update,0,,,1.99,{}
+MSG-00962,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.69,{}
+MSG-00963,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC106765,3.48,"{'amount_ngn': 283000.0, 'ref': 'RED-MC106765-283000'}"
+MSG-00964,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,1,,MC108515,3.29,{'stock': 'SEPLAT'}
+MSG-00965,statement_request,statement_request,0.995,BusinessException,routed_to_agent_with_reason,Account MC938267 not found in client master,0,,,2.64,{}
+MSG-00966,complaint,complaint,0.995,Successful,complaint_ticket,,2,P2,MC107299,3.06,"{'ticket': 'TKT-00714', 'churn_risk': 0.123}"
+MSG-00967,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100769,4.24,{'file': 'MC100769_statement.txt'}
+MSG-00968,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC105783,4.05,{'stock': 'MTNN'}
+MSG-00969,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109459,3.04,{'stock': 'DANGCEM'}
+MSG-00970,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC106843,4.02,{'file': 'MC106843_statement.txt'}
+MSG-00971,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC106475,3.75,{'ticket': 'TKT-00718'}
+MSG-00972,redemption_request,redemption_request,0.998,BusinessException,routed_to_agent_with_reason,"Sender does not own MC101488; possible error or fraud, held for review",0,,,3.0,{}
+MSG-00973,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC108718,3.54,{'ticket': 'TKT-00720'}
+MSG-00974,address_update,address_update,0.98,Successful,address_staged_for_kyc_review,,0,,MC101149,3.44,{'ticket': 'TKT-00722'}
+MSG-00975,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111310,3.88,{'file': 'MC111310_statement.txt'}
+MSG-00976,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.03,{}
+MSG-00977,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC100562,3.1,{'file': 'MC100562_statement.txt'}
+MSG-00978,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC104352,5.97,{'ticket': 'TKT-00726'}
+MSG-00979,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC106221,2.87,{'stock': 'SEPLAT'}
+MSG-00980,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104230,2.7,{'stock': 'NESTLE'}
+MSG-00981,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC110541,2.82,"{'amount_ngn': 315000.0, 'ref': 'RED-MC110541-315000'}"
+MSG-00982,address_update,address_update,0.985,Successful,address_staged_for_kyc_review,,0,,MC103266,2.7,{'ticket': 'TKT-00729'}
+MSG-00983,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC106554,4.02,{'file': 'MC106554_statement.txt'}
+MSG-00984,redemption_request,redemption_request,0.992,Successful,redemption_instruction_created,,0,,MC105315,2.47,"{'amount_ngn': 25000.0, 'ref': 'RED-MC105315-25000'}"
+MSG-00985,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111734; possible error or fraud, held for review",0,,,2.14,{}
+MSG-00986,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC104207,3.01,{'file': 'MC104207_statement.txt'}
+MSG-00987,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.88,{}
+MSG-00988,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC110591,1.98,"{'amount_ngn': 138000.0, 'ref': 'RED-MC110591-138000'}"
+MSG-00989,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC103297,2.53,"{'amount_ngn': 1314000.0, 'ref': 'RED-MC103297-1314000'}"
+MSG-00990,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC110286,2.21,{'stock': 'ACCESSCORP'}
+MSG-00991,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC103002,2.96,{'stock': 'ACCESSCORP'}
+MSG-00992,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105297,2.92,{'file': 'MC105297_statement.txt'}
+MSG-00993,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104426,3.57,{'file': 'MC104426_statement.txt'}
+MSG-00994,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC110537,2.22,{'stock': 'DANGCEM'}
+MSG-00995,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC108163,2.55,"{'amount_ngn': 121000.0, 'ref': 'RED-MC108163-121000'}"
+MSG-00996,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC104731,2.8,"{'amount_ngn': 60000.0, 'ref': 'RED-MC104731-60000'}"
+MSG-00997,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC107308,3.19,{'file': 'MC107308_statement.txt'}
+MSG-00998,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC106671,2.52,{'stock': 'DANGCEM'}
+MSG-00999,statement_request,statement_request,0.998,Successful,statement_sent,,1,,MC104206,3.0,{'file': 'MC104206_statement.txt'}
+MSG-01000,address_update,address_update,0.998,Successful,address_staged_for_kyc_review,,0,,MC102640,2.83,{'ticket': 'TKT-00742'}
+MSG-01001,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC108998,2.9,{'ticket': 'TKT-00744'}
+MSG-01002,complaint,complaint,0.596,HumanReview,routed_to_agent,Low confidence (0.60); could be complaint or redemption_request,0,,,2.48,{}
+MSG-01003,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC101735,3.0,{'ticket': 'TKT-00746'}
+MSG-01004,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC103462,3.02,"{'ticket': 'TKT-00747', 'churn_risk': 0.031}"
+MSG-01005,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC109001,3.93,{'file': 'MC109001_statement.txt'}
+MSG-01006,statement_request,statement_request,0.992,Successful,statement_sent,,0,,MC105344,3.48,{'file': 'MC105344_statement.txt'}
+MSG-01007,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC101931,2.58,"{'ticket': 'TKT-00750', 'churn_risk': 0.036}"
+MSG-01008,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC102538,2.36,{'stock': 'GTCO'}
+MSG-01009,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC109904,3.04,{'file': 'MC109904_statement.txt'}
+MSG-01010,redemption_request,redemption_request,0.994,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.71,{}
+MSG-01011,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111297,1.78,{'stock': 'UBA'}
+MSG-01012,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC108279,2.1,{'ticket': 'TKT-00753'}
+MSG-01013,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110811,2.73,{'file': 'MC110811_statement.txt'}
+MSG-01014,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.67,{}
+MSG-01015,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC100830,1.76,{'stock': 'ZENITHBANK'}
+MSG-01016,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC101113,2.58,{'file': 'MC101113_statement.txt'}
+MSG-01017,statement_request,statement_request,0.995,Successful,statement_sent,,1,,MC105808,2.93,{'file': 'MC105808_statement.txt'}
+MSG-01018,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108555,3.24,{'file': 'MC108555_statement.txt'}
+MSG-01019,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103605,3.09,{'file': 'MC103605_statement.txt'}
+MSG-01020,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC108192,2.16,"{'amount_ngn': 23000.0, 'ref': 'RED-MC108192-23000'}"
+MSG-01021,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110392,2.34,{'stock': 'DANGCEM'}
+MSG-01022,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC108026,2.35,"{'ticket': 'TKT-00760', 'churn_risk': 0.836}"
+MSG-01023,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC110281,2.86,{'file': 'MC110281_statement.txt'}
+MSG-01024,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC103148,2.2,{'stock': 'DANGCEM'}
+MSG-01025,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109134,2.94,{'file': 'MC109134_statement.txt'}
+MSG-01026,statement_request,statement_request,0.995,Successful,statement_sent,,0,,MC111857,6.02,{'file': 'MC111857_statement.txt'}
+MSG-01027,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103729,5.57,{'file': 'MC103729_statement.txt'}
+MSG-01028,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,"Sender does not own MC111533; possible error or fraud, held for review",0,,,5.36,{}
+MSG-01029,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC107218,3.99,{'file': 'MC107218_statement.txt'}
+MSG-01030,statement_request,statement_request,0.998,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.67,{}
+MSG-01031,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.68,{}
+MSG-01032,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109047,3.1,{'stock': 'MTNN'}
+MSG-01033,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC103399,3.83,"{'ticket': 'TKT-00766', 'churn_risk': 0.188}"
+MSG-01034,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC102474,3.0,"{'amount_ngn': 155000.0, 'ref': 'RED-MC102474-155000'}"
+MSG-01035,dividend_enquiry,dividend_enquiry,0.997,BusinessException,routed_to_agent_with_reason,Account MC962984 not found in client master,0,,,2.6,{}
+MSG-01036,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC110002,2.75,{'stock': 'ZENITHBANK'}
+MSG-01037,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC100145,2.63,{'stock': 'MTNN'}
+MSG-01038,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC100689,2.53,{'stock': 'ZENITHBANK'}
+MSG-01039,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109183,4.14,{'file': 'MC109183_statement.txt'}
+MSG-01040,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_held_pending_kyc,,0,,MC110232,3.32,{'stock': 'NESTLE'}
+MSG-01041,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,1,,MC104324,3.72,{'ticket': 'TKT-00770'}
+MSG-01042,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC105175,3.18,{'stock': 'MTNN'}
+MSG-01043,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC105924,3.08,{'stock': 'MTNN'}
+MSG-01044,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC104439,4.03,{'file': 'MC104439_statement.txt'}
+MSG-01045,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC104069,3.17,"{'amount_ngn': 14000.0, 'ref': 'RED-MC104069-14000'}"
+MSG-01046,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC105960,3.02,{'stock': 'UBA'}
+MSG-01047,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N2,438,000 exceeds fund balance N2,071,500",0,,MC108851,2.35,{}
+MSG-01048,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108829,3.88,{'file': 'MC108829_statement.txt'}
+MSG-01049,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_held_pending_kyc,,0,,MC104397,2.26,{'stock': 'MTNN'}
+MSG-01050,complaint,complaint,0.995,Successful,complaint_ticket,,1,P2,MC103488,2.05,"{'ticket': 'TKT-00774', 'churn_risk': 0.119}"
+MSG-01051,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC101351,2.21,{'ticket': 'TKT-00776'}
+MSG-01052,redemption_request,redemption_request,0.997,Successful,redemption_instruction_created,,0,,MC107682,2.14,"{'amount_ngn': 4386000.0, 'ref': 'RED-MC107682-4386000'}"
+MSG-01053,redemption_request,redemption_request,0.988,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.57,{}
+MSG-01054,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC111152,2.78,{'file': 'MC111152_statement.txt'}
+MSG-01055,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC107924,2.34,"{'amount_ngn': 48000.0, 'ref': 'RED-MC107924-48000'}"
+MSG-01056,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109827,3.61,{'file': 'MC109827_statement.txt'}
+MSG-01057,address_update,address_update,0.986,BusinessException,routed_to_agent_with_reason,Account MC938774 not found in client master,0,,,1.88,{}
+MSG-01058,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103849,2.25,{'stock': 'ACCESSCORP'}
+MSG-01059,redemption_request,redemption_request,0.99,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.21,{}
+MSG-01060,address_update,address_update,0.98,Successful,address_staged_for_kyc_review,,0,,MC104727,2.38,{'ticket': 'TKT-00782'}
+MSG-01061,address_update,address_update,0.993,Successful,address_staged_for_kyc_review,,0,,MC111470,2.18,{'ticket': 'TKT-00784'}
+MSG-01062,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC108766,3.11,{'file': 'MC108766_statement.txt'}
+MSG-01063,address_update,address_update,0.992,Successful,address_staged_for_kyc_review,,0,,MC104336,2.53,{'ticket': 'TKT-00787'}
+MSG-01064,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC105181,3.24,{'file': 'MC105181_statement.txt'}
+MSG-01065,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104801,2.52,{'stock': 'DANGCEM'}
+MSG-01066,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC104875,1.9,{'stock': 'UBA'}
+MSG-01067,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC109171,1.81,{'stock': 'UBA'}
+MSG-01068,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC108592,2.16,{'ticket': 'TKT-00790'}
+MSG-01069,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC108135,1.89,{'stock': 'SEPLAT'}
+MSG-01070,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC111429,2.12,{'ticket': 'TKT-00792'}
+MSG-01071,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC110336,2.77,{'file': 'MC110336_statement.txt'}
+MSG-01072,statement_request,statement_request,0.993,Successful,statement_sent,,0,,MC109434,2.97,{'file': 'MC109434_statement.txt'}
+MSG-01073,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC106187,2.22,{'stock': 'UBA'}
+MSG-01074,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC104939,2.29,"{'ticket': 'TKT-00795', 'churn_risk': 0.02}"
+MSG-01075,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC100118,2.01,{'stock': 'SEPLAT'}
+MSG-01076,complaint,complaint,0.993,Successful,complaint_ticket,,0,P2,MC108265,1.99,"{'ticket': 'TKT-00796', 'churn_risk': 0.2}"
+MSG-01077,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC101957,1.96,"{'ticket': 'TKT-00797', 'churn_risk': 0.024}"
+MSG-01078,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC105253,1.8,{'stock': 'MTNN'}
+MSG-01079,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC109086,1.87,{'stock': 'UBA'}
+MSG-01080,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC111559,2.19,"{'amount_ngn': 159000.0, 'ref': 'RED-MC111559-159000'}"
+MSG-01081,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC111492,2.83,{'file': 'MC111492_statement.txt'}
+MSG-01082,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107752,2.27,{'stock': 'ACCESSCORP'}
+MSG-01083,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC109757,2.45,{'ticket': 'TKT-00801'}
+MSG-01084,complaint,complaint,0.988,Successful,complaint_ticket_rm_alerted,,0,P1,MC104866,2.21,"{'ticket': 'TKT-00802', 'churn_risk': 0.898}"
+MSG-01085,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC100795,4.03,{'file': 'MC100795_statement.txt'}
+MSG-01086,address_update,address_update,0.982,Successful,address_staged_for_kyc_review,,0,,MC108643,2.64,{'ticket': 'TKT-00805'}
+MSG-01087,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,1,,MC110527,2.24,{'stock': 'ACCESSCORP'}
+MSG-01088,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC102908,1.97,"{'ticket': 'TKT-00806', 'churn_risk': 0.099}"
+MSG-01089,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC105105,1.87,{'stock': 'UBA'}
+MSG-01090,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.63,{}
+MSG-01091,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC106800,1.82,{'stock': 'MTNN'}
+MSG-01092,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107033,1.88,{'stock': 'ACCESSCORP'}
+MSG-01093,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC107941,2.74,{'ticket': 'TKT-00808'}
+MSG-01094,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC100348,2.08,"{'ticket': 'TKT-00809', 'churn_risk': 0.165}"
+MSG-01095,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC110429,3.1,{'file': 'MC110429_statement.txt'}
+MSG-01096,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC106937,2.23,"{'amount_ngn': 249000.0, 'ref': 'RED-MC106937-249000'}"
+MSG-01097,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC106776,3.54,{'file': 'MC106776_statement.txt'}
+MSG-01098,dividend_enquiry,dividend_enquiry,0.993,Successful,dividend_reply_paid,,0,,MC105096,2.0,{'stock': 'GTCO'}
+MSG-01099,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC104883,2.88,{'file': 'MC104883_statement.txt'}
+MSG-01100,dividend_enquiry,dividend_enquiry,0.994,Successful,dividend_reply_paid,,0,,MC107971,2.17,{'stock': 'GTCO'}
+MSG-01101,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,"Sender does not own MC106911; possible error or fraud, held for review",0,,,1.93,{}
+MSG-01102,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104757,2.86,{'file': 'MC104757_statement.txt'}
+MSG-01103,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_held_pending_kyc,,0,,MC106902,2.37,{'stock': 'SEPLAT'}
+MSG-01104,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC100694,1.94,{'stock': 'NESTLE'}
+MSG-01105,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC109420,2.28,{'ticket': 'TKT-00816'}
+MSG-01106,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC102352,2.14,"{'amount_ngn': 75000.0, 'ref': 'RED-MC102352-75000'}"
+MSG-01107,dividend_enquiry,dividend_enquiry,0.996,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.68,{}
+MSG-01108,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108010,2.77,{'file': 'MC108010_statement.txt'}
+MSG-01109,address_update,address_update,0.989,Successful,address_staged_for_kyc_review,,0,,MC107550,2.38,{'ticket': 'TKT-00820'}
+MSG-01110,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_held_pending_kyc,,0,,MC111978,2.02,{'stock': 'SEPLAT'}
+MSG-01111,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC109231,3.11,{'file': 'MC109231_statement.txt'}
+MSG-01112,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC104528,2.07,"{'ticket': 'TKT-00822', 'churn_risk': 0.068}"
+MSG-01113,dividend_enquiry,dividend_enquiry,0.999,Successful,dividend_reply_paid,,0,,MC108506,1.89,{'stock': 'NESTLE'}
+MSG-01114,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC110388,1.85,"{'amount_ngn': 53000.0, 'ref': 'RED-MC110388-53000'}"
+MSG-01115,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC104795,2.01,"{'ticket': 'TKT-00824', 'churn_risk': 0.135}"
+MSG-01116,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC108130,2.78,{'file': 'MC108130_statement.txt'}
+MSG-01117,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC108078,2.68,{'ticket': 'TKT-00827'}
+MSG-01118,address_update,address_update,0.99,Successful,address_staged_for_kyc_review,,0,,MC102333,2.52,{'ticket': 'TKT-00829'}
+MSG-01119,redemption_request,redemption_request,0.993,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N8,400",0,,MC107411,2.08,{}
+MSG-01120,complaint,statement_request,0.613,HumanReview,routed_to_agent,Low confidence (0.61); could be statement_request or complaint,0,,,1.98,{}
+MSG-01121,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC109588,2.97,{'file': 'MC109588_statement.txt'}
+MSG-01122,address_update,address_update,0.987,Successful,address_staged_for_kyc_review,,0,,MC101813,2.68,{'ticket': 'TKT-00832'}
+MSG-01123,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC105141,3.04,{'file': 'MC105141_statement.txt'}
+MSG-01124,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111873,2.95,{'file': 'MC111873_statement.txt'}
+MSG-01125,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC111866,2.05,{'stock': 'NESTLE'}
+MSG-01126,address_update,address_update,0.98,Successful,address_staged_for_kyc_review,,0,,MC104395,2.34,{'ticket': 'TKT-00836'}
+MSG-01127,statement_request,statement_request,0.996,BusinessException,routed_to_agent_with_reason,Account MC985747 not found in client master,0,,,1.88,{}
+MSG-01128,redemption_request,redemption_request,0.995,Successful,redemption_instruction_created,,0,,MC104914,2.29,"{'amount_ngn': 50000.0, 'ref': 'RED-MC104914-50000'}"
+MSG-01129,redemption_request,redemption_request,0.996,Successful,redemption_instruction_created,,0,,MC111808,2.32,"{'amount_ngn': 10000.0, 'ref': 'RED-MC111808-10000'}"
+MSG-01130,complaint,complaint,0.991,Successful,complaint_ticket,,0,P2,MC109243,2.25,"{'ticket': 'TKT-00839', 'churn_risk': 0.111}"
+MSG-01131,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC107193,2.1,"{'amount_ngn': 81000.0, 'ref': 'RED-MC107193-81000'}"
+MSG-01132,address_update,address_update,0.51,HumanReview,routed_to_agent,Low confidence (0.51); could be address_update or dividend_enquiry,0,,,1.89,{}
+MSG-01133,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N5,600",0,,MC104748,1.88,{}
+MSG-01134,address_update,address_update,0.979,Successful,address_staged_for_kyc_review,,0,,MC108583,2.33,{'ticket': 'TKT-00842'}
+MSG-01135,redemption_request,redemption_request,0.994,Successful,redemption_instruction_created,,0,,MC111482,2.03,"{'amount_ngn': 3025000.0, 'ref': 'RED-MC111482-3025000'}"
+MSG-01136,complaint,complaint,0.99,Successful,complaint_ticket,,0,P2,MC105954,2.02,"{'ticket': 'TKT-00844', 'churn_risk': 0.073}"
+MSG-01137,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC103722,1.87,{'stock': 'NESTLE'}
+MSG-01138,statement_request,statement_request,0.799,Successful,statement_sent,,0,,MC104190,3.35,{'file': 'MC104190_statement.txt'}
+MSG-01139,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC104005,2.75,{'ticket': 'TKT-00847'}
+MSG-01140,address_update,address_update,0.995,Successful,address_staged_for_kyc_review,,0,,MC111142,2.5,{'ticket': 'TKT-00849'}
+MSG-01141,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC108783,2.06,{'stock': 'NESTLE'}
+MSG-01142,address_update,address_update,0.986,Successful,address_staged_for_kyc_review,,0,,MC104345,2.29,{'ticket': 'TKT-00851'}
+MSG-01143,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC110699,2.37,{'ticket': 'TKT-00853'}
+MSG-01144,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC106509,2.22,"{'amount_ngn': 487000.0, 'ref': 'RED-MC106509-487000'}"
+MSG-01145,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC101314,1.98,{'stock': 'NESTLE'}
+MSG-01146,redemption_request,redemption_request,0.992,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,2.01,{}
+MSG-01147,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC102894,1.99,{'stock': 'MTNN'}
+MSG-01148,complaint,complaint,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.6,{}
+MSG-01149,address_update,address_update,0.992,BusinessException,routed_to_agent_with_reason,Account MC923426 not found in client master,0,,,1.48,{}
+MSG-01150,redemption_request,redemption_request,0.996,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N6,900",0,,MC107693,1.8,{}
+MSG-01151,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC107238,2.05,"{'ticket': 'TKT-00855', 'churn_risk': 0.142}"
+MSG-01152,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC107021,1.93,{'stock': 'ZENITHBANK'}
+MSG-01153,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC100575,1.89,{'stock': 'NESTLE'}
+MSG-01154,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC105245,2.24,{'ticket': 'TKT-00857'}
+MSG-01155,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC108108,1.99,{'stock': 'MTNN'}
+MSG-01156,dividend_enquiry,address_update,0.679,HumanReview,routed_to_agent,Low confidence (0.68); could be address_update or dividend_enquiry,0,,,1.75,{}
+MSG-01157,complaint,dividend_enquiry,0.701,Successful,dividend_reply_held_pending_kyc,,0,,MC107500,2.34,{'stock': 'SEPLAT'}
+MSG-01158,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC100060,2.19,"{'ticket': 'TKT-00858', 'churn_risk': 0.226}"
+MSG-01159,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_paid,,0,,MC107951,1.91,{'stock': 'MTNN'}
+MSG-01160,redemption_request,redemption_request,0.998,Successful,redemption_instruction_created,,0,,MC103243,2.23,"{'amount_ngn': 675000.0, 'ref': 'RED-MC103243-675000'}"
+MSG-01161,address_update,address_update,0.991,Successful,address_staged_for_kyc_review,,0,,MC109438,4.11,{'ticket': 'TKT-00861'}
+MSG-01162,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,"Sender does not own MC105149; possible error or fraud, held for review",0,,,2.46,{}
+MSG-01163,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC103014,3.31,{'file': 'MC103014_statement.txt'}
+MSG-01164,dividend_enquiry,dividend_enquiry,0.587,HumanReview,routed_to_agent,Low confidence (0.59); could be dividend_enquiry or statement_request,0,,,1.99,{}
+MSG-01165,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC105630,2.06,"{'ticket': 'TKT-00863', 'churn_risk': 0.027}"
+MSG-01166,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC104164,3.35,{'file': 'MC104164_statement.txt'}
+MSG-01167,address_update,address_update,0.983,BusinessException,routed_to_agent_with_reason,Account MC963390 not found in client master,0,,,2.07,{}
+MSG-01168,statement_request,statement_request,0.997,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.86,{}
+MSG-01169,complaint,complaint,0.987,BusinessException,routed_to_agent_with_reason,Account MC950441 not found in client master,0,,,1.66,{}
+MSG-01170,complaint,complaint,0.989,Successful,complaint_ticket_rm_alerted,,0,P1,MC104011,2.01,"{'ticket': 'TKT-00865', 'churn_risk': 0.372}"
+MSG-01171,dividend_enquiry,dividend_enquiry,0.998,Successful,dividend_reply_paid,,0,,MC102077,1.86,{'stock': 'NESTLE'}
+MSG-01172,redemption_request,redemption_request,0.99,BusinessException,routed_to_agent_with_reason,"Requested N19,000 exceeds fund balance N18,600",0,,MC101345,1.91,{}
+MSG-01173,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC104891,1.99,"{'ticket': 'TKT-00866', 'churn_risk': 0.104}"
+MSG-01174,statement_request,statement_request,1.0,Successful,statement_sent,,0,,MC110254,3.22,{'file': 'MC110254_statement.txt'}
+MSG-01175,dividend_enquiry,dividend_enquiry,0.997,Successful,dividend_reply_held_pending_kyc,,0,,MC108206,2.22,{'stock': 'MTNN'}
+MSG-01176,redemption_request,redemption_request,0.998,Successful,redemption_pending_approval,,0,,MC106309,2.15,"{'amount_ngn': 8257000.0, 'ref': 'RED-MC106309-8257000'}"
+MSG-01177,complaint,complaint,0.995,Successful,complaint_ticket,,0,P2,MC102068,2.21,"{'ticket': 'TKT-00869', 'churn_risk': 0.015}"
+MSG-01178,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC107553,2.97,{'file': 'MC107553_statement.txt'}
+MSG-01179,statement_request,statement_request,0.999,Successful,statement_sent,,0,,MC104099,2.77,{'file': 'MC104099_statement.txt'}
+MSG-01180,complaint,complaint,0.985,Successful,complaint_ticket,,0,P2,MC111169,2.13,"{'ticket': 'TKT-00872', 'churn_risk': 0.038}"
+MSG-01181,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104060,1.86,{'stock': 'MTNN'}
+MSG-01182,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC100772,1.84,{'stock': 'SEPLAT'}
+MSG-01183,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111395,3.31,{'file': 'MC111395_statement.txt'}
+MSG-01184,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC101106,2.91,{'file': 'MC101106_statement.txt'}
+MSG-01185,address_update,address_update,0.994,Successful,address_staged_for_kyc_review,,0,,MC108764,2.5,{'ticket': 'TKT-00876'}
+MSG-01186,complaint,complaint,0.996,Successful,complaint_ticket,,0,P2,MC107089,2.05,"{'ticket': 'TKT-00877', 'churn_risk': 0.036}"
+MSG-01187,complaint,complaint,0.996,Successful,complaint_ticket_rm_alerted,,0,P1,MC105932,2.11,"{'ticket': 'TKT-00878', 'churn_risk': 0.217}"
+MSG-01188,redemption_request,redemption_request,0.999,Successful,redemption_instruction_created,,0,,MC109748,1.97,"{'amount_ngn': 541000.0, 'ref': 'RED-MC109748-541000'}"
+MSG-01189,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111560,2.92,{'file': 'MC111560_statement.txt'}
+MSG-01190,complaint,complaint,0.989,Successful,complaint_ticket,,0,P2,MC109252,2.67,"{'ticket': 'TKT-00881', 'churn_risk': 0.135}"
+MSG-01191,complaint,complaint,0.988,Successful,complaint_ticket,,0,P2,MC100963,2.05,"{'ticket': 'TKT-00882', 'churn_risk': 0.067}"
+MSG-01192,dividend_enquiry,dividend_enquiry,0.995,Successful,dividend_reply_paid,,0,,MC104771,4.4,{'stock': 'MTNN'}
+MSG-01193,redemption_request,redemption_request,0.994,BusinessException,routed_to_agent_with_reason,"Requested N10,000 exceeds fund balance N5,200",0,,MC101300,2.18,{}
+MSG-01194,statement_request,statement_request,0.999,BusinessException,routed_to_agent_with_reason,Account MC947343 not found in client master,0,,,1.68,{}
+MSG-01195,dividend_enquiry,dividend_enquiry,0.996,Successful,dividend_reply_paid,,0,,MC104729,1.86,{'stock': 'UBA'}
+MSG-01196,statement_request,statement_request,0.998,Successful,statement_sent,,0,,MC111945,3.36,{'file': 'MC111945_statement.txt'}
+MSG-01197,statement_request,statement_request,0.996,Successful,statement_sent,,0,,MC106914,3.11,{'file': 'MC106914_statement.txt'}
+MSG-01198,statement_request,statement_request,0.857,Successful,statement_sent,,0,,MC109569,3.25,{'file': 'MC109569_statement.txt'}
+MSG-01199,complaint,complaint,0.995,BusinessException,routed_to_agent_with_reason,No account number in message; auto-reply asks client to resend,0,,,1.97,{}
+MSG-01200,statement_request,statement_request,0.997,Successful,statement_sent,,0,,MC109480,2.52,{'file': 'MC109480_statement.txt'}
